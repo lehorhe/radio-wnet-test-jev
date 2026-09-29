@@ -1,0 +1,400 @@
+{
+ "lokalny:gemma4-jev": {
+  "n": 345,
+  "n_brak": 1,
+  "trafnosc": 0.808695652173913,
+  "macro_f1": 0.6693560162888099,
+  "brier": 0.3285968657637772,
+  "logloss": 1.1043976649021991,
+  "ece": 0.1363318756010472,
+  "srednia_pewnosc": 0.9334333248764096,
+  "niezawodnosc": [
+   [
+    0.4,
+    0.8,
+    5
+   ],
+   [
+    0.5,
+    0.3333333333333333,
+    3
+   ],
+   [
+    0.5936507936507937,
+    0.2857142857142857,
+    7
+   ],
+   [
+    0.7000000000000001,
+    0.2727272727272727,
+    11
+   ],
+   [
+    0.8000000000000002,
+    0.6666666666666666,
+    18
+   ],
+   [
+    0.8993243243243246,
+    0.6486486486486487,
+    74
+   ],
+   [
+    0.9944006234661045,
+    0.920704845814978,
+    227
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 8,
+   "jingiel->reklama": 1,
+   "jingiel->serwis": 2,
+   "jingiel->zapowiedz": 1,
+   "muzyka->jingiel": 5,
+   "muzyka->rozmowa": 5,
+   "reklama->jingiel": 5,
+   "reklama->muzyka": 3,
+   "reklama->rozmowa": 4,
+   "reklama->zapowiedz": 6,
+   "rozmowa->reklama": 1,
+   "rozmowa->serwis": 3,
+   "rozmowa->zapowiedz": 2,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 10,
+   "serwis->zapowiedz": 2,
+   "zapowiedz->jingiel": 1,
+   "zapowiedz->muzyka": 3,
+   "zapowiedz->reklama": 2,
+   "zapowiedz->rozmowa": 1
+  },
+  "per_klasa": {
+   "rozmowa": 0.9,
+   "reklama": 0.679,
+   "zapowiedz": 0.222,
+   "serwis": 0.78,
+   "muzyka": 0.927,
+   "jingiel": 0.5
+  }
+ },
+ "openai/gpt-5.4-mini": {
+  "n": 346,
+  "n_brak": 0,
+  "trafnosc": 0.8092485549132948,
+  "macro_f1": 0.6839148856781606,
+  "brier": 0.32433357350379,
+  "logloss": 0.809866377545315,
+  "ece": 0.09825887030923329,
+  "srednia_pewnosc": 0.9058503924672295,
+  "niezawodnosc": [
+   [
+    0.3566666666666667,
+    0.5,
+    2
+   ],
+   [
+    0.4466666666666667,
+    0.0,
+    3
+   ],
+   [
+    0.5666666666666667,
+    0.3333333333333333,
+    3
+   ],
+   [
+    0.655,
+    0.5,
+    8
+   ],
+   [
+    0.7572789115646258,
+    0.5416666666666666,
+    24
+   ],
+   [
+    0.8638596491228071,
+    0.7017543859649122,
+    57
+   ],
+   [
+    0.9518723236256106,
+    0.8875502008032129,
+    249
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 7,
+   "jingiel->reklama": 4,
+   "jingiel->rozmowa": 1,
+   "jingiel->zapowiedz": 2,
+   "muzyka->jingiel": 3,
+   "muzyka->reklama": 3,
+   "muzyka->rozmowa": 8,
+   "reklama->muzyka": 6,
+   "reklama->rozmowa": 7,
+   "rozmowa->reklama": 2,
+   "rozmowa->zapowiedz": 2,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 13,
+   "zapowiedz->muzyka": 4,
+   "zapowiedz->reklama": 3
+  },
+  "per_klasa": {
+   "rozmowa": 0.933,
+   "reklama": 0.768,
+   "zapowiedz": 0.222,
+   "serwis": 0.767,
+   "muzyka": 0.898,
+   "jingiel": 0.417
+  }
+ },
+ "anthropic/claude-haiku-4.5": {
+  "n": 346,
+  "n_brak": 0,
+  "trafnosc": 0.7890173410404624,
+  "macro_f1": 0.6639386049324111,
+  "brier": 0.32408132369942194,
+  "logloss": 0.8132763926148672,
+  "ece": 0.08846820809248561,
+  "srednia_pewnosc": 0.8666184971098266,
+  "niezawodnosc": [
+   [
+    0.4,
+    0.0,
+    1
+   ],
+   [
+    0.4916666666666667,
+    0.0,
+    6
+   ],
+   [
+    0.5923076923076922,
+    0.38461538461538464,
+    13
+   ],
+   [
+    0.6745833333333332,
+    0.2916666666666667,
+    24
+   ],
+   [
+    0.7610526315789473,
+    0.6052631578947368,
+    38
+   ],
+   [
+    0.862222222222222,
+    0.8796296296296297,
+    108
+   ],
+   [
+    0.9651923076923077,
+    0.9166666666666666,
+    156
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 7,
+   "jingiel->reklama": 2,
+   "jingiel->serwis": 1,
+   "jingiel->zapowiedz": 2,
+   "muzyka->jingiel": 14,
+   "muzyka->reklama": 1,
+   "muzyka->rozmowa": 3,
+   "reklama->jingiel": 3,
+   "reklama->muzyka": 3,
+   "reklama->rozmowa": 5,
+   "reklama->zapowiedz": 9,
+   "rozmowa->serwis": 2,
+   "rozmowa->zapowiedz": 5,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 9,
+   "zapowiedz->muzyka": 4,
+   "zapowiedz->reklama": 2
+  },
+  "per_klasa": {
+   "rozmowa": 0.883,
+   "reklama": 0.643,
+   "zapowiedz": 0.333,
+   "serwis": 0.833,
+   "muzyka": 0.869,
+   "jingiel": 0.5
+  }
+ },
+ "deepseek/deepseek-v4-flash": {
+  "n": 311,
+  "n_brak": 35,
+  "trafnosc": 0.842443729903537,
+  "macro_f1": 0.7007281553398058,
+  "brier": 0.282192489838204,
+  "logloss": 0.8138117521415064,
+  "ece": 0.09187861639832781,
+  "srednia_pewnosc": 0.9343223463018647,
+  "niezawodnosc": [
+   [
+    0.693,
+    0.5,
+    10
+   ],
+   [
+    0.7793333333333334,
+    0.7333333333333333,
+    15
+   ],
+   [
+    0.878811274509804,
+    0.703125,
+    64
+   ],
+   [
+    0.9716681447353716,
+    0.9054054054054054,
+    222
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 6,
+   "jingiel->reklama": 1,
+   "jingiel->serwis": 1,
+   "muzyka->jingiel": 2,
+   "muzyka->reklama": 1,
+   "muzyka->rozmowa": 2,
+   "reklama->jingiel": 3,
+   "reklama->muzyka": 3,
+   "reklama->rozmowa": 4,
+   "reklama->zapowiedz": 3,
+   "rozmowa->serwis": 2,
+   "rozmowa->zapowiedz": 3,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 10,
+   "serwis->zapowiedz": 1,
+   "zapowiedz->muzyka": 3,
+   "zapowiedz->reklama": 2,
+   "zapowiedz->rozmowa": 1
+  },
+  "per_klasa": {
+   "rozmowa": 0.907,
+   "reklama": 0.735,
+   "zapowiedz": 0.143,
+   "serwis": 0.786,
+   "muzyka": 0.96,
+   "jingiel": 0.619
+  }
+ },
+ "z_opisami_tagi": {
+  "n": 346,
+  "n_brak": 0,
+  "trafnosc": 0.8236994219653179,
+  "macro_f1": 0.6901708234039706,
+  "brier": 0.2962561564733574,
+  "logloss": 0.8327358448823444,
+  "ece": 0.06989315116482737,
+  "srednia_pewnosc": 0.8632854557132015,
+  "niezawodnosc": [
+   [
+    0.36,
+    0.0,
+    2
+   ],
+   [
+    0.4721052631578947,
+    0.5789473684210527,
+    19
+   ],
+   [
+    0.5501543209876543,
+    0.5277777777777778,
+    36
+   ],
+   [
+    0.6345216874628639,
+    0.8235294117647058,
+    17
+   ],
+   [
+    0.7515,
+    0.75,
+    20
+   ],
+   [
+    0.8552395752395753,
+    0.8461538461538461,
+    39
+   ],
+   [
+    0.9860563380281688,
+    0.9061032863849765,
+    213
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 13,
+   "jingiel->reklama": 2,
+   "jingiel->serwis": 1,
+   "muzyka->jingiel": 3,
+   "muzyka->reklama": 2,
+   "muzyka->rozmowa": 4,
+   "reklama->jingiel": 3,
+   "reklama->muzyka": 4,
+   "reklama->rozmowa": 6,
+   "reklama->zapowiedz": 4,
+   "rozmowa->jingiel": 1,
+   "rozmowa->zapowiedz": 1,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 9,
+   "serwis->zapowiedz": 1,
+   "zapowiedz->muzyka": 4,
+   "zapowiedz->reklama": 2
+  },
+  "per_klasa": {
+   "rozmowa": 0.967,
+   "reklama": 0.696,
+   "zapowiedz": 0.333,
+   "serwis": 0.817,
+   "muzyka": 0.934,
+   "jingiel": 0.333
+  }
+ },
+ "reguly_lokalne": {
+  "n": 346,
+  "n_brak": 0,
+  "trafnosc": 0.5317919075144508,
+  "macro_f1": 0.4039959391424801,
+  "brier": 0.7304913294797687,
+  "logloss": 1.5556130914649546,
+  "ece": 0.21820809248554918,
+  "srednia_pewnosc": 0.75,
+  "niezawodnosc": [
+   [
+    0.75,
+    0.5317919075144508,
+    346
+   ]
+  ],
+  "macierz": {
+   "jingiel->muzyka": 11,
+   "jingiel->reklama": 1,
+   "jingiel->rozmowa": 6,
+   "muzyka->rozmowa": 37,
+   "reklama->muzyka": 5,
+   "reklama->rozmowa": 41,
+   "reklama->zapowiedz": 3,
+   "rozmowa->reklama": 2,
+   "serwis->reklama": 1,
+   "serwis->rozmowa": 47,
+   "serwis->zapowiedz": 1,
+   "zapowiedz->muzyka": 3,
+   "zapowiedz->reklama": 1,
+   "zapowiedz->rozmowa": 3
+  },
+  "per_klasa": {
+   "rozmowa": 0.967,
+   "reklama": 0.125,
+   "zapowiedz": 0.222,
+   "serwis": 0.183,
+   "muzyka": 0.73,
+   "jingiel": 0.25
+  }
+ }
+}

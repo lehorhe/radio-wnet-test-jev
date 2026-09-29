@@ -1,0 +1,245 @@
+{
+ "crt": {
+  "typesafe/jev-latest": {
+   "trafne": 16,
+   "n": 17,
+   "proc": 94,
+   "ci95": [
+    73,
+    99
+   ],
+   "p50_s": 0.29,
+   "suma_s": 5.3,
+   "koszt_usd": 0.0003,
+   "koszt_gr": 0.11,
+   "intuicyjne": 1
+  },
+  "anthropic/claude-opus-5.5": {
+   "trafne": 17,
+   "n": 17,
+   "proc": 100,
+   "ci95": [
+    82,
+    100
+   ],
+   "p50_s": 3.64,
+   "suma_s": 61.9,
+   "koszt_usd": 0.0245,
+   "koszt_gr": 9.05,
+   "intuicyjne": 0
+  },
+  "google/gemini-3.8-flash": {
+   "trafne": 17,
+   "n": 17,
+   "proc": 100,
+   "ci95": [
+    82,
+    100
+   ],
+   "p50_s": 2.49,
+   "suma_s": 43.1,
+   "koszt_usd": 0.0108,
+   "koszt_gr": 3.99,
+   "intuicyjne": 0
+  },
+  "anthropic/claude-haiku-4.5": {
+   "trafne": 16,
+   "n": 17,
+   "proc": 94,
+   "ci95": [
+    73,
+    99
+   ],
+   "p50_s": 1.94,
+   "suma_s": 33.4,
+   "koszt_usd": 0.0107,
+   "koszt_gr": 3.96,
+   "intuicyjne": 1
+  },
+  "openai/gpt-5.4-mini": {
+   "trafne": 10,
+   "n": 17,
+   "proc": 59,
+   "ci95": [
+    36,
+    78
+   ],
+   "p50_s": 0.95,
+   "suma_s": 21.7,
+   "koszt_usd": 0.0028,
+   "koszt_gr": 1.04,
+   "intuicyjne": 5
+  },
+  "openai/gpt-6-astra": {
+   "trafne": 17,
+   "n": 17,
+   "proc": 100,
+   "ci95": [
+    82,
+    100
+   ],
+   "p50_s": 2.38,
+   "suma_s": 41.6,
+   "koszt_usd": 0.0384,
+   "koszt_gr": 14.2,
+   "intuicyjne": 0
+  }
+ },
+ "matura": {
+  "typesafe/jev-latest": {
+   "trafne": 34,
+   "n": 39,
+   "proc": 87,
+   "ci95": [
+    73,
+    94
+   ],
+   "p50_s": 0.28,
+   "suma_s": 11.1,
+   "koszt_usd": 0.001,
+   "koszt_gr": 0.36
+  },
+  "anthropic/claude-opus-5.5": {
+   "trafne": 39,
+   "n": 39,
+   "proc": 100,
+   "ci95": [
+    91,
+    100
+   ],
+   "p50_s": 5.02,
+   "suma_s": 201.1,
+   "koszt_usd": 0.1338,
+   "koszt_gr": 49.51
+  },
+  "google/gemini-3.8-flash": {
+   "trafne": 39,
+   "n": 39,
+   "proc": 100,
+   "ci95": [
+    91,
+    100
+   ],
+   "p50_s": 3.77,
+   "suma_s": 188.5,
+   "koszt_usd": 0.0409,
+   "koszt_gr": 15.13
+  },
+  "anthropic/claude-haiku-4.5": {
+   "trafne": 37,
+   "n": 39,
+   "proc": 95,
+   "ci95": [
+    83,
+    99
+   ],
+   "p50_s": 2.8,
+   "suma_s": 117.0,
+   "koszt_usd": 0.0601,
+   "koszt_gr": 22.25
+  },
+  "openai/gpt-5.4-mini": {
+   "trafne": 26,
+   "n": 39,
+   "proc": 67,
+   "ci95": [
+    51,
+    79
+   ],
+   "p50_s": 1.0,
+   "suma_s": 51.0,
+   "koszt_usd": 0.0117,
+   "koszt_gr": 4.34
+  },
+  "openai/gpt-6-astra": {
+   "trafne": 39,
+   "n": 39,
+   "proc": 100,
+   "ci95": [
+    91,
+    100
+   ],
+   "p50_s": 2.5,
+   "suma_s": 103.3,
+   "koszt_usd": 0.1648,
+   "koszt_gr": 60.97
+  },
+  "typesafe/jev-latest (powtorzenie)": {
+   "trafne": 33,
+   "n": 39,
+   "proc": 85,
+   "ci95": [
+    70,
+    93
+   ],
+   "p50_s": 0.26,
+   "suma_s": 10.6,
+   "koszt_usd": 0.001,
+   "koszt_gr": 0.36
+  }
+ },
+ "antena": {
+  "lokalny:gemma4-jev": {
+   "trafnosc": 80.9,
+   "ece": 0.136,
+   "n": 345,
+   "brak": 1
+  },
+  "openai/gpt-5.4-mini": {
+   "trafnosc": 80.9,
+   "ece": 0.098,
+   "n": 346,
+   "brak": 0
+  },
+  "anthropic/claude-haiku-4.5": {
+   "trafnosc": 78.9,
+   "ece": 0.088,
+   "n": 346,
+   "brak": 0
+  },
+  "deepseek/deepseek-v4-flash": {
+   "trafnosc": 84.2,
+   "ece": 0.092,
+   "n": 311,
+   "brak": 35
+  },
+  "z_opisami_tagi": {
+   "trafnosc": 82.4,
+   "ece": 0.07,
+   "n": 346,
+   "brak": 0
+  },
+  "reguly_lokalne": {
+   "trafnosc": 53.2,
+   "ece": 0.218,
+   "n": 346,
+   "brak": 0
+  }
+ },
+ "jev_doba_anteny": {
+  "decyzji": 28800,
+  "usd": 0.76,
+  "pln": 2.8
+ },
+ "polska": {
+  "llama405_h100_h": 30840000.0,
+  "dni_na_3000": 428,
+  "bielik45_gpu_h": 10600.0,
+  "godz_na_3000": 3.5,
+  "udzial_swiat_proc": 0.02,
+  "usa_h100e": 11250000.0,
+  "usa_do_pl": 3750,
+  "ioi_zlote_na_10mln": {
+   "PL": 12.9,
+   "KOR": 9.5,
+   "USA": 2.0,
+   "CHN": 0.73
+  },
+  "budzet_ai_proc": 0.029,
+  "budzet_ai_proc_gg": 0.0137,
+  "korea_krotnosc": 16.1,
+  "pl_przy_korei_mld_usd": 1.14,
+  "pl_przy_korei_mld_zl": 4.2,
+  "ocean_proc_czasu": 78.6
+ }
+}

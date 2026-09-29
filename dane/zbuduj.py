@@ -1,0 +1,277 @@
+# -*- coding: utf-8 -*-
+"""Buduje D:\\TECH\\jev_testy\\pokaz\\zadania_matura.jsonl z ręcznie przepisanych zadań
+i automatycznie sprawdza (WOS) zgodność każdego fragmentu z warstwą tekstową PDF."""
+import json, re, pymupdf
+
+ZR = r'D:\TECH\jev_testy\pokaz\zrodla'
+OUT = r'D:\TECH\jev_testy\pokaz\zadania_matura.jsonl'
+
+PF = "Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe."
+DZ = "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych."
+UW_ROZ = ("Zadanie typu „Rozstrzygnij” zamienione na P/F: true = rozstrzygnięcie „Tak”, false = „Nie”. "
+          "W arkuszu wymagane jest też uzasadnienie (1 pkt tylko za rozstrzygnięcie wraz z uzasadnieniem) – tu oceniane jest wyłącznie rozstrzygnięcie. "
+          "W zasadach oceniania rozstrzygnięcie podano w „Przykładowej odpowiedzi”.")
+
+# ---------------- WOS: materiały źródłowe ----------------
+M1 = ("Tekst. O jednej z mniejszości\n\n"
+      "Mniejszość etniczna, do której przynależność podczas przeprowadzonego w 2011 r. narodowego spisu powszechnego zadeklarowało 1828 obywateli polskich, w tym: w województwie [oznaczonym na mapie literą A] – 539 osób. W Polsce zatracili znajomość swojego ojczystego języka, pozostali natomiast wierni religii muzułmańskiej.\n\n"
+      "Na podstawie: www.gov.pl")
+M2 = ("Fragment ustawy\n\n"
+      "Art. 2. 1. [Ta organizacja] jest dobrowolnym, samorządnym, trwałym zrzeszeniem o celach niezarobkowych.\n"
+      "2. [Ta organizacja] samodzielnie określa swoje cele, programy działania i struktury organizacyjne oraz uchwala akty wewnętrzne dotyczące […] działalności.\n"
+      "3. [Ta organizacja] opiera działalność na pracy społecznej swoich członków. Do prowadzenia swych spraw […] może zatrudniać pracowników, w tym swoich członków.\n\n"
+      "Dz.U. z 2020 r. poz. 2261 (stan prawny na dzień 29 stycznia 2026 r.).")
+M4 = ("Fragment ustawy\n\n"
+      "Art. 2. 1. [Dokument ten] może być przyznan[y] osobie, która deklaruje przynależność do Narodu Polskiego i spełni łącznie następujące warunki:\n"
+      "1) wykaże swój związek z polskością przez przynajmniej podstawową znajomość języka polskiego, który uważa za język ojczysty, oraz znajomość i kultywowanie polskich tradycji i zwyczajów;\n"
+      "2) […] złoży pisemną deklarację przynależności do Narodu Polskiego;\n"
+      "3) wykaże, że jest narodowości polskiej lub co najmniej jedno z jej rodziców lub dziadków albo dwoje pradziadków było narodowości polskiej, albo przedstawi zaświadczenie organizacji polskiej lub polonijnej potwierdzające aktywne zaangażowanie w działalność na rzecz języka i kultury polskiej lub polskiej mniejszości narodowej przez okres co najmniej ostatnich trzech lat. […]\n"
+      "2. [Dokument ten] może być przyznan[y] osobie:\n"
+      "1) nieposiadającej w dniu złożenia wniosku o wydanie [tego dokumentu] oraz w dniu jego przyznania […] obywatelstwa polskiego lub\n"
+      "2) nieposiadającej zezwolenia na pobyt stały na terytorium Rzeczypospolitej Polskiej, lub\n"
+      "3) posiadającej status bezpaństwowca.\n\n"
+      "Dz.U. z 2023 r. poz. 192 z późn. zm. (stan prawny na dzień 27 stycznia 2026 r.).")
+M7 = ("Fragment jednej z polskich konstytucji\n\n"
+      "Artykuł 36.\n"
+      "Senat składa się z członków wybranych przez poszczególne województwa w głosowaniu powszechnem, tajnem, bezpośredniem, równem i stosunkowem¹. Każde województwo stanowi jeden okrąg wyborczy […]. Prawo wybierania do Senatu ma każdy wyborca do Sejmu, który w dniu ogłoszenia wyborów ukończył lat 30 […]. Prawo wybieralności ma każdy obywatel, posiadający prawo wybierania do Senatu, […] o ile z dniem ogłoszenia wyborów ukończył lat 40.\n"
+      "Kadencja Senatu rozpoczyna się i kończy z kadencją Sejmową.\n"
+      "Nikt nie może być jednocześnie członkiem Sejmu i Senatu.\n\n"
+      "isap.sejm.gov.pl\n\n"
+      "¹ Stosunkowem – proporcjonalnym.")
+M8 = ("Fragment Konstytucji Rzeczypospolitej Polskiej\n\n"
+      "Art. 213. 1. […] stoi na straży wolności słowa, prawa do informacji oraz interesu publicznego […].\n"
+      "2. […] wydaje rozporządzenia, a w sprawach indywidualnych podejmuje uchwały.\n\n"
+      "Dz.U. z 1997 r. nr 78 poz. 483 z późn. zm. (stan prawny na dzień 27 stycznia 2026 r.).")
+M9 = ("Tekst prasowy. O planowanym referendum\n\n"
+      "Opozycja w radzie miejskiej nie zrezygnuje z planów odwołania [prezydenta miasta]. Te plany to referendum, które najwcześniej może się odbyć 10 miesięcy po wyborach. A to oznacza, że […] podpisy pod wnioskiem moż[na] zacząć zbierać od 21 lutego 2025 r. W ciągu 60 dni będzie musiało się zebrać tych podpisów ponad 46 tys.\n\n"
+      "K. Kaczorowska, […] problem z dyplomem MBA i nie tylko. Ale rezygnować nie zamierza, „Polityka”, nr 49, 2024, s. 37.\n\n"
+      "Fragment ustawy\n\n"
+      "Art. 4. Referendum przeprowadza się, z zastrzeżeniem art. 5 ust. 1, z inicjatywy organu stanowiącego danej jednostki samorządu terytorialnego lub na wniosek co najmniej:\n"
+      "1) 10% uprawnionych do głosowania mieszkańców gminy albo powiatu;\n"
+      "2) 5% uprawnionych do głosowania mieszkańców województwa.\n"
+      "Art. 55. 1. Referendum jest ważne, jeżeli wzięło w nim udział co najmniej 30% uprawnionych do głosowania, z zastrzeżeniem ust. 2.\n"
+      "2. Referendum w sprawie odwołania organu jednostki samorządu terytorialnego pochodzącego z wyborów bezpośrednich jest ważne w przypadku, gdy udział w nim wzięło nie mniej niż 3/5 liczby biorących udział w wyborze odwoływanego organu.\n"
+      "Art. 56. 1. Wynik referendum jest rozstrzygający, jeżeli za jednym z rozwiązań w sprawie poddanej pod referendum oddano więcej niż połowę ważnych głosów.\n"
+      "2. Wynik referendum gminnego w sprawie samoopodatkowania się mieszkańców na cele publiczne jest rozstrzygający, jeżeli za samoopodatkowaniem oddano co najmniej 2/3 ważnych głosów.\n\n"
+      "Dz.U. z 2025 r. poz. 472 (stan prawny na dzień 27 stycznia 2026 r.).")
+M12 = ("Fragment ustawy\n\n"
+       "Art. 28. 1. Partia polityczna, która:\n"
+       "1) w wyborach do Sejmu samodzielnie tworząc komitet wyborczy[,] otrzymała w skali kraju co najmniej 3% ważnie oddanych głosów na jej okręgowe listy kandydatów na posłów albo\n"
+       "2) w wyborach do Sejmu weszła w skład koalicji wyborczej, której okręgowe listy kandydatów na posłów otrzymały w skali kraju co najmniej 6% ważnie oddanych głosów, ma prawo do otrzymywania przez okres kadencji Sejmu […] subwencji z budżetu państwa na działalność statutową […].\n"
+       "Art. 29. 1. Wysokość rocznej subwencji, o której mowa w art. 28 […], ustalana jest na zasadzie stopniowej degresji proporcjonalnie do łącznej liczby głosów ważnych oddanych na listy okręgowe kandydatów na posłów tej partii albo koalicji wyborczej, w rozbiciu na liczby głosów odpowiadające poszczególnym przedziałom określonym w procentach […].\n\n"
+       "[TABELA]\n"
+       "Wiersz | Głosy ważne oddane w całym kraju łącznie na listy okręgowe kandydatów na posłów danej partii politycznej albo koalicji wyborczej w rozbiciu odpowiednio dla każdego przedziału | | Wysokość kwoty za jeden głos […]\n"
+       "1 | procent | liczba głosów […] |\n"
+       "2 | do 5% | | 5 złotych 77 groszy\n"
+       "3 | powyżej 5% do 10% | | 4 złote 61 groszy\n"
+       "4 | powyżej 10% do 20% | | 4 złote 4 grosze\n"
+       "5 | powyżej 20% do 30% | | 2 złote 31 groszy\n"
+       "6 | powyżej 30% | | 87 groszy\n"
+       "[/TABELA]\n\n"
+       "Dz.U. z 2023 r. poz. 1215 (stan prawny na dzień 27 stycznia 2026 r.).")
+M13 = ("Fragment ustawy\n\n"
+       "Art. 14.\n"
+       "1. Organy władzy publicznej oraz organy innych osób prawnych i jednostek organizacyjnych niemających osobowości prawnej, na żądanie komisji, składają pisemne wyjaśnienia lub przedstawiają dokumenty będące w ich dyspozycji albo akta każdej sprawy przez nie prowadzonej.\n"
+       "2. Komisja może zapoznawać się z dokumentami lub aktami, badając sprawę na miejscu.\n"
+       "3. Na wniosek sądu lub prokuratora komisja udostępnia tym organom zebrane przez siebie materiały […].\n"
+       "Art. 18.\n"
+       "1. Jeżeli komisja w trakcie postępowania uznała, że dokonane przez nią ustalenia uzasadniają postawienie osobom […] zarzutu popełnienia przez nie w sposób zawiniony, w zakresie swojego urzędowania lub w związku z zajmowanym stanowiskiem, czynu naruszającego Konstytucję lub ustawę, występuje z wstępnym wnioskiem o pociągnięcie tych osób do odpowiedzialności konstytucyjnej przed Trybunałem Stanu.\n"
+       "2. O wystąpieniu z wnioskiem, o którym mowa w ust. 1, komisja postanawia większością 2/3 głosów w obecności co najmniej połowy liczby jej członków.\n\n"
+       "Dz.U. z 2016 r. poz. 1024 (stan prawny na dzień 27 stycznia 2026 r.).")
+M17 = ("Tekst 1. Opisy wybranych instytucji Unii Europejskiej\n\n"
+       "Opis A: […] reprezentuje obywateli państw członkowskich UE. Posłowie wybierani są w wyborach bezpośrednich.\n"
+       "Opis B: […] reprezentuje rządy poszczególnych państw członkowskich UE. To instytucja, w ramach której przedstawiciele rządów państw członkowskich i eksperci spotykają się na posiedzeniach organizowanych według dziedzin polityki.\n"
+       "Opis C: […] wspiera wspólne interesy UE. Przedkłada wnioski ustawodawcze, realizuje politykę UE, wykonuje budżet oraz czuwa nad prawidłowym stosowaniem prawa Unii przez poszczególne państwa członkowskie UE.\n\n"
+       "Na podstawie: Instytucje i organy UE, european-union.europa.eu\n\n"
+       "Tekst 2. Fragment informacji prasowej\n\n"
+       "W spotkaniu w Brukseli, zwołanym przez przewodniczącego Antonio Costę, uczestniczyli szefowie państw i rządów 27 państw członkowskich Unii Europejskiej. Poruszono na nim kwestie pokoju i bezpieczeństwa w Europie.\n\n"
+       "Na podstawie: M. Cedro, Przywódcy państw UE […], www.pap.pl")
+
+W = "WOS rozszerzony"
+items = []
+def add(**k):
+    base = dict(material_zrodlowy="", opcje=None, uwagi="")
+    base.update(k)
+    items.append(base)
+
+add(id="WOS-2026-1.2", przedmiot=W, zadanie="1.2", strona_pdf=5, typ="choice", material_zrodlowy=M1, polecenie=DZ,
+    tresc="W rozumieniu ustawy z dnia 6 stycznia 2005 r. o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszość narodowa różni się od etnicznej tym, że",
+    opcje={"A": "dąży do zachowania swojego języka, kultury lub tradycji.",
+           "B": "jest mniej liczebna od pozostałej części ludności Rzeczypospolitej Polskiej.",
+           "C": "jej przodkowie zamieszkiwali obecne terytorium Rzeczypospolitej Polskiej od co najmniej 100 lat.",
+           "D": "jej członkowie utożsamiają się z narodem zorganizowanym we własnym państwie."},
+    poprawna="D", zrodlo_klucza="strona 4 zasad oceniania",
+    uwagi="Materiał zadania 1 (s. 4) obejmuje też mapę podziału administracyjnego – pominiętą, bo nie jest potrzebna do zadania 1.2.")
+add(id="WOS-2026-2", przedmiot=W, zadanie="2", strona_pdf=5, typ="pf", material_zrodlowy=M2,
+    polecenie="Rozstrzygnij, czy przytoczony fragment ustawy dotyczy fundacji. Odpowiedź uzasadnij, odwołując się do przytoczonego fragmentu ustawy.",
+    tresc="Rozstrzygnij, czy przytoczony fragment ustawy dotyczy fundacji.",
+    poprawna=False, zrodlo_klucza="strona 5 zasad oceniania", uwagi=UW_ROZ)
+M4POL = "Oceń prawdziwość poniższych stwierdzeń dotyczących dokumentu przyznawanego na podstawie przepisów przytoczonej ustawy. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe."
+add(id="WOS-2026-4.2-a", przedmiot=W, zadanie="4.2", strona_pdf=8, typ="pf", material_zrodlowy=M4, polecenie=M4POL,
+    tresc="Ten dokument może otrzymać osoba niemająca żadnego obywatelstwa.", poprawna=True,
+    zrodlo_klucza="strona 6 zasad oceniania", uwagi="Klucz: PF (stwierdzenie 1. z 2). Materiał źródłowy na s. 7 PDF.")
+add(id="WOS-2026-4.2-b", przedmiot=W, zadanie="4.2", strona_pdf=8, typ="pf", material_zrodlowy=M4, polecenie=M4POL,
+    tresc="Otrzymanie tego dokumentu jest równoznaczne z nabyciem obywatelstwa polskiego.", poprawna=False,
+    zrodlo_klucza="strona 6 zasad oceniania", uwagi="Klucz: PF (stwierdzenie 2. z 2). Materiał źródłowy na s. 7 PDF.")
+add(id="WOS-2026-7.2", przedmiot=W, zadanie="7.2", strona_pdf=11, typ="pf", material_zrodlowy=M7,
+    polecenie="Rozstrzygnij, czy przytoczony fragment pochodzi z Konstytucji Polskiej Rzeczypospolitej Ludowej z 22 lipca 1952 r. Odpowiedź uzasadnij, odwołując się do rozwiązań ustrojowych.",
+    tresc="Rozstrzygnij, czy przytoczony fragment pochodzi z Konstytucji Polskiej Rzeczypospolitej Ludowej z 22 lipca 1952 r.",
+    poprawna=False, zrodlo_klucza="strona 10 zasad oceniania",
+    uwagi=UW_ROZ + " Materiał źródłowy na s. 10 PDF; przypis oznaczony w oryginale indeksem górnym 1 (tu „¹”).")
+add(id="WOS-2026-8.1", przedmiot=W, zadanie="8.1", strona_pdf=12, typ="choice", material_zrodlowy=M8, polecenie=DZ,
+    tresc="Przytoczony fragment Konstytucji Rzeczypospolitej Polskiej dotyczy",
+    opcje={"A": "Rady Gabinetowej.", "B": "Najwyższej Izby Kontroli.", "C": "Rady Bezpieczeństwa Narodowego.", "D": "Krajowej Rady Radiofonii i Telewizji."},
+    poprawna="D", zrodlo_klucza="strona 10 zasad oceniania")
+M9POL = "Na podstawie przytoczonego tekstu prasowego i zacytowanego fragmentu ustawy oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe."
+add(id="WOS-2026-9.1-a", przedmiot=W, zadanie="9.1", strona_pdf=13, typ="pf", material_zrodlowy=M9, polecenie=M9POL,
+    tresc="Warunkiem ważności rodzaju referendum, o którym mowa w przytoczonym tekście prasowym, jest frekwencja wynosząca co najmniej 30% uprawnionych do głosowania.",
+    poprawna=False, zrodlo_klucza="strona 11 zasad oceniania", uwagi="Klucz: FP (stwierdzenie 1. z 2). Tekst prasowy na s. 12 PDF, fragment ustawy na s. 13.")
+add(id="WOS-2026-9.1-b", przedmiot=W, zadanie="9.1", strona_pdf=13, typ="pf", material_zrodlowy=M9, polecenie=M9POL,
+    tresc="Wynik referendum, o którym mowa w przytoczonym tekście prasowym, jest rozstrzygający, jeśli za jednym z rozwiązań oddano ponad 50% ważnych głosów.",
+    poprawna=True, zrodlo_klucza="strona 11 zasad oceniania", uwagi="Klucz: FP (stwierdzenie 2. z 2). Tekst prasowy na s. 12 PDF, fragment ustawy na s. 13.")
+UW10 = ("Materiał zadania 10 to wyłącznie schemat graficzny (s. 15) – pominięty. Polecenie 10.3 nie odwołuje się do schematu "
+        "(„Oceń prawdziwość…” bez „na podstawie schematu”), stwierdzenia są samodzielne. Uwaga: w arkuszu schemat był widoczny i pokazuje, że zarząd województwa/powiatu wybiera organ stanowiący.")
+add(id="WOS-2026-10.3-a", przedmiot=W, zadanie="10.3", strona_pdf=16, typ="pf", polecenie=PF,
+    tresc="Organ wykonawczy samorządu województwa w Polsce ma charakter kolegialny.", poprawna=True,
+    zrodlo_klucza="strona 14 zasad oceniania", uwagi="Klucz: PP (stwierdzenie 1. z 2). " + UW10)
+add(id="WOS-2026-10.3-b", przedmiot=W, zadanie="10.3", strona_pdf=16, typ="pf", polecenie=PF,
+    tresc="Organ wykonawczy samorządu powiatowego w Polsce jest wybierany w wyborach pośrednich.", poprawna=True,
+    zrodlo_klucza="strona 14 zasad oceniania", uwagi="Klucz: PP (stwierdzenie 2. z 2). " + UW10)
+UW12 = ("Materiał na s. 17 PDF. Tabela przepisana jako tekst (kolumny rozdzielone „|”); w oryginale nagłówek „Głosy ważne…” obejmuje dwie podkolumny: "
+        "„procent” i „liczba głosów […]”; komórki kolumny „liczba głosów […]” są w oryginale puste.")
+add(id="WOS-2026-12.1-a", przedmiot=W, zadanie="12.1", strona_pdf=18, typ="pf", material_zrodlowy=M12, polecenie=PF,
+    tresc="Wartości procentowe określone w art. 28 ust. 1. przytoczonej ustawy to progi wyborcze.", poprawna=False,
+    zrodlo_klucza="strona 16 zasad oceniania", uwagi="Klucz: FP (stwierdzenie 1. z 2). " + UW12)
+add(id="WOS-2026-12.1-b", przedmiot=W, zadanie="12.1", strona_pdf=18, typ="pf", material_zrodlowy=M12, polecenie=PF,
+    tresc="Zastosowanie zasady stopniowej degresji powoduje, że różnice w poziomie finansowania partii politycznych są mniejsze, niż wynikałoby to wprost z różnicy w wyniku wyborczym.",
+    poprawna=True, zrodlo_klucza="strona 16 zasad oceniania", uwagi="Klucz: FP (stwierdzenie 2. z 2). " + UW12)
+add(id="WOS-2026-12.2", przedmiot=W, zadanie="12.2", strona_pdf=18, typ="pf", material_zrodlowy=M12,
+    polecenie="Rozstrzygnij, czy zgodnie z przytoczonym fragmentem ustawy warunkiem otrzymywania przez partię polityczną subwencji z budżetu państwa jest uzyskanie mandatów do Sejmu Rzeczypospolitej Polskiej przez kandydatów komitetu wyborczego tej partii. Odpowiedź uzasadnij.",
+    tresc="Rozstrzygnij, czy zgodnie z przytoczonym fragmentem ustawy warunkiem otrzymywania przez partię polityczną subwencji z budżetu państwa jest uzyskanie mandatów do Sejmu Rzeczypospolitej Polskiej przez kandydatów komitetu wyborczego tej partii.",
+    poprawna=False, zrodlo_klucza="strona 17 zasad oceniania", uwagi=UW_ROZ + " " + UW12)
+add(id="WOS-2026-13.2", przedmiot=W, zadanie="13.2", strona_pdf=19, typ="pf", material_zrodlowy=M13,
+    polecenie="Rozstrzygnij, czy Najwyższa Izba Kontroli może przekazywać komisji, o której mowa w przytoczonym fragmencie ustawy, materiały z prowadzonych kontroli. W uzasadnieniu uwzględnij odpowiedni artykuł i ustęp z przytoczonego fragmentu ustawy.",
+    tresc="Rozstrzygnij, czy Najwyższa Izba Kontroli może przekazywać komisji, o której mowa w przytoczonym fragmencie ustawy, materiały z prowadzonych kontroli.",
+    poprawna=True, zrodlo_klucza="strona 19 zasad oceniania",
+    uwagi=UW_ROZ + " Arkusz MWHP-R0-100 dotyczy NIK (klucz podaje osobny wariant z prokuraturą dla arkuszy 200 i Q00 – też „Tak”). "
+          "W oryginale podkreślono fragment „w obecności co najmniej połowy liczby jej członków” (dotyczy zad. 13.3; tu bez podkreślenia).")
+add(id="WOS-2026-17.2", przedmiot=W, zadanie="17.2", strona_pdf=24, typ="pf", material_zrodlowy=M17,
+    polecenie="Rozstrzygnij, czy fragment informacji prasowej przytoczony w tekście 2. dotyczy spotkania przedstawicieli instytucji przedstawionej w opisie B z tekstu 1. Odpowiedź uzasadnij.",
+    tresc="Rozstrzygnij, czy fragment informacji prasowej przytoczony w tekście 2. dotyczy spotkania przedstawicieli instytucji przedstawionej w opisie B z tekstu 1.",
+    poprawna=False, zrodlo_klucza="strona 25 zasad oceniania",
+    uwagi=UW_ROZ + " W oryginale etykiety „Opis A:”, „Opis B:”, „Opis C:” są podkreślone; tytuły źródeł kursywą.")
+
+# ---------------- MATEMATYKA ----------------
+MP = "Matematyka podstawowa"
+UW_WERSJA = "Klucz: kolumna „Wersja A” (arkusz MMAP-P0-100 z arkusze.pl = wersja A, zob. README)."
+def mc(id_, zad, strona, tresc, opcje, popr, kl, mat="", uw=""):
+    add(id=id_, przedmiot=MP, zadanie=zad, strona_pdf=strona, typ="choice", material_zrodlowy=mat, polecenie=DZ,
+        tresc=tresc, opcje=opcje, poprawna=popr, zrodlo_klucza=f"strona {kl} zasad oceniania",
+        uwagi=(UW_WERSJA + (" " + uw if uw else "")))
+def mpf(id_, zad, strona, tresc, popr, kl, mat="", uw=""):
+    add(id=id_, przedmiot=MP, zadanie=zad, strona_pdf=strona, typ="pf", material_zrodlowy=mat, polecenie=PF,
+        tresc=tresc, poprawna=popr, zrodlo_klucza=f"strona {kl} zasad oceniania",
+        uwagi=(UW_WERSJA + (" " + uw if uw else "")))
+
+mc("MAT-2026-1", "1", 4, "Liczba sqrt((25)/(8)) · sqrt(2) + 2^(-1) jest równa",
+   {"A": "1", "B": "2", "C": "3", "D": "4"}, "C", 2,
+   uw="Pierwiastek obejmuje tylko ułamek 25/8.")
+mc("MAT-2026-2", "2", 4,
+   "Po dwóch latach oszczędzania łączna wartość doliczonych odsetek na tej lokacie (bez uwzględniania podatków) jest równa",
+   {"A": "1200 zł", "B": "1236 zł", "C": "1836 zł", "D": "3600 zł"}, "B", 3,
+   mat="Klient wpłacił do banku 10 000 zł na lokatę dwuletnią. Po każdym rocznym okresie oszczędzania bank dolicza odsetki w wysokości 6% od kwoty bieżącego kapitału znajdującego się na lokacie – zgodnie z procentem składanym.")
+mc("MAT-2026-3", "3", 5, "Liczba sqrt(5 · sqrt(5)) jest równa",
+   {"A": "5^((1)/(4))", "B": "5^((1)/(2))", "C": "5^((3)/(4))", "D": "5"}, "C", 3,
+   uw="W oryginale: pierwiastek z (5√5), zapisany bez znaku mnożenia.")
+mc("MAT-2026-4", "4", 5, "Liczba log_8(4) - log_8(32) jest równa",
+   {"A": "(-2)", "B": "(-1)", "C": "1", "D": "2"}, "B", 4)
+mpf("MAT-2026-5-a", "5", 6, "Liczba naturalna 4^12 · 5^24 jest podzielna przez 20.", True, 4, uw="Klucz: PP (stwierdzenie 1. z 2).")
+mpf("MAT-2026-5-b", "5", 6, "Liczba naturalna 4^12 · 5^24 jest w zapisie dziesiętnym liczbą 25-cyfrową.", True, 4, uw="Klucz: PP (stwierdzenie 2. z 2).")
+mc("MAT-2026-6", "6", 6, "Wartość wyrażenia x^2 + 10x + 25 dla x = sqrt(2) - 5 jest równa",
+   {"A": "2", "B": "sqrt(2)", "C": "2 - 20·sqrt(2)", "D": "62 - 10·sqrt(2)"}, "A", 5)
+mc("MAT-2026-8", "8", 8, "Liczba m jest równa", {"A": "(-7)", "B": "2", "C": "5", "D": "7"}, "C", 8,
+   mat="Dane jest równanie\n3(x + 3)(x - m)(2x + 4) = 0\ngdzie x jest niewiadomą, natomiast m jest pewną liczbą rzeczywistą.\nSuma wszystkich rozwiązań tego równania jest równa 0.")
+mc("MAT-2026-9", "9", 8, "Rozwiązaniem równania (x + 2)/(3x - 1) = (2)/(5) jest liczba",
+   {"A": "(1)/(3)", "B": "(8)/(11)", "C": "3", "D": "12"}, "D", 8)
+mc("MAT-2026-16", "16", 19, "Dziewiąty wyraz ciągu (a_n) jest równy", {"A": "29", "B": "33", "C": "34", "D": "37"}, "B", 25,
+   mat="Ciąg arytmetyczny (a_n) jest określony dla każdej liczby naturalnej n ≥ 1.\nW tym ciągu a_1 = 1 oraz a_5 = 17.")
+mc("MAT-2026-18", "18", 20, "Sinus kąta γ jest równy",
+   {"A": "(1)/(sqrt(10))", "B": "(1)/(3)", "C": "(3)/(sqrt(10))", "D": "(sqrt(10))/(sqrt(11))"}, "C", 26,
+   mat="Dany jest trójkąt prostokątny ABC, w którym bok AC jest przeciwprostokątną oraz |BC| = 2 i |AC| = 2·sqrt(10). Oznaczmy kąt BCA przez γ (zobacz rysunek).",
+   uw="Rysunek pominięty – nie wnosi informacji ponad tekst (trójkąt z kątem prostym przy B, boki BC = 2, AC = 2√10, kąt γ przy C). Odwołanie „(zobacz rysunek)” zostawione jak w oryginale.")
+mc("MAT-2026-19", "19", 21, "Miara kąta ostrego BOA jest równa", {"A": "50°", "B": "60°", "C": "70°", "D": "100°"}, "C", 27,
+   mat="Punkty A, B, C oraz D leżą na okręgu o środku w punkcie O.\nPunkt B leży na krótszym łuku AC.\nKąt CDA ma miarę 50°, a kąt COB ma miarę 30° (zobacz rysunek).",
+   uw="Rysunek pominięty – konfiguracja wynika z tekstu (B na krótszym łuku AC; kąt wpisany CDA = 50° wyznacza łuk AC niezawierający D). Odwołanie „(zobacz rysunek)” zostawione jak w oryginale. Pozycja najbardziej narażona na zarzut „rysunek pomagał” – do ewentualnego wyłączenia.")
+mc("MAT-2026-20", "20", 22, "Odcinek OD ma długość", {"A": "4", "B": "9", "C": "10", "D": "16"}, "B", 27,
+   mat="Na płaszczyźnie dane są cztery proste: k, l, m oraz n. Proste k oraz l są równoległe.\nProsta m przecina proste k oraz l w punktach – odpowiednio – A oraz C.\nProsta n przecina proste k oraz l w punktach – odpowiednio – D oraz B.\nOdcinki AC i BD przecinają się w punkcie O.\nPonadto |OA| = 12, |OB| = 6 oraz |OC| = 8 (zobacz rysunek).",
+   uw="Rysunek pominięty – przedstawia wyłącznie dane z tekstu (proste k∥l, punkty A, C, D, B, O i długości 12, 6, 8). Odwołanie „(zobacz rysunek)” zostawione jak w oryginale.")
+mc("MAT-2026-23", "23", 24, "Tangens kąta α jest równy",
+   {"A": "(5)/(8)", "B": "(8)/(3)", "C": "(32)/(5)", "D": "(20)/(3)"}, "D", 31,
+   mat="Kąt α jest ostry i spełnia warunek (3 sin α + 4 cos α)/(4 cos α) = 6.")
+M24 = "W kartezjańskim układzie współrzędnych (x, y) punkty A = (0, -3), B = (2, 1) oraz C = (0, 2) są wierzchołkami trójkąta prostokątnego."
+mc("MAT-2026-24.1", "24.1", 25, "Pole trójkąta ABC jest równe", {"A": "3", "B": "5", "C": "6", "D": "10"}, "B", 31, mat=M24)
+mc("MAT-2026-24.2", "24.2", 25, "Środek okręgu opisanego na trójkącie ABC ma współrzędne",
+   {"A": "((2)/(3), 0)", "B": "(-(1)/(2), 0)", "C": "(0, -(2)/(3))", "D": "(0, -(1)/(2))"}, "D", 32, mat=M24)
+M25 = "W kartezjańskim układzie współrzędnych (x, y) dany jest okrąg O o środku w punkcie S = (1, -3) i o promieniu 5."
+UW25 = "Nazwa okręgu „O” w oryginale zapisana literą kaligraficzną (𝒪)."
+mpf("MAT-2026-25-a", "25", 26, "Punkt A = (4, -7) leży na okręgu O.", True, 32, mat=M25, uw="Klucz: PF (stwierdzenie 1. z 2). " + UW25)
+mpf("MAT-2026-25-b", "25", 26, "Okrąg O jest określony równaniem (x - 1)^2 + (y + 3)^2 = 5.", False, 32, mat=M25, uw="Klucz: PF (stwierdzenie 2. z 2). " + UW25)
+mc("MAT-2026-26", "26", 26, "Prosta l przecina oś Oy w punkcie",
+   {"A": "(0, -3)", "B": "(0, -(1)/(2))", "C": "(0, -1)", "D": "(0, -(4)/(3))"}, "D", 33,
+   mat="W kartezjańskim układzie współrzędnych (x, y) dana jest prosta k o równaniu y = -(1)/(3)x + 2. Prosta l jest równoległa do prostej k i przechodzi przez punkt (2, -2).")
+mc("MAT-2026-28", "28", 28, "Stosunek objętości stożka do objętości walca jest równy",
+   {"A": "(1)/(12)", "B": "(1)/(6)", "C": "(2)/(3)", "D": "(4)/(3)"}, "D", 34,
+   mat="Stożek i walec mają równe wysokości. Promień podstawy stożka jest dwa razy większy od promienia podstawy walca.")
+mc("MAT-2026-29", "29", 28,
+   "Wszystkich liczb naturalnych trzycyfrowych nieparzystych, w których zapisie dziesiętnym występują tylko cyfry 0, 1, 2, 3, 4, 5, 6 (np.: 321, 555), jest",
+   {"A": "6 · 7 · 3", "B": "6 · 7 · 7", "C": "7 · 7 · 3", "D": "7 · 7 · 7"}, "A", 35,
+   uw="W oryginale słowo „nieparzystych” jest podkreślone.")
+mc("MAT-2026-32", "32", 31, "Średnia arytmetyczna siedmiu liczb: a, b, c, d, e, f, g, jest równa",
+   {"A": "3,5", "B": "3,75", "C": "4", "D": "4,25"}, "C", 37,
+   mat="Średnia arytmetyczna trzech liczb: a, b, c, jest równa 2.\nŚrednia arytmetyczna czterech liczb: d, e, f, g, jest równa 5,5.")
+M33 = ("W chwili t = 0 z poziomu ziemi wyrzucono piłeczkę pionowo do góry.\n"
+       "Przyjmijmy, że wysokość h, na której znajduje się piłeczka w danej chwili t, jest określona wzorem\n"
+       "h(t) = -4,9t^2 + 14,7t\n"
+       "gdzie:\n"
+       "• czas t jest wyrażony w sekundach (s) i zmienia się od 0 do chwili pierwszego uderzenia piłeczki o ziemię\n"
+       "• wysokość h jest wyrażona w metrach i jest liczona względem poziomu ziemi.")
+O33 = {"A": "t = 1,5 s", "B": "t = 2 s", "C": "t = 2,5 s", "D": "t = 3 s"}
+mc("MAT-2026-33.1", "33.1", 32, "Wyrzucona piłeczka po raz pierwszy uderzy w ziemię w chwili", O33, "D", 38, mat=M33)
+mc("MAT-2026-33.2", "33.2", 33, "Wyrzucona piłeczka osiągnęła największą wysokość w chwili", O33, "A", 38, mat=M33,
+   uw="Wspólny wstęp zadania 33 na s. 32 PDF.")
+
+# ---------------- kontrola WOS względem warstwy tekstowej PDF ----------------
+def norm(s):
+    s = s.replace('¹', '1').replace('\u00a0', ' ')
+    return re.sub(r'\s+', ' ', s).strip()
+wos_txt = norm(' '.join(p.get_text() for p in pymupdf.open(ZR + r'\wos-2026-maj-matura-rozszerzona.pdf')))
+bad = 0; checked = 0
+for it in items:
+    if not it['id'].startswith('WOS'):
+        continue
+    frags = []
+    for para in it['material_zrodlowy'].split('\n'):
+        if '|' in para or para.startswith('[') and para.endswith(']') and para in ('[TABELA]', '[/TABELA]'):
+            continue
+        if para.strip(): frags.append(para)
+    frags += [it['polecenie'], it['tresc']] + list((it['opcje'] or {}).values())
+    for f in frags:
+        checked += 1
+        if norm(f) not in wos_txt:
+            bad += 1; print('BRAK w PDF:', it['id'], '::', f[:120])
+# komórki tabeli
+for cell in ["do 5%", "5 złotych 77 groszy", "powyżej 5% do 10%", "4 złote 61 groszy", "powyżej 10% do 20%", "4 złote 4 grosze",
+             "powyżej 20% do 30%", "2 złote 31 groszy", "powyżej 30%", "87 groszy", "liczba głosów […]", "Wysokość kwoty za jeden głos […]",
+             "Głosy ważne oddane w całym kraju łącznie na listy okręgowe kandydatów na posłów danej partii politycznej albo koalicji wyborczej w rozbiciu odpowiednio dla każdego przedziału"]:
+    checked += 1
+    if norm(cell) not in wos_txt: bad += 1; print('BRAK komórki:', cell)
+print(f'WOS: sprawdzono {checked} fragmentów, niezgodnych: {bad}')
+
+with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
+    for it in items:
+        rec = {k: it[k] for k in ["id", "przedmiot", "zadanie", "strona_pdf", "typ", "material_zrodlowy", "polecenie", "tresc"]}
+        if it['typ'] == 'choice': rec['opcje'] = it['opcje']
+        rec.update(poprawna=it['poprawna'], zrodlo_klucza=it['zrodlo_klucza'], uwagi=it['uwagi'])
+        f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+from collections import Counter
+print(Counter((i['przedmiot'], i['typ']) for i in items), len(items))

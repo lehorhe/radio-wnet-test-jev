@@ -1,0 +1,156 @@
+{
+ "artykul": "Trump przemianowal AI na SI...",
+ "data": "2026-09-28",
+ "status": "SZKIC",
+ "twierdzenia": [
+  {
+   "id": "C01",
+   "twierdzenie": "Jev: 16/17 w Tescie Refleksji Poznawczej",
+   "wartosc": "16/17",
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "dane/wyniki_crt.json: policz odpowiedzi model=='typesafe/jev-latest' z odp==zadania[id].poprawna",
+   "plik": "dane/wyniki_crt.json"
+  },
+  {
+   "id": "C02",
+   "twierdzenie": "Jev: 34/39 zadan zamknietych matury 2026 (WOS 12/15, matematyka 22/24)",
+   "wartosc": "34/39",
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "dane/wyniki_matura.json jw.; kazde zadanie ma strona_pdf i zrodlo_klucza (CKE)",
+   "plik": "dane/wyniki_matura.json"
+  },
+  {
+   "id": "C03",
+   "twierdzenie": "Jev: mediana 0,28 s na pytanie maturalne, 0,36 grosza za zestaw (kurs 3,70 zl/USD)",
+   "wartosc": "0.28 s; 0.36 gr",
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "mediana pola s; suma koszt_usd*3.70*100",
+   "plik": "dane/wyniki_matura.json"
+  },
+  {
+   "id": "C04",
+   "twierdzenie": "Przy progu pewnosci 0,8 Jev odpowiada na 24/39 i myli sie raz",
+   "wartosc": "24 odpowiedzi, 23 trafne",
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "filtr pewnosc>=0.8 dla Jev w wyniki_matura.json",
+   "plik": "dane/wyniki_matura.json"
+  },
+  {
+   "id": "C05",
+   "twierdzenie": "Antena: Jev 82,4% trafnosci typu segmentu na 346 fragmentach",
+   "wartosc": 82.4,
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "dane/porownanie_antena.json (metryki zagregowane; surowe transkrypcje anteny nie sa publikowane - RODO)",
+   "plik": "dane/porownanie_antena.json",
+   "ograniczenie": "surowe fragmenty anteny dostepne dla weryfikatorow na wniosek do redakcji"
+  },
+  {
+   "id": "C06",
+   "twierdzenie": "Koszt Jev ok. 2,80 zl na dobe przy decyzji co 3 s",
+   "wartosc": {
+    "decyzji": 28800,
+    "usd": 0.76,
+    "pln": 2.8
+   },
+   "typ": "wyliczenie",
+   "jak_sprawdzic": "28800 * 626 * 0.042e-6 * 3.70",
+   "plik": "dane/liczby_artykulu.py"
+  },
+  {
+   "id": "C07",
+   "twierdzenie": "Llama 3.1 405B na 3 tys. H100: ok. 428 dni; Bielik 4.5B v3: ok. 3,5 h",
+   "wartosc": [
+    428,
+    3.5
+   ],
+   "typ": "wyliczenie",
+   "jak_sprawdzic": "30.84e6/3000/24 ; 10.6e3/3000",
+   "zrodla": [
+    "https://huggingface.co/meta-llama/Llama-3.1-405B",
+    "https://arxiv.org/abs/2505.02550"
+   ]
+  },
+  {
+   "id": "C08",
+   "twierdzenie": "Trump w ONZ 22.09.2026: 'welcome to the new world of Super Intelligence-SI'",
+   "typ": "fakt_zewnetrzny",
+   "zrodla": [
+    "https://www.rev.com/transcripts/trump-speaks-at-u-n",
+    "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/"
+   ]
+  },
+  {
+   "id": "C09",
+   "twierdzenie": "TypeSafe AI: premiera Jev 15.09.2026, seed 40 mln USD, wycena 200 mln USD",
+   "typ": "fakt_zewnetrzny",
+   "zrodla": [
+    "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "https://www.forbes.com/sites/the-prompt/2026/09/15/this-200-million-startup-wants-to-fix-ais-overconfidence-problem/"
+   ]
+  },
+  {
+   "id": "C10",
+   "twierdzenie": "Anthropic: poufny draft S-1 (1.06.2026), wycena 965 mld USD (Series H), run-rate >65 mld USD (lipiec)",
+   "typ": "fakt_zewnetrzny",
+   "zrodla": [
+    "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+   ]
+  },
+  {
+   "id": "C11",
+   "twierdzenie": "Polska: ok. 210 MW centrow danych; publiczna moc AI ok. 3 tys. H100e (szacunek redakcji)",
+   "typ": "szacunek",
+   "zrodla": [
+    "https://www.wnp.pl/rynki/raport-polski-rynek-centrow-danych-przekroczyl-poziom-200-mw-i-wyraznie-przyspiesza,1029738.html",
+    "https://www.cyfronet.pl/pl/supercomputers/our-supercomputers"
+   ]
+  },
+  {
+   "id": "C12",
+   "twierdzenie": "Polska: 47 zlotych medali IOI (12,9 na 10 mln mieszkancow)",
+   "wartosc": {
+    "PL": 12.9,
+    "KOR": 9.5,
+    "USA": 2.0,
+    "CHN": 0.73
+   },
+   "typ": "fakt_zewnetrzny+wyliczenie",
+   "zrodla": [
+    "https://stats.ioinformatics.org/countries/POL"
+   ]
+  },
+  {
+   "id": "C16",
+   "twierdzenie": "Dokumenty TypeSafe: hosting w USA; 6 podwykonawcow z lokalizacja USA; licencja na telemetrie bez ograniczen; limit odpowiedzialnosci max(12 mies. oplat, 50 USD); arbitraz SF; prawo do uzycia nazwy klienta",
+   "typ": "dokument_zrodlowy",
+   "zrodla": [
+    "https://typesafe.ai/legal/privacy",
+    "https://typesafe.ai/legal/mca",
+    "https://typesafe.ai/data-processing",
+    "https://trust.typesafe.ai/subprocessors"
+   ],
+   "jak_sprawdzic": "stan dokumentow na 29.09.2026; daty aktualizacji podane w artykule"
+  },
+  {
+   "id": "C15",
+   "twierdzenie": "Jev przez OpenRouter (typesafe/jev-1.13, /api/alpha/decisions): 164/168 odpowiedzi identycznych z API bezposrednim, mediana 0,30 vs 0,27 s",
+   "typ": "pomiar_wlasny",
+   "jak_sprawdzic": "dane/wyniki_kanaly.json (3 przebiegi naprzemiennie, CRT + matura); skrypt dane/test_kanaly.py",
+   "plik": "dane/wyniki_kanaly.json"
+  },
+  {
+   "id": "C14",
+   "twierdzenie": "TypeSafe (Ke Deng, e-mail do redakcji 29.09.2026): brak daty i kwartalu regionu UE, plany istnieja",
+   "typ": "korespondencja_redakcyjna",
+   "jak_sprawdzic": "odpowiedz na zapytanie prasowe Radia Wnet z 28.09.2026; tresc cytatu w artykule; oryginal w archiwum redakcji"
+  },
+  {
+   "id": "C13",
+   "twierdzenie": "Cytaty z anteny Radia Wnet (Bartosiak 13.08, Grzywaczewski 4.09, serwis 15.09)",
+   "typ": "zrodlo_wlasne",
+   "jak_sprawdzic": "sluchaj plikow audio/*.mp3; znaczniki czasu w podpisach",
+   "plik": "audio/"
+  }
+ ]
+}

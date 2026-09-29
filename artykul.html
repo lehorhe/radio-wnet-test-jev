@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trump przemianował AI na „SI”. My sprawdziliśmy SI, która decyduje, zanim zdążysz mrugnąć – Radio Wnet (SZKIC)</title>
+<meta name="description" content="Test Radia Wnet: Jev, model nowej klasy „System 1”, na maturze 2026, Teście Refleksji Poznawczej i prawdziwej antenie. Wszystkie pytania i odpowiedzi publikujemy do sprawdzenia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700;800&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bursztyn:#f9b009; --bursztyn-jasny:#fde7a8; --morski:#367f96; --morski-ciemny:#274f5c; --morski-blady:#d7e6eb;
+  --tlo:#f5f9fa; --karta:#ffffff; --tekst:#1a1a1a; --tekst-2:#404040; --tekst-3:#6b7280; --linia:#e5e7eb;
+  --slupek:#367f96; --slupek-inny:#aab4b9; --ostrz:#9a3412;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --tlo:#0f1a1e; --karta:#152329; --tekst:#eef3f5; --tekst-2:#c9d4d8; --tekst-3:#93a3aa; --linia:#27383f;
+  --morski:#5fb0c8; --morski-ciemny:#9fd3e2; --morski-blady:#1d3139; --bursztyn-jasny:#3a2f10; --slupek:#5fb0c8; --slupek-inny:#50636b; --ostrz:#fdba74;}}
+:root[data-theme="dark"]{
+  --tlo:#0f1a1e; --karta:#152329; --tekst:#eef3f5; --tekst-2:#c9d4d8; --tekst-3:#93a3aa; --linia:#27383f;
+  --morski:#5fb0c8; --morski-ciemny:#9fd3e2; --morski-blady:#1d3139; --bursztyn-jasny:#3a2f10; --slupek:#5fb0c8; --slupek-inny:#50636b; --ostrz:#fdba74;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--tlo);color:var(--tekst);font:18px/1.7 Lato,system-ui,sans-serif}
+a{color:var(--morski)}
+.pasek{background:var(--morski-ciemny);color:#fff;font:700 14px/1 "Exo 2",sans-serif;padding:12px 16px;display:flex;gap:14px;align-items:center}
+.pasek b{background:var(--bursztyn);color:#010000;padding:6px 10px;border-radius:4px;letter-spacing:.5px}
+.pasek span{opacity:.85}
+.szkic{background:var(--bursztyn-jasny);color:var(--tekst);border-bottom:2px solid var(--bursztyn);padding:10px 16px;font-size:15px}
+main{max-width:780px;margin:0 auto;padding:0 16px 60px}
+.nad{font:800 13px/1 "Exo 2",sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--morski);margin:34px 0 10px}
+h1{font:800 clamp(28px,5vw,44px)/1.15 "Exo 2",sans-serif;margin:0 0 18px;color:var(--tekst)}
+h2{font:700 clamp(22px,3.4vw,28px)/1.25 "Exo 2",sans-serif;margin:46px 0 12px;color:var(--morski-ciemny)}
+h3{font:700 19px/1.3 "Exo 2",sans-serif;margin:28px 0 8px}
+.lead{font-size:21px;line-height:1.6;font-weight:700;color:var(--tekst-2)}
+.meta{font-size:14px;color:var(--tekst-3);border-top:1px solid var(--linia);border-bottom:1px solid var(--linia);padding:10px 0;margin:18px 0}
+figure{margin:24px 0}
+figure img{width:100%;height:auto;border-radius:6px;display:block}
+figcaption{font-size:14px;color:var(--tekst-3);margin-top:6px}
+blockquote{margin:22px 0;padding:6px 0 6px 18px;border-left:4px solid var(--bursztyn);font-style:italic;color:var(--tekst-2)}
+.ramka{background:var(--karta);border:1px solid var(--linia);border-left:4px solid var(--morski);border-radius:6px;padding:16px 20px;margin:24px 0}
+.ramka.bursztyn{border-left-color:var(--bursztyn)}
+.ramka h3{margin-top:0}
+.liczby{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:24px 0}
+.liczba{background:var(--karta);border:1px solid var(--linia);border-radius:6px;padding:14px}
+.liczba b{display:block;font:800 30px/1.1 "Exo 2",sans-serif;color:var(--morski-ciemny)}
+.liczba span{font-size:14px;color:var(--tekst-3)}
+.tabela{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:520px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--linia);text-align:right}
+th:first-child,td:first-child{text-align:left}
+th{font:700 13px "Exo 2",sans-serif;text-transform:uppercase;letter-spacing:.4px;color:var(--tekst-3)}
+tr.jev td{font-weight:700;background:var(--morski-blady)}
+.wykresy{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:18px 0}
+.wykres h4{font:700 14px "Exo 2",sans-serif;margin:0 0 6px;color:var(--tekst-2)}
+.bar{display:grid;grid-template-columns:112px 1fr;align-items:center;gap:6px;font-size:13px;margin:5px 0;position:relative}
+.bar .nazwa{color:var(--tekst-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .tor{position:relative;height:18px}
+.bar .w{height:18px;border-radius:0 4px 4px 0;background:var(--slupek-inny);min-width:2px}
+.bar.jev .w{background:var(--slupek)}
+.bar .v{position:absolute;top:0;font-size:12px;line-height:18px;padding-left:6px;color:var(--tekst);white-space:nowrap}
+.bar:hover .w{outline:2px solid var(--bursztyn)}
+.tip{position:fixed;pointer-events:none;background:var(--tekst);color:var(--tlo);font-size:13px;padding:6px 9px;border-radius:4px;opacity:0;transition:opacity .1s;z-index:9;max-width:260px}
+.wzor{font-family:ui-monospace,Consolas,monospace;font-size:15px;background:var(--karta);border:1px solid var(--linia);border-radius:6px;padding:12px 14px;overflow-x:auto;white-space:pre}
+.zrodla{font-size:14px;color:var(--tekst-2)}
+.zrodla li{margin:4px 0}
+small.uw{color:var(--tekst-3)}
+.cytat-anteny{background:var(--karta);border:1px solid var(--linia);border-radius:6px;padding:14px 18px;margin:22px 0}
+.cytat-anteny blockquote{margin:0 0 10px;border-left:4px solid var(--bursztyn);padding:2px 0 2px 14px;font-style:italic}
+.cytat-anteny audio{width:100%;height:36px}
+details summary{cursor:pointer;font:700 16px "Exo 2",sans-serif;color:var(--morski-ciemny)}
+</style>
+<link rel="alternate" type="text/markdown" href="DLA_AGENTOW.md" title="Pakiet weryfikacyjny dla agentów">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "headline": "Trump przemianował AI na „SI”. My sprawdziliśmy SI, która decyduje, zanim zdążysz mrugnąć", "datePublished": "2026-09-28", "publisher": {"@type": "Organization", "name": "Radio Wnet"}, "inLanguage": "pl", "author": {"@type": "Person", "name": "Lech Rustecki"}, "dateModified": "2026-09-29"}, {"@type": "Dataset", "name": "Test Radia Wnet: Jev vs modele LLM (CRT, matura 2026, antena)", "license": "https://creativecommons.org/licenses/by/4.0/", "distribution": [{"@type": "DataDownload", "contentUrl": "dane/rejestr_twierdzen.json"}, {"@type": "DataDownload", "contentUrl": "dane/wyniki_crt.json"}, {"@type": "DataDownload", "contentUrl": "dane/wyniki_matura.json"}, {"@type": "DataDownload", "contentUrl": "dane/zadania_matura.jsonl"}], "description": "Pełne zapytania i odpowiedzi modeli, kod obliczeń, sumy SHA-256. Instrukcja: DLA_AGENTOW.md"}, {"@type": "ClaimReview", "claimReviewed": "Jev jest 20–200 razy szybszy od modeli czołowych", "itemReviewed": {"@type": "Claim", "author": {"@type": "Organization", "name": "TypeSafe AI"}}, "reviewRating": {"@type": "Rating", "alternateName": "Częściowo prawdziwe: po stronie serwera tak, z Polski 8–18 razy szybciej od modeli czołowych w naszym teście"}, "author": {"@type": "Organization", "name": "Radio Wnet"}}]}</script>
+</head>
+<body>
+<div class="pasek"><b>RADIO WNET</b><span>Nauka i technologia · Test redakcji</span></div>
+<div class="szkic"><b>SZKIC – nie do publikacji.</b> Tekst czeka na niezależną weryfikację zespołu B (fact-check, przeliczenie danych, zgodność, OPSEC) i decyzję redaktora naczelnego.</div>
+<main>
+<div class="nad">Test Radia Wnet · Modele nowej ery</div>
+<h1>Trump przemianował AI na „SI”. My sprawdziliśmy SI, która decyduje, zanim zdążysz mrugnąć</h1>
+<p class="lead">22 września z mównicy ONZ Donald Trump ogłosił, że Ameryka będzie odtąd mówić „SI” – od <i>super intelligence</i>. My mówimy „SI” od lat, więc sprawdziliśmy najgłośniejszą nowość września – Jev, model, który nie pisze, tylko podejmuje decyzje: zamknięte zadania tegorocznej matury rozwiązał w 87 proc., w 0,28 sekundy na pytanie i za 0,36 grosza za cały zestaw. Firma potwierdziła nam, że planuje serwery w Europie, ale nie ma jeszcze daty.</p>
+<div class="meta">Tekst: Lech Rustecki z zespołem agentów SI · 28 września 2026 (aktualizacja: 29 września) · <a href="#jak-powstal">Jak powstał ten tekst</a> · <a href="#przylap">Przyłap nas – dane do sprawdzenia</a></div>
+
+<figure>
+<img src="foto/trump_onz_1.jpg" alt="Sala Zgromadzenia Ogólnego ONZ podczas przemówienia Donalda Trumpa, 22 września 2026">
+<figcaption>Donald Trump przemawia na 81. sesji Zgromadzenia Ogólnego ONZ, 22 września 2026 r. Fot. The White House (domena publiczna), via Wikimedia Commons. Publikacja w celach informacyjnych – materiał rządu USA nie oznacza poparcia dla redakcji ani opisywanych firm.</figcaption>
+</figure>
+
+<p>„Witajcie w nowym świecie superinteligencji – SI. SI, zobaczmy, czy się przyjmie, brzmi o wiele lepiej” – mówił prezydent USA na forum Zgromadzenia Ogólnego. Słowo „sztuczna” (<i>artificial</i>) – tłumaczył – sprawia, że inteligencja wydaje się fałszywa. W komunikacie Białego Domu po przemówieniu znalazło się zdanie, że sztuczna inteligencja jest „odtąd oficjalnie nazywana Super Inteligencją” – bez rozporządzenia ani wytycznych dla agencji. Dzień później, jak ujawniła agencja AP, Departament Stanu rozesłał części dyplomatów e-mail o zmianie nazewnictwa.</p>
+<p>Dla Polaków brzmi to znajomo. U nas „SI” funkcjonuje od dawna – tyle że jako skrót od „sztucznej”, której Trump właśnie się pozbył. Przynajmniej w skrócie Ameryka mówi dziś tak jak my. Pozostaje sprawdzić, czy dogonimy ją w czymś więcej niż nazwa.</p>
+
+<h2>Maszyna od intuicji</h2>
+<p>Jev to produkt kalifornijskiej firmy TypeSafe AI, która 15 września wyszła z ukrycia z 40 mln dolarów finansowania na start. Jej szef, Diogo Almeida, był w OpenAI współautorem prac nad RLHF – uczeniem modeli na ocenach ludzi, na którym wyrosły InstructGPT i ChatGPT. RLCD, metoda Jeva, to odejście od tej drogi: model ma nie zadowalać człowieka, tylko uczciwie mówić, na ile jest pewien. Współzałożycielami firmy są Erik Gafni i Sasha Sheng. Jev nie jest czatbotem. Nie odpowiada zdaniami, tylko <b>decyzją w ściśle określonym formacie</b>: wybiera jedną z podanych opcji, ocenia coś w skali albo mówi „tak/nie” – i do każdej odpowiedzi dołącza prawdopodobieństwo, czyli deklarację, na ile jest pewien.</p>
+<p>Firma określa je jako modele „System 1”. To ukłon w stronę Daniela Kahnemana, noblisty, który opisał dwa tryby ludzkiego myślenia: szybki, intuicyjny System 1 i wolny, liczący System 2. Wielkie modele językowe ostatnich lat coraz częściej „myślą na głos”, generując tysiące słów rozumowania, zanim odpowiedzą. Jev ma robić odwrotnie – odpowiadać od razu, jak doświadczony człowiek, który „czuje” odpowiedź. Producent obiecuje, że będzie nawet 200 razy szybszy i 400 razy tańszy od modeli czołowych (dolną granicę firma i omawiające ją media podają różnie – 20 albo 40 razy). Metodę treningu nazywa RLCD (<i>Reinforcement Learning for Calibrated Decisions</i>) – ale nie opublikował na jej temat żadnej pracy naukowej.</p>
+<p>O Jevie pisały już w Polsce portale branżowe – pierwszy był <a href="https://aisight.pl/technologia/generatywna-ai/llm/jev-model-ai-decyzje/">AI Sight</a>, 16 września, dzień po premierze. Wszystkie jednak powtarzały liczby producenta, a <a href="https://stormit.pl/jev">StormIT</a> wprost zaznaczył, że obsługa polszczyzny pozostaje niepotwierdzona. Postanowiliśmy to zmierzyć sami, po polsku.</p>
+
+<h2>Test pierwszej sekundy: kij i piłka</h2>
+<p>Zaczęliśmy od pułapki, na którą dają się łapać studenci najlepszych uczelni świata. <i>Kij i piłka kosztują razem 1,10 zł. Kij kosztuje o złotówkę więcej niż piłka. Ile kosztuje piłka?</i> Intuicja podpowiada „10 groszy”. Poprawna odpowiedź to 5 groszy. To pierwsze pytanie Testu Refleksji Poznawczej (CRT), który w 2005 r. opublikował Shane Frederick z MIT – test mierzy, czy potrafimy powstrzymać pierwszy, błędny odruch.</p>
+<p>Daliśmy Jevowi 11 klasycznych pytań z literatury naukowej (Frederick 2005, Toplak i in. 2014, Thomson i Oppenheimer 2016) oraz 6 własnych wariantów ze zmienionymi liczbami i realiami – żeby sprawdzić, czy model zna odpowiedzi na pamięć, czy naprawdę „nie daje się nabrać”. Do porównania: pięć modeli innych firm, tym samym zestawem pytań, każdy z czterema możliwymi odpowiedziami, w tym tą „intuicyjną”.</p>
+
+<div class="liczby">
+<div class="liczba"><b>16 z 17</b><span>trafnych odpowiedzi Jeva w CRT (95% przedział ufności: 73–99%)</span></div>
+<div class="liczba"><b>6 z 6</b><span>nowych wariantów redakcji – bez „ściągi” z internetu</span></div>
+<div class="liczba"><b>0,29 s</b><span>mediana czasu odpowiedzi z Warszawy</span></div>
+<div class="liczba"><b>0,11 gr</b><span>koszt całego testu (17 pytań)</span></div>
+</div>
+
+<p>Jev dał się złapać raz – na pytanie o to, ile metrów sześciennych ziemi jest w dole o wymiarach 3 × 3 × 3 m. Odpowiedział „27”, z pewnością 0,95. Dół jest pusty. Przy dwóch innych pytaniach – o inwestycji, która spadła o połowę i urosła o 75 proc., oraz o wyprzedzaniu ostatniego zawodnika – odpowiedział dobrze, ale sam zasygnalizował, że się waha (pewność 0,50 i 0,54). To ważne: model nie tylko odpowiada, ale mówi, kiedy nie warto mu ufać.</p>
+<p>Dla porównania: Claude Opus 5.5, GPT-6 Astra i Gemini 3.8 Flash zdały ten test bezbłędnie, ale mediana czasu ich odpowiedzi wynosiła od 2,4 do 3,6 sekundy. Najsłabiej wypadł GPT-5.4 mini – 10 na 17, z czego pięć razy wybrał dokładnie tę odpowiedź, którą podsuwa ludzka intuicja.</p>
+
+<h2>Matura 2026 w 11 sekund</h2>
+<p>Drugi test to egzamin, który każdy może sprawdzić sam: tegoroczna matura. Wzięliśmy wszystkie zadania zamknięte, które da się uczciwie podać w samym tekście, z dwóch arkuszy Centralnej Komisji Egzaminacyjnej: <b>matematyki na poziomie podstawowym</b> (24 pozycje) i <b>wiedzy o społeczeństwie na poziomie rozszerzonym</b> (15 pozycji – teksty ustaw, fragmenty konstytucji, artykuły prasowe i pytania „prawda czy fałsz”). Zadania z wykresami, mapami i zdjęciami odrzuciliśmy. Poprawne odpowiedzi pochodzą wyłącznie z oficjalnych zasad oceniania CKE – żadnej nie ustalaliśmy sami.</p>
+
+<div class="wykresy" id="wykresy">
+<div class="wykres"><h4>Trafność, % (39 zadań)</h4><div data-wykres="proc"></div></div>
+<div class="wykres"><h4>Sekundy na pytanie (mediana)</h4><div data-wykres="p50_s"></div></div>
+<div class="wykres"><h4>Grosze za cały zestaw</h4><div data-wykres="koszt_gr"></div></div>
+</div>
+
+<div class="tabela"><table>
+<thead><tr><th>Model</th><th>WOS /15</th><th>Mat. /24</th><th>Razem</th><th>s / pytanie</th><th>cały zestaw</th><th>koszt</th></tr></thead>
+<tbody>
+<tr class="jev"><td>Jev (TypeSafe)</td><td>12</td><td>22</td><td>34 (87%)</td><td>0,28</td><td>11 s</td><td>0,36 gr</td></tr>
+<tr><td>Claude Opus 5.5 (Anthropic)</td><td>15</td><td>24</td><td>39 (100%)</td><td>5,02</td><td>201 s</td><td>49,5 gr</td></tr>
+<tr><td>GPT-6 Astra (OpenAI)</td><td>15</td><td>24</td><td>39 (100%)</td><td>2,50</td><td>103 s</td><td>61,0 gr</td></tr>
+<tr><td>Gemini 3.8 Flash (Google)</td><td>15</td><td>24</td><td>39 (100%)</td><td>3,77</td><td>189 s</td><td>15,1 gr</td></tr>
+<tr><td>Claude Haiku 4.5 (Anthropic)</td><td>13</td><td>24</td><td>37 (95%)</td><td>2,80</td><td>117 s</td><td>22,3 gr</td></tr>
+<tr><td>GPT-5.4 mini (OpenAI)</td><td>14</td><td>12</td><td>26 (67%)</td><td>1,00</td><td>51 s</td><td>4,3 gr</td></tr>
+</tbody></table></div>
+<p><small class="uw">Czas mierzony z Warszawy, zapytania wysyłane jedno po drugim; koszt według faktur API przy kursie 3,70 zł/USD. Zadania „rozstrzygnij, czy…” oceniane bez uzasadnienia, więc są łatwiejsze niż na egzaminie. Powtórny przebieg Jeva dał 33/39 – jedna odpowiedź zmieniła się z poprawnej na błędną.</small></p>
+
+<p>Jev nie jest najmądrzejszy w tym zestawieniu – trzy modele czołowe zrobiły komplet. Ale na cały arkusz potrzebował 11 sekund i jednej trzeciej grosza. Claude Opus 5.5 – ponad trzech minut i pół złotego. Co ciekawsze, „intuicyjny” Jev rozwiązał 22 z 24 zadań z matematyki, podczas gdy GPT-5.4 mini – model pomyślany jako tani i szybki – tylko 12.</p>
+<p>Najciekawsza liczba kryje się jednak w pewności. Z pięciu pomyłek Jeva cztery padły przy odpowiedziach, które sam oznaczył jako niepewne (od 0,40 do 0,74). Gdyby przyjąć zasadę „ufamy Jevowi tylko powyżej 0,8, resztę sprawdza człowiek”, model odpowiedziałby samodzielnie na 24 z 39 pytań – i pomyliłby się raz.</p>
+
+<h2>Prawdziwa robota: antena</h2>
+<p>Matura to pokaz. Interesowało nas, czy Jev nada się do pracy w radiu. Z archiwum anteny Radia Wnet – wyłącznie z materiału, który poszedł w eter – zbudowaliśmy 346 fragmentów: rozmowy, serwisy informacyjne, reklamy, zapowiedzi, dżingle i muzykę. Etykiety pochodzą od ludzi i z automatów redakcji, nie od żadnego modelu w chmurze. Przed wysłaniem zamaskowaliśmy w transkrypcjach numery telefonów, adresy e-mail i numery PESEL, a nazwiska mówców rozpoznane po głosie nie opuściły naszych serwerów. Jev dostawał transkrypcję i kilka lokalnie zmierzonych cech dźwięku.</p>
+<p>Wynik: <b>82 proc. trafności przy 0,28 s na decyzję</b> – mniej więcej tyle, co GPT-5.4 mini (81 proc., 1 s) i Claude Haiku 4.5 (79 proc., 1,3 s), a przy tym wyraźnie lepiej skalibrowane. Najwięcej dały proste opisy kategorii: bez nich Jev trafiał w 53 proc., z nimi – w 78. Przy decyzji co 3 sekundy przez całą dobę Jev kosztowałby Radio Wnet około <b>2,80 zł na dobę</b> (28 800 decyzji × ok. 626 tokenów × 0,042 USD za milion × 3,70 zł). Na 50 fragmentach przetłumaczonych na angielski wypadł praktycznie tak samo jak po polsku (80 wobec 78 proc.) – w tym teście tłumaczenie okazało się zbędne. Dla porównania nauczyliśmy też własny, lokalny klasyfikator rozpoznawać typ fragmentu z samego dźwięku – na etykietach redakcji, nie na odpowiedziach Jeva. Na elementach, których nie widział w treningu, trafia w 72 proc., a nowe reklamy rozpoznaje w 80 proc.; zapowiedzi i dżingle, o których decyduje treść słów, zostawia tekstowi. Dźwięk i tekst się uzupełniają.</p>
+<p>Jedno zastrzeżenie, które sprawdziliśmy stoperem: większość czasu decyzji to droga przez ocean. Serwer potrzebuje na decyzję ok. 62 ms (mediana z nagłówka odpowiedzi, który obejmuje kolejkę, sieć wewnątrz centrum danych i sam model); resztę z naszych 280 ms zjada droga przez Atlantyk. Zapytaliśmy TypeSafe, kiedy to się zmieni. „Nie mamy obecnie daty ani kwartału rozszerzenia na region UE. Mamy jednak takie plany i liczymy, że wkrótce będziemy mieć szacunki” (tłum. red.) – czytamy w odpowiedzi Ke Deng, Chief of Staff TypeSafe AI, z 29 września. Z serwerem w Europie decyzja mogłaby trwać poniżej 0,1 s, a nie 0,28 s – nawet z Frankfurtu zostanie droga z Warszawy i zestawienie połączenia. Według naszych pomiarów serwery stoją na zachodnim wybrzeżu USA; firma nie odpowiedziała, gdzie przetwarzane są dane – ale jej własne dokumenty mówią to wprost (<a href="#umowa">ramka niżej</a>). Pośrednik tego nie zmienia: Jev jest dostępny także przez OpenRouter (<code>typesafe/jev-1.13</code>), a w trzech powtórzeniach obu testów dał tam praktycznie te same odpowiedzi co bezpośrednio (164 na 168 identycznych), tylko o ok. 30 ms wolniej – mediana 0,30 zamiast 0,27 s. Problem nie dotyczy tylko nas: po tej samej stronie oceanu jest m.in. berlińskie Bryo, którego szef technologii testował Jeva (TechCrunch). Na pozostałe sześć pytań firma – stan na 29 września – nie odpowiedziała (<a href="#zapytalismy">lista pytań</a>).</p>
+<figure class="ramka" id="czas">
+<h3>Gdzie znika czas jednej decyzji</h3>
+<div style="display:flex;height:34px;border-radius:4px;overflow:hidden;font:700 13px Lato,sans-serif;color:#fff">
+<div style="width:22%;background:var(--morski);display:flex;align-items:center;padding-left:8px" title="praca serwera Jeva: ok. 62 ms">Jev: ~62 ms</div>
+<div style="width:78%;background:var(--slupek-inny);display:flex;align-items:center;padding-left:8px;color:var(--tekst)" title="droga Warszawa – zachodnie wybrzeże USA i z powrotem: ok. 220 ms">Atlantyk i z powrotem: ~220 ms</div>
+</div>
+<figcaption>Mediana z naszych pomiarów z Warszawy (ok. 280 ms na decyzję). Serwer podaje własny czas w nagłówku odpowiedzi; resztę mierzy nasz stoper. Prawie 80 proc. czasu to droga przez ocean.</figcaption>
+</figure>
+<div class="ramka" id="umowa">
+<h3>Przeczytaliśmy umowę Jeva</h3>
+<p>Kto chce korzystać z Jeva, akceptuje pakiet dokumentów TypeSafe. Wszystkie są publicznie dostępne na stronie firmy – przeczytaliśmy je w całości (stan na 29 września). Pięć rzeczy, które warto znać:</p>
+<ul class="zrodla">
+<li><b>Dane z Europy lecą do USA.</b> Polityka prywatności: usługi są „hostowane w Stanach Zjednoczonych”, a korzystający z nich w Europie „przekazuje dane osobowe do USA do przechowywania i przetwarzania”. Wszystkich sześciu podwykonawców – Amazon Web Services, Modal, Nebius, CoreWeave, Slack i Google Workspace – firma podaje z lokalizacją „USA”. Transfer opiera się na standardowych klauzulach umownych UE.</li>
+<li><b>„Nie trenujemy na Twoich danych” – z przypisem.</b> Firma zobowiązuje się nie używać danych klientów do zmiany wag modeli bez zgody. Umowa daje jej jednak bezterminowe prawo do tworzenia z tych danych „telemetrii”, a telemetrię definiuje szeroko – także jako „klasyfikacje, metryki i wnioski” z użycia usługi – i może ją przetwarzać „bez ograniczeń”, również po to, by ulepszać swoje produkty.</li>
+<li><b>Na odpowiedziach Jeva nie wolno uczyć własnego modelu.</b> Zakaz „destylacji” obejmuje też budowę konkurencyjnego produktu.</li>
+<li><b>Za błędną decyzję odpowiada klient.</b> Umowa zastrzega, że wyniki mogą być nieprawdziwe i to klient ma je sam ocenić. Odpowiedzialność firmy ograniczono do opłat z ostatnich 12 miesięcy albo 50 dolarów – w zależności od tego, co wyższe. Spory rozstrzyga arbitraż w San Francisco, bez pozwów zbiorowych.</li>
+<li><b>Klient może trafić do reklamy.</b> TypeSafe zastrzega sobie prawo do umieszczenia nazwy i logo klienta na liście swoich klientów; wycofać się można pisemnie.</li>
+</ul>
+<p><small class="uw">Źródła: <a href="https://typesafe.ai/legal/privacy">polityka prywatności</a> (aktualizacja 19.11.2025 – sprzed premiery Jeva), <a href="https://typesafe.ai/legal/mca">umowa klienta</a> (23.09.2026, pkt 2.3, 4.1, 4.3, 9.3, 12.2, 15, 16.4), <a href="https://typesafe.ai/data-processing">umowa powierzenia danych</a> (24.04.2026), <a href="https://trust.typesafe.ai/subprocessors">lista podwykonawców</a>. Tłumaczenia fragmentów – redakcja. Nie jest to porada prawna.</small></p>
+</div>
+<div class="ramka bursztyn" id="zapytalismy">
+<h3>Zapytaliśmy TypeSafe</h3>
+<p>28 września wysłaliśmy firmie siedem pytań i zaproszenie do rozmowy na antenie. Stan na 29 września:</p>
+<ol class="zrodla">
+<li><b>Kiedy region w Europie (odpowiedź w 50–60 ms zamiast ~280 ms)?</b> – <i>odpowiedź:</i> „Nie mamy obecnie daty ani kwartału (…). Mamy jednak takie plany” (Ke Deng, Chief of Staff TypeSafe AI; tłum. red.). Pytaliśmy o 50–60 ms; realnie z serwerem w Europie byłoby to poniżej 0,1 s.</li>
+<li>Gdzie dziś działa inferencja i czy w UE dane klientów zostaną w UE (RODO, AI Act)? – bez odpowiedzi; <i>w dokumentach firmy:</i> usługi są hostowane w USA, a wszyscy podwykonawcy mają lokalizację „USA” (<a href="#umowa">szczegóły</a>).</li>
+<li>Czy Jev był trenowany lub oceniany na danych w języku polskim? – bez odpowiedzi</li>
+<li>Czym w dwóch zdaniach Jev różni się od ogólnego modelu językowego? – bez odpowiedzi</li>
+<li>Czy <code>typesafe/jev-router</code> na OpenRouter to ten sam produkt co API Jeva? – <i>sprawdziliśmy sami:</i> Jev jest na OpenRouterze od 18 września jako <code>typesafe/jev-1.13</code> (nie widać go w domyślnej liście modeli, bo nie zwraca tekstu, tylko decyzje); <code>jev-router</code> to oparta na nim zwrotnica, która kieruje zapytania do innych modeli.</li>
+<li>Czy powstanie wersja do instalacji u klienta, dla redakcji z wrażliwym materiałem? – bez odpowiedzi</li>
+<li>Które redakcje już korzystają z Jeva? – bez odpowiedzi</li>
+</ol>
+<p><small class="uw">Termin na odpowiedzi: piątek, 2 października, 19:00. Tekst zaktualizujemy, gdy nadejdą.</small></p>
+</div>
+
+
+<h2>Co o tym mówiono na antenie Radia Wnet</h2>
+<p>Zanim zadaliśmy pytania maszynom, przepytaliśmy własne archiwum. Szpieg+, system redakcji, który przepisuje i indeksuje antenę, przeszukał 199 godzin nagrań z ostatniego roku – nie po słowach, tylko po znaczeniu – i w kilka sekund wskazał rozmowy o energii, centrach danych i wyścigu SI. Cztery fragmenty wnoszą do naszych testów coś konkretnego:</p>
+
+<figure class="cytat-anteny">
+<blockquote>„Nie wygramy wyścigu z Chinami czy ze Stanami na energię, która jest potrzebna do trenowania tych modeli, czy na kapitał. Ale jest jakaś unikatowa polska wiedza, polski sposób myślenia. (…) Próbować znaleźć jakąś niszę.”</blockquote>
+<audio controls preload="none" src="audio/bartosiak_energia_nisza.mp3"></audio>
+<figcaption>dr Jacek Bartosiak, Strategy&amp;Future · „Poranek Wnet”, 13.08.2026, godz. 7:56 · rozmawiał Krzysztof Skowroński</figcaption>
+</figure>
+<p>To dokładnie wniosek, do którego doszliśmy rachunkiem: w megawatach nie wygramy, w niszy – tak. A małe modele decyzyjne są taką niszą właśnie dlatego, że <b>ta sama decyzja kosztuje w nich ułamek energii</b>. Jeśli Jev rozstrzyga w 60 milisekund pracy serwera to, co model czołowy liczy przez kilka sekund, to w centrum danych, gdzie prąd i układy są dziś najrzadszym dobrem, z tej samej mocy da się wycisnąć dziesiątki razy więcej decyzji.</p>
+
+<figure class="cytat-anteny">
+<blockquote>„Amerykanie destylują wiedzę z całego świata, no chyba nie do końca jest to zgodne z interesem tych, od których tę wiedzę destylują. (…) Te ich modele pobierają dane z Radia Wnet nawet prawdopodobnie.”</blockquote>
+<audio controls preload="none" src="audio/bartosiak_destylacja.mp3"></audio>
+<figcaption>dr Jacek Bartosiak · „Poranek Wnet”, 13.08.2026, godz. 7:33</figcaption>
+</figure>
+<p>Ironia tej wypowiedzi ujawniła się w naszym teście sama: umowa, którą akceptuje każdy użytkownik Jeva, <b>zabrania destylacji</b> – nie wolno trenować własnego modelu na jego odpowiedziach. Twórcy SI chronią swoje wyniki przed tym, co sami robią z cudzą wiedzą.</p>
+
+<figure class="cytat-anteny">
+<blockquote>„W ogromnym stopniu stawia się właśnie na budowę nowych centrów danych, między innymi w Ohio, w okolicach miasta Columbus. (…) Ta reindustrializacja będzie właśnie przyjmowała formę rozwoju AI, czyli centra danych, fabryki mikroprocesorów.”</blockquote>
+<audio controls preload="none" src="audio/grzywaczewski_centra_danych.mp3"></audio>
+<figcaption>Tomasz Grzywaczewski, relacja z Nowego Jorku · „Poranek Wnet”, 4.09.2026, godz. 7:19</figcaption>
+</figure>
+
+<figure class="cytat-anteny">
+<blockquote>„Jack Clark, współzałożyciel firmy Anthropic, powiedział BBC, że branża powinna być zobowiązana do wprowadzenia wyłącznika awaryjnego dla niebezpiecznych systemów AI. (…) »Kto wygra w wyścigu AI, ten wygra« – napisał Trump.”</blockquote>
+<audio controls preload="none" src="audio/serwis_clark_trump.mp3"></audio>
+<figcaption>Serwis informacyjny Radia Wnet, 15.09.2026, godz. 8:03</figcaption>
+</figure>
+<p>Ten ostatni fragment łączy wątki naszego tekstu. Modele „System 1” powstają dla agentów – programów, które same wysyłają tysiące zapytań i same uczą się, jak robić to taniej. To agenci najszybciej odkryją, że do większości decyzji nie potrzebują drogiego rozumowania. We wrześniu – jak relacjonowaliśmy – serię ostrzeżeń sformułowali przedstawiciele największych firm z branży, a jednym z ryzyk, o których badacze mówią od lat, jest etap, w którym SI zaczyna samodzielnie ulepszać SI. Stąd pomysły na „wyłącznik awaryjny” pod niezależną kontrolą. Tanie, szybkie i dobrze skalibrowane decyzje mogą być w tym świecie zarówno paliwem, jak i bezpiecznikiem: model, który mówi „nie jestem pewien”, jest pierwszym miejscem, w którym człowiek może jeszcze wejść do pętli.</p>
+<p><small class="uw">Fragmenty wybrane przez redakcję z wyszukiwania semantycznego Szpiega+; znaczniki czasu według nagrań anteny, cytaty sprawdzone z nagraniem. Pełne nagrania w archiwum Radia Wnet.</small></p>
+
+<h2>Modele dla maszyn, nie dla ludzi</h2>
+<p>Dlaczego to ważne? Bo coraz więcej zapytań do sztucznej inteligencji nie wysyła już człowiek, tylko inny program – agent SI, który sam przegląda pocztę, porządkuje dokumenty, pilnuje kolejki zgłoszeń. Taki agent co chwilę musi podjąć drobną decyzję: pilne czy nie? spam czy nie? który z pięciu działów? Do każdej z nich dziś zwykle angażuje się wielki model językowy, który pisze akapit rozumowania i zjada tokeny. Jev i jego konkurenci – w ciągu dziesięciu dni od premiery pojawiły się otwarte odpowiedniki, m.in. Laya, Kev czy GLiNER2.5-Decide – celują dokładnie w tę masę małych decyzji.</p>
+<p>Nie brakuje sceptyków. Anastasios Angelopoulos z platformy Arena mówi w rozmowie z „Financial Times”, że nie widzi, czym Jev różni się od dawno znanych klasyfikatorów. VentureBeat opisał, że tekst wstrzyknięty w dane może wpłynąć na werdykt modelu. A hasło, że model „nie może halucynować”, oznacza w praktyce tyle, że nie wyjdzie poza listę opcji – nie, że wybierze dobrą.</p>
+
+<h2>Co to znaczy dla giełdowych debiutów gigantów</h2>
+<p>Premiera Jeva wypadła w najgorętszym momencie dla branży. Anthropic, twórca modeli Claude, w czerwcu złożył w amerykańskiej komisji papierów wartościowych poufny projekt prospektu; według Reutersa marketing oferty ma ruszyć nie wcześniej niż w połowie października. W maju firmę wyceniono na 965 mld dolarów, a jej roczne przychody w tempie z lipca przekroczyły 65 mld. OpenAI, wyceniane w marcu na 852 mld dolarów, według dyrektor finansowej Sarah Friar ma być spółką publiczną w 2027 r.; Sam Altman nazwał debiut w tym roku „nierozsądnym” i nie chciał wskazać terminu.</p>
+<p>Obie historie inwestycyjne stoją na założeniu, że popyt na tokeny będzie rósł szybciej, niż spadają ich ceny. A ceny spadają: według indeksu Silicon Data średni koszt miliona tokenów zszedł na początku września do rekordowych 0,97 dolara. Jev kosztuje 0,042 dolara za milion tokenów wejścia – ok. 23 razy mniej – a za tokeny wyjścia producent nie pobiera opłaty. Według „Financial Times” i Bloomberga firma, wyceniana na starcie na 200 mln dolarów, rozmawia o rundzie finansowania przy wycenie ponad 10 mld; ani runda, ani wycena nie zostały potwierdzone.</p>
+<p>Scenariusze są dwa. W pierwszym tanie modele decyzyjne zabierają wielkim laboratoriom masowy, nisko marżowy ruch – klasyfikacje, routing, moderację – i obniżają przychody, które inwestorzy chcą widzieć w prospektach. W drugim, bardziej prawdopodobnym naszym zdaniem, wielcy gracze pozbywają się właśnie tego ruchu, który najbardziej obciąża ich serwery, i zostają przy zadaniach wymagających „Systemu 2”: długiego rozumowania, programowania, pracy agentów. Wtedy marże mogą nawet wzrosnąć. Jednego nie da się już ukryć: rynek przestaje płacić za inteligencję hurtem. Zaczyna płacić za odpowiedni jej rodzaj – i za szybkość.</p>
+
+<h2>Czy Polska może być najlepsza w treningu SI nowej ery?</h2>
+<p>Skoro mówimy „SI” od zawsze, pora zapytać, czy możemy być w niej najlepsi. Policzmy to na chłodno – trzema czynnikami: pieniędzmi, mocą obliczeniową pod własną kontrolą i ludźmi, którzy potrafią trenować duże modele.</p>
+
+<h3>1. Pieniądze</h3>
+<p>Według Ministerstwa Cyfryzacji na fabryki SI i inne działania związane ze sztuczną inteligencją pójdzie w 2026 r. łącznie ok. 262 mln zł. To nie osobna linia w ustawie budżetowej, tylko suma kilku pozycji – około 0,03 proc. wydatków budżetu państwa (918,9 mld zł), a w relacji do wszystkich wydatków publicznych (ok. 517 mld dolarów) – ok. 0,014 proc. Korea Południowa przeznacza na ten cel ok. 0,22 proc. wydatków publicznych, czyli ok. 16 razy większą część. Przy koreańskiej proporcji Polska wydawałaby ok. 1,1 mld dolarów (ok. 4 mld zł) rocznie. Największa realna szansa to unijna gigafabryka SI – projekt za ok. 3 mld euro, w większości prywatny. Projekt zaczynał jako wspólny z Łotwą, Estonią i Litwą – według cyberdefence24 Łotwa i Estonia później się wycofały. Na początku września Polska i Czechy podpisały w Pradze memorandum o współpracy przy gigafabrykach SI. „Zadeklarowaliśmy ponad 600 mln zł na zakup mocy obliczeniowych z gigafabryki, co stanowiło warunek konieczny przystąpienia do przetargu” – mówił wiceminister cyfryzacji Dariusz Standerski w wywiadzie dla „Rzeczpospolitej” (28 września, aktualizacja 29 września). Oferty w konkursie trzeba złożyć do 12 listopada; umowy mają zostać podpisane na początku 2027 r., a pierwsze gigafabryki ruszyć w 2028 r.</p>
+
+<h3>2. Moc obliczeniowa – i czyja jest</h3>
+<p>Wszystkie centra danych w Polsce mają razem ok. 210 MW – mniej więcej tyle, ile pierwsza faza jednego kampusu Stargate w Zjednoczonych Emiratach Arabskich. Większość tych megawatów należy do kapitału amerykańskiego i zachodnioeuropejskiego (nasz szacunek: w polskich rękach 20–30 proc.). W pełni polska jest za to moc publiczna – superkomputery Cyfronetu, PCSS i NASK. Po uruchomieniu dwóch fabryk SI (Gaia w Krakowie i PIAST-AI w Poznaniu) będzie to równoważnik ok. 3 tys. układów Nvidia H100 – około 0,02 proc. światowej mocy SI, szacowanej przez Epoch AI na 15 mln H100. Odpowiedź TypeSafe pokazuje, że to nie tylko kwestia prestiżu: nawet najszybszy model jest tak szybki, jak blisko stoi jego serwer – i podlega prawu kraju, w którym stoi.</p>
+
+<h3>3. Ludzie</h3>
+<p>Tu jesteśmy potęgą. Polska ma 47 złotych medali Międzynarodowej Olimpiady Informatycznej – piąty wynik w historii – a w przeliczeniu na mieszkańca – najwięcej spośród państw światowej czołówki. Na Międzynarodowej Olimpiadzie Matematycznej 2025 byliśmy czwarci na świecie i pierwsi w Europie. Pięciu z siedmiu osób wymienionych w kierownictwie badawczym modelu o1 w OpenAI ma polskie korzenie, w tym główny naukowiec firmy Jakub Pachocki. Kłopot w tym, że ci ludzie trenują modele w Kalifornii, nie w Krakowie.</p>
+
+<div class="ramka">
+<h3>Rachunek redakcji</h3>
+<p>Wzór poniżej mówi po prostu: siła kraju w SI to moc komputerów razy talent ludzi razy to, ilu z tych ludzi pracuje na miejscu. Przyjmijmy więc prosty model: potencjał kraju w treningu SI to iloczyn kontrolowanej mocy obliczeniowej <i>C</i> i „gęstości talentu” <i>τ</i>, poprawiony o odsetek talentów, które pracują w kraju (<i>r</i>):</p>
+<div class="wzor">P = C × τ × r
+
+C (tys. H100e pod krajową kontrolą):   Polska ≈ 3        USA ≈ 11 250  (75% z 15 mln)
+τ (złote medale IOI na 10 mln osób):   Polska ≈ 12,9     USA ≈ 2,0
+r (udział talentów pracujących w kraju): Polska — niski    USA — wysoki (magnes)
+
+C_USA / C_PL ≈ 3750   →   przewaga talentu τ_PL / τ_USA ≈ 6,5
+Polska przegrywa rachunek o ~3 rzędy wielkości; talent odrabia niecały 1.</div>
+<p>Co to oznacza w praktyce? Na całej polskiej publicznej mocy obliczeniowej trening modelu klasy Llama 3.1 405B (30,8 mln godzin pracy H100 według karty modelu Meta) trwałby <b>ok. 428 dni</b> – przy nieprzerwanej pracy wszystkich 3 tys. układów. Modele czołowe roku 2026 są jeszcze większe. W tej lidze nie gramy.</p>
+<p>Ale ten sam rachunek pokazuje drugą stronę. Trening polskiego modelu Bielik 4.5B v3 zajął ok. 10,6 tys. godzin pracy układów GPU (GH200) – na tej samej mocy to <b>ok. 3,5 godziny</b>. Modele nowej ery, takie jak Jev i jego otwarte klony, są małe, wyspecjalizowane i trenowane na precyzyjnych danych. Tu nie wygrywa ten, kto ma najwięcej prądu, tylko ten, kto ma najlepsze dane, najlepszą ewaluację i najlepszych ludzi. A to akurat ta kategoria, w której wypadamy najlepiej.</p>
+<p><small class="uw">Szacunki redakcji na podstawie danych MFW, Cushman &amp; Wakefield, Epoch AI, TOP500, statystyk IOI i kart modeli. Współczynnik talentu to tylko przybliżenie: medale olimpijskie mierzą szczyt piramidy, nie liczbę specjalistów. Liczba osób w Polsce zdolnych dziś realnie trenować duże modele to naszym zdaniem setki, może tysiąc.</small></p>
+</div>
+
+<p>Czy więc Polacy mogą być najlepsi? W wyścigu na największy model – nie, i nie ma co udawać. W wyścigu na najmądrzejszy mały model, najlepszy w polskim i w językach naszego regionu, najtańszy w działaniu i najuczciwiej sprawdzony – tak, to realne. Warunki są trzy: moc obliczeniowa pod polską kontrolą (a nie tylko na polskiej ziemi), budżet o rząd wielkości większy niż dziś i sposób, żeby choć część ludzi z Kalifornii chciała trenować modele nad Wisłą. Trump ogłosił epokę „SI”. My możemy w niej być tym, kim zawsze byliśmy na olimpiadach: najlepsi na głowę mieszkańca.</p>
+
+<div class="ramka" id="bielik">
+<h3>Polski model jako korektor starej daty</h3>
+<p>Skoro piszemy o polskiej SI, daliśmy ten tekst do korekty Bielikowi – polskiemu modelowi językowemu, uruchomionemu na komputerze redakcji, bez chmury i bez opłat. Poprosiliśmy go o pracę jak redaktorka z dawnego wydawnictwa: znak w tekście, ten sam znak z poprawką na marginesie. Przez 70 minut przeczytał 53 akapity i zaproponował 125 zmian.</p>
+<p>Przyjęliśmy 9. Bielik trafnie wypatrywał miejsca warte poprawy – pisownię łączną „superinteligencji”, niezgrabne „Sceptycy są.”, nazwę Międzynarodowej Olimpiady Matematycznej – ale 25 razy „poprawiał” polskie cudzysłowy i półpauzy na znaki z angielskiej klawiatury, 15 razy zmieniał fakt albo liczbę, a często zamieniał zwięzłe zdanie w urzędowy wywód. Kolejnych 14 propozycji odrzucił już automat: dotyczyły fragmentów, których w tekście nie ma. Wniosek: mały lokalny model jest dobrym ołówkiem – wskazuje, gdzie spojrzeć – ale pióro musi zostać w ręku człowieka.</p>
+<p><a href="maszynopis.html"><b>Zobacz maszynopis z naniesioną korektą Bielika →</b></a></p>
+</div>
+<div class="ramka bursztyn" id="przylap">
+<h3>Przyłap nas</h3>
+<p>Nie wierzcie nam na słowo. Publikujemy każde pytanie, każdą odpowiedź każdego modelu, z czasem, kosztem i identyfikatorem zapytania nadanym przez serwer (<code>x-typesafe-request-id</code> dla Jeva, identyfikator generacji dla pozostałych). Pytania maturalne podajemy z numerem strony arkusza CKE, więc każdą transkrypcję i każdą odpowiedź z klucza sprawdzicie w oryginale. Jeśli znajdziecie błąd – w danych, w przeliczeniach albo w tekście – napiszcie. Każdą poprawkę opublikujemy w erracie pod tym tekstem.</p>
+<ul class="zrodla">
+<li><a href="DLA_AGENTOW.md"><b>DLA_AGENTOW.md</b></a> i <a href="dane/rejestr_twierdzen.json"><code>rejestr_twierdzen.json</code></a> – instrukcja i rejestr wszystkich twierdzeń do samodzielnej weryfikacji (także dla agentów SI); <a href="SHA256SUMS">sumy SHA-256</a></li>
+<li><a href="dane/zadania_crt.json"><code>zadania_crt.json</code></a>, <a href="dane/zadania_matura.jsonl"><code>zadania_matura.jsonl</code></a> – zestawy pytań ze źródłami</li>
+<li><a href="dane/wyniki_crt.json"><code>wyniki_crt.json</code></a>, <a href="dane/wyniki_matura.json"><code>wyniki_matura.json</code></a> – pełne zapytania i odpowiedzi</li>
+<li><a href="dane/test_pokaz.py"><code>test_pokaz.py</code></a>, <a href="dane/parsuj.py"><code>parsuj.py</code></a>, <a href="dane/liczby_artykulu.py"><code>liczby_artykulu.py</code></a> – kod testu i wszystkich liczb w tekście</li>
+</ul>
+<p><small class="uw">Erratum już na starcie: w pierwszej wersji naszego skryptu parser mylił wzory matematyczne w odpowiedziach Claude’a Haiku z właściwą odpowiedzią i zaniżał jego wynik (30 zamiast 37 na 39). Poprawiliśmy to przed publikacją; obie wersje są w danych.</small></p>
+</div>
+
+<div class="ramka" id="jak-powstal">
+<h3>Jak powstał ten tekst</h3>
+<p>Testy zaprojektował i przeprowadził zespół agentów sztucznej inteligencji pracujący dla redakcji, a tekst przygotował w pierwszej wersji model Claude firmy Anthropic, pod nadzorem dziennikarza. Pierwszą wersję dziennikarz poprawiał w kilku rundach: zlecił ponowne przeliczenie wszystkich liczb, uzyskał odpowiedź TypeSafe i sprawdził część faktów w oryginałach. Uwagi recenzentów – agentów i modelu Bielik – przyjmował wybiórczo. Zgodnie z art. 50 unijnego AI Act informujemy o tym wprost.</p>
+<p><b>Konflikt interesów:</b> Testy prowadził autor na własnym koncie dziennikarskim z wczesnym dostępem do Jeva i na koncie w OpenRouterze – na standardowych warunkach, jak każdy użytkownik. Ani autor, ani Radio Wnet nie mają z TypeSafe umowy indywidualnej ani rozliczeń poza opłatami za zapytania; redakcja rozważa Jeva jako możliwe narzędzie. Anthropic jest jedną z firm, których wyniki i giełdowe plany opisujemy, a jej model Opus 5.5 wypadł w naszych testach najlepiej. Dlatego niezależną weryfikację danych i faktów prowadzą osobni agenci, oparci na modelach innych dostawców, pracujący wyłącznie na surowych danych i źródłach pierwotnych – bez wglądu w szkic. Ostatnie słowo należy do redaktora naczelnego. Za publikację odpowiada: <b>Lech Rustecki</b>.</p>
+<p>Do Jeva i innych modeli w chmurze trafiał wyłącznie materiał opublikowany: arkusze maturalne, pytania z literatury naukowej i fragmenty wyemitowanej anteny.</p>
+</div>
+
+<h2>Źródła</h2>
+<details open><summary>Pokaż / ukryj listę źródeł</summary>
+<ol class="zrodla">
+<li>Przemówienie Donalda Trumpa w ONZ, 22.09.2026 – stenogram: <a href="https://www.rev.com/transcripts/trump-speaks-at-u-n">rev.com</a>; komunikat Białego Domu: <a href="https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/">whitehouse.gov</a>; nota Departamentu Stanu: <a href="https://www.usnews.com/news/politics/articles/2026-09-23/us-diplomats-told-to-use-term-super-intelligence-not-artificial-intelligence-after-trumps-call">AP / US News, 23.09.2026</a></li>
+<li>TypeSafe AI, premiera Jev: <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">typesafe.ai</a>; dokumentacja API: <a href="https://docs.typesafe.ai/api.md">docs.typesafe.ai</a>; <a href="https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/">TechCrunch, 18.09.2026</a>; <a href="https://www.forbes.com/sites/the-prompt/2026/09/15/this-200-million-startup-wants-to-fix-ais-overconfidence-problem/">Forbes, 15.09.2026</a>; FT o wycenie – <a href="https://ontimebrief.com/en/2026/09/25/start-up-valued-at-200mn-fields-10bn-offers-after-jev-launch/">przedruk, 25.09.2026</a>; <a href="https://venturebeat.com/security/companies-are-putting-jev-in-charge-of-ai-agent-decisions-and-prompt-injection-can-influence-the-verdict">VentureBeat</a></li>
+<li>Pierwszy polski tekst o Jevie: <a href="https://aisight.pl/technologia/generatywna-ai/llm/jev-model-ai-decyzje/">AI Sight, 16.09.2026</a>; o niepotwierdzonej polszczyźnie: <a href="https://stormit.pl/jev">StormIT, 25.09.2026</a></li>
+<li>Frederick S. (2005), Cognitive Reflection and Decision Making, <i>Journal of Economic Perspectives</i> 19(4); Toplak M., West R., Stanovich K. (2014), <i>Thinking &amp; Reasoning</i> 20(2); Thomson K., Oppenheimer D. (2016), <i>Judgment and Decision Making</i> 11(1)</li>
+<li>CKE, egzamin maturalny maj 2026: matematyka (poziom podstawowy), wiedza o społeczeństwie (poziom rozszerzony) – arkusze i zasady oceniania (kopie: <a href="https://arkusze.pl/matura-matematyka-2026-maj-poziom-podstawowy/">arkusze.pl</a>)</li>
+<li>Anthropic – poufny projekt prospektu: <a href="https://www.anthropic.com/news/confidential-draft-s1-sec">anthropic.com, 1.06.2026</a>; przychody: <a href="https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/">TechCrunch, 17.08.2026</a>; termin: <a href="https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html">CNBC/Reuters, 5.09.2026</a>. OpenAI: <a href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html">CNBC, 31.03.2026</a>; <a href="https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html">CNBC, 19.08.2026</a>; <a href="https://fortune.com/2026/09/14/openai-ipo-wait-grows-longer-as-ai-safety-fears-mount-cfo/">Fortune, 14.09.2026</a></li>
+<li>Ceny tokenów: <a href="https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html">CNBC, 1.09.2026</a></li>
+<li>Budżet i AI w Polsce: <a href="https://www.gov.pl/web/finanse/sejm-przyjal-ustawe-budzetowa-na-2026-rok">gov.pl</a>; <a href="https://itwiz.pl/ministerstwo-cyfryzacji-zaczelo-konsultacje-dotyczace-polityki-rozwoju-ai-w-polsce/">ITwiz</a>; centra danych: <a href="https://www.wnp.pl/rynki/raport-polski-rynek-centrow-danych-przekroczyl-poziom-200-mw-i-wyraznie-przyspiesza,1029738.html">wnp.pl / Cushman &amp; Wakefield</a>; moc światowa: <a href="https://epoch.ai/data-insights/ai-supercomputers-performance-share-by-country">Epoch AI</a>; <a href="https://www.cyfronet.pl/en/news/2026/top500-green500-06-2026">Cyfronet / TOP500</a></li>
+<li>Gigafabryka SI: <a href="https://cyfrowa.rp.pl/opinie-i-komentarze/art45200751-bez-centrow-danych-nie-bedzie-rozwoju-teraz-czas-na-biznes">„Rzeczpospolita”, wywiad z D. Standerskim, 28.09.2026</a>; <a href="https://cyberdefence24.pl/polityka-i-prawo/polska/gigafabryka-ai-coraz-blizej-standerski-negocjacje-bliskie-konca">cyberdefence24, 8.06.2026</a>; <a href="https://www.wnp.pl/tech/polska-i-czechy-wspolnym-glosem-ws-gigafabryki-ai-to-ma-przekonac-komisje-europejska,1095887.html">wnp.pl: memorandum Polski i Czech, IX 2026</a>; <a href="https://www.gov.pl/web/cyfryzacja/polska-rozpoczela-wspolprace-z-czechami-nad-wspolnym-wnioskiem-o-baltic-ai-gigafactory">Ministerstwo Cyfryzacji</a></li>
+<li>Talent: <a href="https://stats.ioinformatics.org/countries/POL">statystyki IOI</a>; <a href="https://archivemacropolo.org/interactive/digital-projects/the-global-ai-talent-tracker">MacroPolo Global AI Talent Tracker</a>; Bielik: <a href="https://arxiv.org/abs/2505.02550">arXiv 2505.02550</a>; Llama 3.1: <a href="https://huggingface.co/meta-llama/Llama-3.1-405B">karta modelu</a></li>
+<li>Archiwum anteny Radia Wnet (Szpieg+): „Poranek Wnet” 13.08.2026 i 4.09.2026, serwis informacyjny 15.09.2026</li>
+<li>Pomiary własne Radia Wnet, 28.09.2026 – dane i kod w paczce „Przyłap nas”</li>
+</ol>
+</details>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const DANE = {"Jev":{"proc":87,"p50_s":0.28,"koszt_gr":0.36},"Opus 5.5":{"proc":100,"p50_s":5.02,"koszt_gr":49.51},"GPT-6 Astra":{"proc":100,"p50_s":2.5,"koszt_gr":60.97},"Gemini Flash":{"proc":100,"p50_s":3.77,"koszt_gr":15.13},"Haiku 4.5":{"proc":95,"p50_s":2.8,"koszt_gr":22.25},"GPT-5.4 mini":{"proc":67,"p50_s":1.0,"koszt_gr":4.34}};
+const FMT = {proc:v=>v+"%", p50_s:v=>v.toFixed(2).replace(".",",")+" s", koszt_gr:v=>v.toFixed(v<1?2:1).replace(".",",")+" gr"};
+const tip = document.getElementById("tip");
+document.querySelectorAll("[data-wykres]").forEach(el=>{
+  const k = el.dataset.wykres, max = Math.max(...Object.values(DANE).map(d=>d[k]));
+  for (const [m,d] of Object.entries(DANE)){
+    const r = document.createElement("div"); r.className = "bar"+(m==="Jev"?" jev":"");
+    const pct = Math.max(1, 100*d[k]/max);
+    r.innerHTML = `<span class="nazwa">${m}</span><span class="tor"><span class="w" style="display:block;width:${pct*0.7}%"></span><span class="v" style="left:${pct*0.7}%">${FMT[k](d[k])}</span></span>`;
+    r.addEventListener("mousemove",e=>{tip.textContent=`${m}: trafność ${d.proc}%, ${FMT.p50_s(d.p50_s)} na pytanie, ${FMT.koszt_gr(d.koszt_gr)} za zestaw`;tip.style.left=(e.clientX+12)+"px";tip.style.top=(e.clientY+12)+"px";tip.style.opacity=1});
+    r.addEventListener("mouseleave",()=>tip.style.opacity=0);
+    el.appendChild(r);
+  }
+});
+</script>
+</body>
+</html>

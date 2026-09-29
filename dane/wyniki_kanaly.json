@@ -1,0 +1,8027 @@
+{
+ "data": "2026-09-29 11:32:39 +0200",
+ "wyniki": [
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.85,
+    "probabilities": {
+     "D": 0.89,
+     "B": 0.01,
+     "C": 0.1,
+     "A": 0.0
+    }
+   },
+   "s": 0.499,
+   "serwer_ms": "61",
+   "id_generacji": null,
+   "tok_in": 414,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 0.0,
+     "B": 1.0,
+     "D": 0.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.25,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 1.0,
+     "D": 0.0,
+     "A": 0.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.27,
+   "serwer_ms": "54",
+   "id_generacji": null,
+   "tok_in": 436,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 1.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.249,
+   "serwer_ms": "53",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.98,
+    "probabilities": {
+     "B": 0.99,
+     "C": 0.0,
+     "A": 0.0,
+     "D": 0.01
+    }
+   },
+   "s": 0.285,
+   "serwer_ms": "88",
+   "id_generacji": null,
+   "tok_in": 423,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.91,
+    "probabilities": {
+     "D": 0.05,
+     "C": 0.02,
+     "B": 0.93,
+     "A": 0.0
+    }
+   },
+   "s": 0.242,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 425,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.36,
+    "probabilities": {
+     "D": 0.52,
+     "C": 0.01,
+     "B": 0.21,
+     "A": 0.26
+    }
+   },
+   "s": 0.285,
+   "serwer_ms": "86",
+   "id_generacji": null,
+   "tok_in": 451,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.92,
+    "probabilities": {
+     "A": 0.05,
+     "B": 0.01,
+     "C": 0.94,
+     "D": 0.0
+    }
+   },
+   "s": 0.306,
+   "serwer_ms": "110",
+   "id_generacji": null,
+   "tok_in": 398,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.95,
+    "probabilities": {
+     "A": 0.96,
+     "D": 0.0,
+     "C": 0.04,
+     "B": 0.0
+    }
+   },
+   "s": 0.248,
+   "serwer_ms": "47",
+   "id_generacji": null,
+   "tok_in": 393,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "B": 0.0,
+     "A": 0.0,
+     "D": 1.0
+    }
+   },
+   "s": 0.269,
+   "serwer_ms": "66",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.91,
+    "probabilities": {
+     "D": 0.06,
+     "A": 0.0,
+     "C": 0.9400000000000001,
+     "B": 0.0
+    }
+   },
+   "s": 0.285,
+   "serwer_ms": "85",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.86,
+    "probabilities": {
+     "B": 0.07,
+     "D": 0.0,
+     "A": 0.89,
+     "C": 0.04
+    }
+   },
+   "s": 0.243,
+   "serwer_ms": "45",
+   "id_generacji": null,
+   "tok_in": 416,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 1.0,
+     "C": 0.0,
+     "B": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.329,
+   "serwer_ms": "132",
+   "id_generacji": null,
+   "tok_in": 418,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.96,
+    "probabilities": {
+     "D": 0.0,
+     "C": 0.02,
+     "B": 0.97,
+     "A": 0.01
+    }
+   },
+   "s": 0.239,
+   "serwer_ms": "46",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.22,
+    "probabilities": {
+     "B": 0.23,
+     "A": 0.35,
+     "D": 0.42,
+     "C": 0.0
+    }
+   },
+   "s": 0.281,
+   "serwer_ms": "76",
+   "id_generacji": null,
+   "tok_in": 430,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.96,
+    "probabilities": {
+     "A": 0.98,
+     "B": 0.0,
+     "C": 0.02,
+     "D": 0.0
+    }
+   },
+   "s": 0.256,
+   "serwer_ms": "57",
+   "id_generacji": null,
+   "tok_in": 408,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.97,
+    "probabilities": {
+     "A": 0.02,
+     "D": 0.0,
+     "C": 0.0,
+     "B": 0.98
+    }
+   },
+   "s": 0.272,
+   "serwer_ms": "77",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.81,
+    "probabilities": {
+     "C": 0.11,
+     "A": 0.04,
+     "B": 0.0,
+     "D": 0.85
+    }
+   },
+   "s": 0.258,
+   "serwer_ms": "54",
+   "id_generacji": null,
+   "tok_in": 708,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "s": 0.271,
+   "serwer_ms": "69",
+   "id_generacji": null,
+   "tok_in": 571,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.95
+   },
+   "s": 0.281,
+   "serwer_ms": "61",
+   "id_generacji": null,
+   "tok_in": 842,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "s": 0.233,
+   "serwer_ms": "36",
+   "id_generacji": null,
+   "tok_in": 850,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "s": 0.242,
+   "serwer_ms": "43",
+   "id_generacji": null,
+   "tok_in": 674,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.99,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 1.0
+    }
+   },
+   "s": 0.319,
+   "serwer_ms": "126",
+   "id_generacji": null,
+   "tok_in": 579,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "s": 0.288,
+   "serwer_ms": "87",
+   "id_generacji": null,
+   "tok_in": 1034,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.82
+   },
+   "s": 0.274,
+   "serwer_ms": "77",
+   "id_generacji": null,
+   "tok_in": 1033,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.33
+   },
+   "s": 0.24,
+   "serwer_ms": "41",
+   "id_generacji": null,
+   "tok_in": 360,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "s": 0.262,
+   "serwer_ms": "61",
+   "id_generacji": null,
+   "tok_in": 365,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "s": 0.281,
+   "serwer_ms": "74",
+   "id_generacji": null,
+   "tok_in": 976,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.9
+   },
+   "s": 0.27,
+   "serwer_ms": "71",
+   "id_generacji": null,
+   "tok_in": 1001,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.306,
+   "serwer_ms": "102",
+   "id_generacji": null,
+   "tok_in": 1071,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "s": 0.283,
+   "serwer_ms": "86",
+   "id_generacji": null,
+   "tok_in": 865,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.29
+   },
+   "s": 0.27,
+   "serwer_ms": "72",
+   "id_generacji": null,
+   "tok_in": 773,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.68,
+    "probabilities": {
+     "C": 0.76,
+     "A": 0.0,
+     "B": 0.01,
+     "D": 0.23
+    }
+   },
+   "s": 0.599,
+   "serwer_ms": "39",
+   "id_generacji": null,
+   "tok_in": 406,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.94,
+    "probabilities": {
+     "C": 0.04,
+     "B": 0.96,
+     "A": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.294,
+   "serwer_ms": "80",
+   "id_generacji": null,
+   "tok_in": 537,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.0,
+     "D": 0.0,
+     "C": 1.0
+    }
+   },
+   "s": 0.272,
+   "serwer_ms": "68",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.81,
+    "probabilities": {
+     "A": 0.14,
+     "B": 0.86,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.265,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 405,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.97
+   },
+   "s": 0.249,
+   "serwer_ms": "45",
+   "id_generacji": null,
+   "tok_in": 363,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "s": 0.268,
+   "serwer_ms": "64",
+   "id_generacji": null,
+   "tok_in": 375,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.99,
+    "probabilities": {
+     "B": 0.0,
+     "A": 1.0,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.279,
+   "serwer_ms": "81",
+   "id_generacji": null,
+   "tok_in": 438,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.16,
+    "probabilities": {
+     "A": 0.19,
+     "B": 0.27,
+     "C": 0.38,
+     "D": 0.16
+    }
+   },
+   "s": 0.251,
+   "serwer_ms": "54",
+   "id_generacji": null,
+   "tok_in": 475,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.17,
+    "probabilities": {
+     "D": 0.13,
+     "B": 0.35,
+     "A": 0.13,
+     "C": 0.39
+    }
+   },
+   "s": 0.312,
+   "serwer_ms": "95",
+   "id_generacji": null,
+   "tok_in": 420,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.89,
+    "probabilities": {
+     "A": 0.02,
+     "B": 0.93,
+     "C": 0.0,
+     "D": 0.05
+    }
+   },
+   "s": 0.248,
+   "serwer_ms": "38",
+   "id_generacji": null,
+   "tok_in": 464,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.57,
+    "probabilities": {
+     "C": 0.68,
+     "D": 0.01,
+     "A": 0.31,
+     "B": 0.0
+    }
+   },
+   "s": 0.249,
+   "serwer_ms": "38",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.6,
+    "probabilities": {
+     "A": 0.19,
+     "C": 0.7,
+     "D": 0.01,
+     "B": 0.1
+    }
+   },
+   "s": 0.291,
+   "serwer_ms": "92",
+   "id_generacji": null,
+   "tok_in": 485,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.84,
+    "probabilities": {
+     "A": 0.08,
+     "B": 0.04,
+     "C": 0.0,
+     "D": 0.88
+    }
+   },
+   "s": 0.258,
+   "serwer_ms": "46",
+   "id_generacji": null,
+   "tok_in": 534,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.96,
+    "probabilities": {
+     "A": 0.0,
+     "C": 0.01,
+     "B": 0.02,
+     "D": 0.97
+    }
+   },
+   "s": 0.243,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 450,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.68,
+    "probabilities": {
+     "B": 0.76,
+     "C": 0.12,
+     "A": 0.04,
+     "D": 0.08
+    }
+   },
+   "s": 0.265,
+   "serwer_ms": "51",
+   "id_generacji": null,
+   "tok_in": 468,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.81,
+    "probabilities": {
+     "C": 0.01,
+     "D": 0.85,
+     "A": 0.06,
+     "B": 0.08
+    }
+   },
+   "s": 0.249,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 508,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.82
+   },
+   "s": 0.293,
+   "serwer_ms": "73",
+   "id_generacji": null,
+   "tok_in": 419,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.03
+   },
+   "s": 0.267,
+   "serwer_ms": "66",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.62,
+    "probabilities": {
+     "B": 0.05,
+     "A": 0.19,
+     "D": 0.72,
+     "C": 0.04
+    }
+   },
+   "s": 0.258,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.79,
+    "probabilities": {
+     "D": 0.85,
+     "C": 0.15,
+     "A": 0.0,
+     "B": 0.0
+    }
+   },
+   "s": 0.262,
+   "serwer_ms": "57",
+   "id_generacji": null,
+   "tok_in": 472,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "A",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.54,
+    "probabilities": {
+     "A": 0.3,
+     "B": 0.04,
+     "D": 0.01,
+     "C": 0.65
+    }
+   },
+   "s": 0.331,
+   "serwer_ms": "137",
+   "id_generacji": null,
+   "tok_in": 480,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.37,
+    "probabilities": {
+     "B": 0.04,
+     "A": 0.02,
+     "D": 0.41,
+     "C": 0.53
+    }
+   },
+   "s": 0.263,
+   "serwer_ms": "67",
+   "id_generacji": null,
+   "tok_in": 488,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "D": 1.0,
+     "B": 0.0,
+     "C": 0.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.305,
+   "serwer_ms": "110",
+   "id_generacji": null,
+   "tok_in": 583,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 1.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.26,
+   "serwer_ms": "45",
+   "id_generacji": null,
+   "tok_in": 588,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "D": 0.87,
+     "B": 0.01,
+     "C": 0.12,
+     "A": 0
+    },
+    "confidence": 0.83
+   },
+   "s": 0.514,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674273-nhMw9T02LjwQIUk8YqpN",
+   "tok_in": 414,
+   "koszt_usd": 1.7388e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 1,
+     "A": 0,
+     "D": 0,
+     "C": 0
+    },
+    "confidence": 0.99
+   },
+   "s": 0.342,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674273-xm48gP3gvRQuDJQ7vP8s",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "C": 0,
+     "A": 0,
+     "B": 1,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.325,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674273-1jEWNODqxjcMUpM9SME9",
+   "tok_in": 436,
+   "koszt_usd": 1.8312e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0,
+     "B": 0,
+     "A": 0,
+     "C": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.4,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674274-3GZkpBWqaf8Bt5UrGVHe",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0,
+     "B": 0.99,
+     "C": 0,
+     "D": 0.01
+    },
+    "confidence": 0.98
+   },
+   "s": 0.257,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674274-Cwlm3OBjhaoNK8bEIM3I",
+   "tok_in": 423,
+   "koszt_usd": 1.7766e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "D": 0.04,
+     "B": 0.93,
+     "C": 0.02,
+     "A": 0
+    },
+    "confidence": 0.91
+   },
+   "s": 0.302,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674274-uYLs3LwqyOfNxURyq96i",
+   "tok_in": 425,
+   "koszt_usd": 1.785e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.24,
+     "B": 0.22,
+     "C": 0.01,
+     "D": 0.53
+    },
+    "confidence": 0.38
+   },
+   "s": 0.37,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674275-Agu6rOgLiZhdhIsP8Y3Y",
+   "tok_in": 451,
+   "koszt_usd": 1.8942e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0,
+     "B": 0.01,
+     "A": 0.06,
+     "C": 0.93
+    },
+    "confidence": 0.91
+   },
+   "s": 0.316,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674275-wGqEeTV1yV4nhXRggEk8",
+   "tok_in": 398,
+   "koszt_usd": 1.6716e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "C": 0.04,
+     "D": 0,
+     "A": 0.96,
+     "B": 0
+    },
+    "confidence": 0.94
+   },
+   "s": 0.313,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674275-Ab5y5Ki1cIp5gmvkyfRV",
+   "tok_in": 393,
+   "koszt_usd": 1.6506e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0,
+     "B": 0,
+     "A": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.286,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674276-tIyqDxlCKjxoXonb3nbg",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.08,
+     "A": 0,
+     "B": 0.01,
+     "C": 0.91
+    },
+    "confidence": 0.88
+   },
+   "s": 0.252,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674276-MgS9VVA3lxgbIgjBq0VC",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "D": 0,
+     "A": 0.88,
+     "B": 0.08,
+     "C": 0.04
+    },
+    "confidence": 0.85
+   },
+   "s": 0.312,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674276-MxNMrGUpBTH9jNwnhMdo",
+   "tok_in": 416,
+   "koszt_usd": 1.7472e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "D": 0,
+     "C": 0,
+     "B": 0,
+     "A": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.258,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674277-gAGAygtOelP5nzZbnkRs",
+   "tok_in": 418,
+   "koszt_usd": 1.7556e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.98,
+     "A": 0.01,
+     "D": 0,
+     "C": 0.01
+    },
+    "confidence": 0.97
+   },
+   "s": 0.329,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674277-mFhZJ0LijEzD0JRbj4XN",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "D": 0.45,
+     "A": 0.37,
+     "B": 0.18,
+     "C": 0
+    },
+    "confidence": 0.26
+   },
+   "s": 0.32,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674277-Vc2alHhPfUCcn6Kp3EwJ",
+   "tok_in": 430,
+   "koszt_usd": 1.806e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 0.97,
+     "C": 0.03,
+     "D": 0,
+     "B": 0
+    },
+    "confidence": 0.96
+   },
+   "s": 0.315,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674277-ZaOSWtKc98IuAMMqiiye",
+   "tok_in": 408,
+   "koszt_usd": 1.7136e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.02,
+     "C": 0,
+     "B": 0.98,
+     "D": 0
+    },
+    "confidence": 0.97
+   },
+   "s": 0.297,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674278-3dKmgemP7oEnXlFO8rw9",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0,
+     "A": 0.03,
+     "C": 0.1,
+     "D": 0.87
+    },
+    "confidence": 0.82
+   },
+   "s": 0.287,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674278-BxZYslu8mdMie0UL6D2c",
+   "tok_in": 708,
+   "koszt_usd": 2.9736e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.14
+   },
+   "s": 0.503,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674278-Q8cvb7aqQMywXNNfol0V",
+   "tok_in": 571,
+   "koszt_usd": 2.3982e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.94
+   },
+   "s": 0.334,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674279-LvUj7zSf0IGG0nHch2J3",
+   "tok_in": 842,
+   "koszt_usd": 3.5364e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "s": 0.31,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674279-o0uPXZXTV2XBLso3rJl3",
+   "tok_in": 850,
+   "koszt_usd": 3.57e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "s": 0.291,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674280-6T45u9EJjibPXkIXs7Fv",
+   "tok_in": 674,
+   "koszt_usd": 2.8308e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "C": 0,
+     "B": 0,
+     "D": 1
+    },
+    "confidence": 0.99
+   },
+   "s": 0.316,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674280-ZrUvIMyRCoNAohVDswqe",
+   "tok_in": 579,
+   "koszt_usd": 2.4318e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "s": 0.268,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674280-HeuV2lEXur3P46d4yEnV",
+   "tok_in": 1034,
+   "koszt_usd": 4.3428e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.8
+   },
+   "s": 0.274,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674281-SN8KlLytL6WRD07sifBF",
+   "tok_in": 1033,
+   "koszt_usd": 4.3386e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.26
+   },
+   "s": 0.28,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674281-4d7z5CxOjkbJ3k455qZs",
+   "tok_in": 360,
+   "koszt_usd": 1.512e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "s": 0.278,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674281-Gox7HyrP9vTGr3Am643K",
+   "tok_in": 365,
+   "koszt_usd": 1.533e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.73
+   },
+   "s": 0.35,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674281-CAnbXt83czdBR8q89m1k",
+   "tok_in": 976,
+   "koszt_usd": 4.0992e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.91
+   },
+   "s": 0.293,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674282-bTk2aAbCLpnhDeybsNRK",
+   "tok_in": 1001,
+   "koszt_usd": 4.2042e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.289,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674282-ZGN5nPett8b3Sfqos6zI",
+   "tok_in": 1071,
+   "koszt_usd": 4.4982e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "s": 0.265,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674282-rGnN0hmtJrPu2TbvcR1s",
+   "tok_in": 865,
+   "koszt_usd": 3.633e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.32
+   },
+   "s": 0.344,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674283-a7mmtGeKuY6zphNVj44K",
+   "tok_in": 773,
+   "koszt_usd": 3.2466e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "B": 0.01,
+     "D": 0.22,
+     "A": 0,
+     "C": 0.77
+    },
+    "confidence": 0.69
+   },
+   "s": 0.307,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674283-M84G4dpn7wqGRBsoJbG7",
+   "tok_in": 406,
+   "koszt_usd": 1.7052e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "D": 0,
+     "A": 0,
+     "C": 0.06,
+     "B": 0.94
+    },
+    "confidence": 0.93
+   },
+   "s": 0.241,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674283-pHLlsz0vuXW4bQjBqNLI",
+   "tok_in": 537,
+   "koszt_usd": 2.2554e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "C": 1,
+     "B": 0,
+     "A": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.283,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674284-QJFn7S4TMZeuQMXslE28",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.74,
+     "D": 0,
+     "A": 0.26,
+     "C": 0
+    },
+    "confidence": 0.65
+   },
+   "s": 0.293,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674284-JJOQUUo6G5tIrpME7BtY",
+   "tok_in": 405,
+   "koszt_usd": 1.701e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "s": 0.25,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674284-bZ3DPwbN5oReD8cuZfCl",
+   "tok_in": 363,
+   "koszt_usd": 1.5246e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "s": 0.334,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674285-7IYLDUBDWybhr2Cdzqve",
+   "tok_in": 375,
+   "koszt_usd": 1.575e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "D": 0,
+     "C": 0,
+     "B": 0,
+     "A": 1
+    },
+    "confidence": 0.99
+   },
+   "s": 0.282,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674285-Ii7bHnA6cXoeBM7opa7J",
+   "tok_in": 438,
+   "koszt_usd": 1.8396e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.17,
+     "B": 0.2,
+     "D": 0.18,
+     "C": 0.45
+    },
+    "confidence": 0.27
+   },
+   "s": 0.356,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674285-lEtInBV8yyeX7fOvQif2",
+   "tok_in": 475,
+   "koszt_usd": 1.995e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.1,
+     "B": 0.28,
+     "A": 0.11,
+     "C": 0.51
+    },
+    "confidence": 0.34
+   },
+   "s": 0.38,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674286-EpOp9xsT5RKMzb8kL4zQ",
+   "tok_in": 420,
+   "koszt_usd": 1.764e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "D": 0.05,
+     "B": 0.92,
+     "A": 0.02,
+     "C": 0.01
+    },
+    "confidence": 0.89
+   },
+   "s": 0.274,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674286-nH9RzpmgtO1ApLPZceFm",
+   "tok_in": 464,
+   "koszt_usd": 1.9488e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.3,
+     "C": 0.69,
+     "B": 0,
+     "D": 0.01
+    },
+    "confidence": 0.59
+   },
+   "s": 0.36,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674286-kTBIJesoT5tUFCfQuks0",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "B": 0.09,
+     "D": 0.01,
+     "A": 0.17,
+     "C": 0.73
+    },
+    "confidence": 0.64
+   },
+   "s": 0.247,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674287-cB5HJ9d3gEQgwltJdpH6",
+   "tok_in": 485,
+   "koszt_usd": 2.037e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0,
+     "B": 0.03,
+     "A": 0.05,
+     "D": 0.92
+    },
+    "confidence": 0.88
+   },
+   "s": 0.327,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674287-DNdpbilemzsqhFxD5R89",
+   "tok_in": 534,
+   "koszt_usd": 2.2428e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.01,
+     "B": 0.02,
+     "A": 0,
+     "D": 0.97
+    },
+    "confidence": 0.96
+   },
+   "s": 0.308,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674287-kGHRURegA3eRvuGLdSul",
+   "tok_in": 450,
+   "koszt_usd": 1.89e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.04,
+     "B": 0.77,
+     "C": 0.12,
+     "D": 0.07
+    },
+    "confidence": 0.7
+   },
+   "s": 0.434,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674288-ZSmiaZrz47bnnAh8Tbcj",
+   "tok_in": 468,
+   "koszt_usd": 1.9656e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "D": 0.82,
+     "A": 0.09,
+     "B": 0.08,
+     "C": 0.01
+    },
+    "confidence": 0.76
+   },
+   "s": 0.312,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674288-bWDva5l6YV9nZasjnhgz",
+   "tok_in": 508,
+   "koszt_usd": 2.1336e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.81
+   },
+   "s": 0.496,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674288-YbgvNA1XAkbE3k2qq6Fp",
+   "tok_in": 419,
+   "koszt_usd": 1.7598e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "s": 0.267,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674289-9UdqwOmFHV2BuGPfF3kr",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "D": 0.82,
+     "A": 0.11,
+     "B": 0.04,
+     "C": 0.03
+    },
+    "confidence": 0.77
+   },
+   "s": 0.342,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674289-37svs8nTNfOAIawNAYvr",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.13,
+     "B": 0,
+     "A": 0,
+     "D": 0.87
+    },
+    "confidence": 0.82
+   },
+   "s": 0.272,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674289-Zo0KGfnmij4AKSY9P4fE",
+   "tok_in": 472,
+   "koszt_usd": 1.9824e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "A",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "C": 0.59,
+     "D": 0.01,
+     "A": 0.34,
+     "B": 0.06
+    },
+    "confidence": 0.46
+   },
+   "s": 0.27,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674290-vw2H3vN5JMVaic57ZaO0",
+   "tok_in": 480,
+   "koszt_usd": 2.016e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.02,
+     "C": 0.5,
+     "B": 0.04,
+     "D": 0.44
+    },
+    "confidence": 0.33
+   },
+   "s": 0.249,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674290-gBPUvH2dUGrvPb6jDmit",
+   "tok_in": 488,
+   "koszt_usd": 2.0496e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0,
+     "A": 0,
+     "B": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.29,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674290-Wp6wgqisnpAz2LWFMeVq",
+   "tok_in": 583,
+   "koszt_usd": 2.4486e-05
+  },
+  {
+   "przebieg": 1,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 1,
+     "B": 0,
+     "C": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.297,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674291-N7jTu0hihmM8f8imVKnG",
+   "tok_in": 588,
+   "koszt_usd": 2.4696e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.81,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.01,
+     "C": 0.13,
+     "D": 0.86
+    }
+   },
+   "s": 0.245,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 414,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 0.0,
+     "B": 1.0,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.236,
+   "serwer_ms": "40",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "D": 0.0,
+     "C": 0.0,
+     "B": 1.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.244,
+   "serwer_ms": "44",
+   "id_generacji": null,
+   "tok_in": 436,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 1.0,
+     "A": 0.0,
+     "B": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.253,
+   "serwer_ms": "54",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.98,
+    "probabilities": {
+     "D": 0.01,
+     "B": 0.99,
+     "C": 0.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.284,
+   "serwer_ms": "62",
+   "id_generacji": null,
+   "tok_in": 423,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.92,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.95,
+     "D": 0.04,
+     "C": 0.01
+    }
+   },
+   "s": 0.235,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 425,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.38,
+    "probabilities": {
+     "A": 0.22,
+     "B": 0.24,
+     "C": 0.01,
+     "D": 0.53
+    }
+   },
+   "s": 0.29,
+   "serwer_ms": "78",
+   "id_generacji": null,
+   "tok_in": 451,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.88,
+    "probabilities": {
+     "D": 0.0,
+     "B": 0.0,
+     "A": 0.08,
+     "C": 0.92
+    }
+   },
+   "s": 0.242,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 398,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.95,
+    "probabilities": {
+     "B": 0.0,
+     "D": 0.0,
+     "A": 0.97,
+     "C": 0.03
+    }
+   },
+   "s": 0.232,
+   "serwer_ms": "37",
+   "id_generacji": null,
+   "tok_in": 393,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "B": 0.0,
+     "A": 0.0,
+     "D": 1.0
+    }
+   },
+   "s": 0.282,
+   "serwer_ms": "88",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.86,
+    "probabilities": {
+     "A": 0.0,
+     "C": 0.91,
+     "B": 0.0,
+     "D": 0.09
+    }
+   },
+   "s": 0.292,
+   "serwer_ms": "79",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.88,
+    "probabilities": {
+     "D": 0.0,
+     "B": 0.06,
+     "C": 0.04,
+     "A": 0.9
+    }
+   },
+   "s": 0.3,
+   "serwer_ms": "102",
+   "id_generacji": null,
+   "tok_in": 416,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "A": 1.0,
+     "B": 0.0,
+     "D": 0.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.281,
+   "serwer_ms": "83",
+   "id_generacji": null,
+   "tok_in": 418,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.97,
+    "probabilities": {
+     "A": 0.01,
+     "D": 0.0,
+     "C": 0.01,
+     "B": 0.98
+    }
+   },
+   "s": 0.266,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.31,
+    "probabilities": {
+     "A": 0.33,
+     "B": 0.19,
+     "C": 0.0,
+     "D": 0.48
+    }
+   },
+   "s": 0.234,
+   "serwer_ms": "34",
+   "id_generacji": null,
+   "tok_in": 430,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.96,
+    "probabilities": {
+     "D": 0.0,
+     "B": 0.0,
+     "A": 0.97,
+     "C": 0.03
+    }
+   },
+   "s": 0.255,
+   "serwer_ms": "56",
+   "id_generacji": null,
+   "tok_in": 408,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.96,
+    "probabilities": {
+     "C": 0.0,
+     "B": 0.97,
+     "A": 0.03,
+     "D": 0.0
+    }
+   },
+   "s": 0.25,
+   "serwer_ms": "38",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.78,
+    "probabilities": {
+     "C": 0.13,
+     "D": 0.83,
+     "A": 0.04,
+     "B": 0.0
+    }
+   },
+   "s": 0.238,
+   "serwer_ms": "39",
+   "id_generacji": null,
+   "tok_in": 708,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.14
+   },
+   "s": 0.26,
+   "serwer_ms": "45",
+   "id_generacji": null,
+   "tok_in": 571,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.94
+   },
+   "s": 0.284,
+   "serwer_ms": "83",
+   "id_generacji": null,
+   "tok_in": 842,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "s": 0.273,
+   "serwer_ms": "70",
+   "id_generacji": null,
+   "tok_in": 850,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "s": 0.243,
+   "serwer_ms": "44",
+   "id_generacji": null,
+   "tok_in": 674,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.99,
+    "probabilities": {
+     "D": 1.0,
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.295,
+   "serwer_ms": "97",
+   "id_generacji": null,
+   "tok_in": 579,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "s": 0.25,
+   "serwer_ms": "39",
+   "id_generacji": null,
+   "tok_in": 1034,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.8
+   },
+   "s": 0.288,
+   "serwer_ms": "79",
+   "id_generacji": null,
+   "tok_in": 1033,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.3
+   },
+   "s": 0.245,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 360,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "s": 0.292,
+   "serwer_ms": "83",
+   "id_generacji": null,
+   "tok_in": 365,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.78
+   },
+   "s": 0.279,
+   "serwer_ms": "85",
+   "id_generacji": null,
+   "tok_in": 976,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.9
+   },
+   "s": 0.247,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 1001,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.274,
+   "serwer_ms": "77",
+   "id_generacji": null,
+   "tok_in": 1071,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.51
+   },
+   "s": 0.281,
+   "serwer_ms": "66",
+   "id_generacji": null,
+   "tok_in": 865,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.33
+   },
+   "s": 0.253,
+   "serwer_ms": "43",
+   "id_generacji": null,
+   "tok_in": 773,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.71,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.01,
+     "D": 0.2,
+     "C": 0.79
+    }
+   },
+   "s": 0.245,
+   "serwer_ms": "47",
+   "id_generacji": null,
+   "tok_in": 406,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.95,
+    "probabilities": {
+     "B": 0.96,
+     "D": 0.0,
+     "A": 0.0,
+     "C": 0.04
+    }
+   },
+   "s": 0.247,
+   "serwer_ms": "49",
+   "id_generacji": null,
+   "tok_in": 537,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 1.0,
+     "D": 0.0,
+     "A": 0.0,
+     "B": 0.0
+    }
+   },
+   "s": 0.274,
+   "serwer_ms": "80",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.74,
+    "probabilities": {
+     "D": 0.0,
+     "A": 0.2,
+     "B": 0.8,
+     "C": 0.0
+    }
+   },
+   "s": 0.263,
+   "serwer_ms": "54",
+   "id_generacji": null,
+   "tok_in": 405,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "s": 0.237,
+   "serwer_ms": "36",
+   "id_generacji": null,
+   "tok_in": 363,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "s": 0.311,
+   "serwer_ms": "112",
+   "id_generacji": null,
+   "tok_in": 375,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.99,
+    "probabilities": {
+     "B": 0.0,
+     "A": 1.0,
+     "D": 0.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.273,
+   "serwer_ms": "61",
+   "id_generacji": null,
+   "tok_in": 438,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.15,
+    "probabilities": {
+     "B": 0.31,
+     "A": 0.19,
+     "D": 0.13,
+     "C": 0.37
+    }
+   },
+   "s": 0.337,
+   "serwer_ms": "139",
+   "id_generacji": null,
+   "tok_in": 475,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.22,
+    "probabilities": {
+     "A": 0.16,
+     "C": 0.41,
+     "D": 0.11,
+     "B": 0.32
+    }
+   },
+   "s": 0.231,
+   "serwer_ms": "36",
+   "id_generacji": null,
+   "tok_in": 420,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.87,
+    "probabilities": {
+     "A": 0.03,
+     "C": 0.01,
+     "D": 0.06,
+     "B": 0.9
+    }
+   },
+   "s": 0.274,
+   "serwer_ms": "75",
+   "id_generacji": null,
+   "tok_in": 464,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.63,
+    "probabilities": {
+     "A": 0.27,
+     "B": 0.0,
+     "C": 0.72,
+     "D": 0.01
+    }
+   },
+   "s": 0.259,
+   "serwer_ms": "59",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.68,
+    "probabilities": {
+     "D": 0.01,
+     "A": 0.15,
+     "C": 0.76,
+     "B": 0.08
+    }
+   },
+   "s": 0.277,
+   "serwer_ms": "81",
+   "id_generacji": null,
+   "tok_in": 485,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.78,
+    "probabilities": {
+     "A": 0.13,
+     "B": 0.03,
+     "C": 0.01,
+     "D": 0.83
+    }
+   },
+   "s": 0.366,
+   "serwer_ms": "154",
+   "id_generacji": null,
+   "tok_in": 534,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.94,
+    "probabilities": {
+     "D": 0.95,
+     "A": 0.01,
+     "B": 0.03,
+     "C": 0.01
+    }
+   },
+   "s": 0.274,
+   "serwer_ms": "66",
+   "id_generacji": null,
+   "tok_in": 450,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.74,
+    "probabilities": {
+     "A": 0.03,
+     "B": 0.8,
+     "C": 0.11,
+     "D": 0.06
+    }
+   },
+   "s": 0.255,
+   "serwer_ms": "63",
+   "id_generacji": null,
+   "tok_in": 468,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.78,
+    "probabilities": {
+     "A": 0.07,
+     "C": 0.01,
+     "D": 0.83,
+     "B": 0.09
+    }
+   },
+   "s": 0.368,
+   "serwer_ms": "172",
+   "id_generacji": null,
+   "tok_in": 508,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.83
+   },
+   "s": 0.272,
+   "serwer_ms": "65",
+   "id_generacji": null,
+   "tok_in": 419,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.03
+   },
+   "s": 0.283,
+   "serwer_ms": "77",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.68,
+    "probabilities": {
+     "A": 0.15,
+     "B": 0.06,
+     "C": 0.03,
+     "D": 0.76
+    }
+   },
+   "s": 0.236,
+   "serwer_ms": "38",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.77,
+    "probabilities": {
+     "C": 0.17,
+     "B": 0.0,
+     "A": 0.0,
+     "D": 0.83
+    }
+   },
+   "s": 0.253,
+   "serwer_ms": "46",
+   "id_generacji": null,
+   "tok_in": 472,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "A",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.3,
+    "probabilities": {
+     "A": 0.46,
+     "B": 0.06,
+     "C": 0.47,
+     "D": 0.01
+    }
+   },
+   "s": 0.281,
+   "serwer_ms": "71",
+   "id_generacji": null,
+   "tok_in": 480,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.39,
+    "probabilities": {
+     "C": 0.54,
+     "B": 0.03,
+     "A": 0.03,
+     "D": 0.4
+    }
+   },
+   "s": 0.252,
+   "serwer_ms": "55",
+   "id_generacji": null,
+   "tok_in": 488,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 0.0,
+     "A": 0.0,
+     "D": 1.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.278,
+   "serwer_ms": "83",
+   "id_generacji": null,
+   "tok_in": 583,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "A": 1.0,
+     "B": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.281,
+   "serwer_ms": "67",
+   "id_generacji": null,
+   "tok_in": 588,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0.01,
+     "D": 0.88,
+     "C": 0.11
+    },
+    "confidence": 0.84
+   },
+   "s": 0.372,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674307-CIgxEtEOfh6FG46xz8Ck",
+   "tok_in": 414,
+   "koszt_usd": 1.7388e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 1,
+     "D": 0,
+     "A": 0,
+     "C": 0
+    },
+    "confidence": 0.99
+   },
+   "s": 0.268,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674307-ZIBW1DLAtzomACE5Vx5P",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0,
+     "B": 1,
+     "D": 0,
+     "C": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.254,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674307-xaXpaaSRBytSl4uIcB5H",
+   "tok_in": 436,
+   "koszt_usd": 1.8312e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0,
+     "A": 0,
+     "B": 0,
+     "C": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.311,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674308-LL6cYNIneoCji894ru2w",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0,
+     "B": 0.98,
+     "C": 0,
+     "D": 0.02
+    },
+    "confidence": 0.97
+   },
+   "s": 0.305,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674308-mykWEywCZrdosdAHxNjf",
+   "tok_in": 423,
+   "koszt_usd": 1.7766e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.96,
+     "D": 0.03,
+     "A": 0,
+     "C": 0.01
+    },
+    "confidence": 0.93
+   },
+   "s": 0.306,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674308-pIDd8rNZWtIFi0f6SiMz",
+   "tok_in": 425,
+   "koszt_usd": 1.785e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.24,
+     "B": 0.28,
+     "C": 0.01,
+     "D": 0.47
+    },
+    "confidence": 0.3
+   },
+   "s": 0.386,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674309-AQR2QO44Prdg5w5gKkhQ",
+   "tok_in": 451,
+   "koszt_usd": 1.8942e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "C": 0.97,
+     "D": 0,
+     "B": 0,
+     "A": 0.03
+    },
+    "confidence": 0.96
+   },
+   "s": 0.301,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674309-hLtQpUAwALXLsBCc7Nvr",
+   "tok_in": 398,
+   "koszt_usd": 1.6716e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "B": 0,
+     "A": 0.97,
+     "D": 0,
+     "C": 0.03
+    },
+    "confidence": 0.95
+   },
+   "s": 0.339,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674309-qGRrq8QJz99gbVZmT8tV",
+   "tok_in": 393,
+   "koszt_usd": 1.6506e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.319,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674310-XuRZNSkhsk5oXd7XmRVZ",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0.91,
+     "D": 0.09
+    },
+    "confidence": 0.87
+   },
+   "s": 0.284,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674310-xmkfIbcYYLeANlVYcI5J",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 0.9299999999999999,
+     "C": 0.04,
+     "D": 0,
+     "B": 0.03
+    },
+    "confidence": 0.92
+   },
+   "s": 0.454,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674310-9gX3G9XGzqMsQY46Fx1a",
+   "tok_in": 416,
+   "koszt_usd": 1.7472e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "C": 0,
+     "D": 0,
+     "B": 0,
+     "A": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.344,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674311-RP8jYMYvl7Yjm4xAJrqE",
+   "tok_in": 418,
+   "koszt_usd": 1.7556e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.01,
+     "C": 0.01,
+     "D": 0,
+     "B": 0.98
+    },
+    "confidence": 0.97
+   },
+   "s": 0.346,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674311-HPbLhQjXWavrB496VQEQ",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.26,
+     "B": 0.18,
+     "C": 0,
+     "D": 0.56
+    },
+    "confidence": 0.41
+   },
+   "s": 0.312,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674312-VALanBVc4qwKhtOo4710",
+   "tok_in": 430,
+   "koszt_usd": 1.806e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "B": 0,
+     "A": 0.98,
+     "D": 0,
+     "C": 0.02
+    },
+    "confidence": 0.97
+   },
+   "s": 0.321,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674312-hksoQTbU9BtjdVbMaTYv",
+   "tok_in": 408,
+   "koszt_usd": 1.7136e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.02,
+     "D": 0,
+     "C": 0,
+     "B": 0.98
+    },
+    "confidence": 0.97
+   },
+   "s": 0.348,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674312-JC1XfHquavj2WtvnSmkW",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0.01,
+     "C": 0.11,
+     "A": 0.03,
+     "D": 0.85
+    },
+    "confidence": 0.8
+   },
+   "s": 0.344,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674313-gXawL4yn6WsOAo9ZHlrD",
+   "tok_in": 708,
+   "koszt_usd": 2.9736e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.14
+   },
+   "s": 0.255,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674313-LqmiBCrkIEVo952sMZao",
+   "tok_in": 571,
+   "koszt_usd": 2.3982e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.95
+   },
+   "s": 0.283,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674313-QU8BGYKfzx0tE2KVgWHv",
+   "tok_in": 842,
+   "koszt_usd": 3.5364e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "s": 0.296,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674314-RFXM8yLrttCgBXoZRmty",
+   "tok_in": 850,
+   "koszt_usd": 3.57e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.44
+   },
+   "s": 0.286,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674314-hQ2N9xJaytwLaDtuMb8Y",
+   "tok_in": 674,
+   "koszt_usd": 2.8308e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0,
+     "C": 0,
+     "D": 1,
+     "A": 0
+    },
+    "confidence": 0.99
+   },
+   "s": 0.332,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674314-S2NGAojXe66Ba4XgSRDl",
+   "tok_in": 579,
+   "koszt_usd": 2.4318e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "s": 0.306,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674314-NqdSwzDsOR0KCiP5ADG5",
+   "tok_in": 1034,
+   "koszt_usd": 4.3428e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "s": 0.256,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674315-jwYLyGDyFZFxIafdgh3O",
+   "tok_in": 1033,
+   "koszt_usd": 4.3386e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.27
+   },
+   "s": 0.33,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674315-N9krIYx6VLSzQQVViqBL",
+   "tok_in": 360,
+   "koszt_usd": 1.512e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "s": 0.273,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674315-8fYQWwAHWjA2ufZzjk6s",
+   "tok_in": 365,
+   "koszt_usd": 1.533e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.8
+   },
+   "s": 0.304,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674316-ebitAquxw1goUzq2Qh8G",
+   "tok_in": 976,
+   "koszt_usd": 4.0992e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.9
+   },
+   "s": 0.304,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674316-3YvDaV0VzrvRKH8Fh1y6",
+   "tok_in": 1001,
+   "koszt_usd": 4.2042e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.278,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674316-vSBhoAC68Lb9ytqRFcUJ",
+   "tok_in": 1071,
+   "koszt_usd": 4.4982e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "s": 0.269,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674317-jYqyM4ClWawo4jbSjt4N",
+   "tok_in": 865,
+   "koszt_usd": 3.633e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.27
+   },
+   "s": 0.291,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674317-9MKuGmBk0H3mqweazcR0",
+   "tok_in": 773,
+   "koszt_usd": 3.2466e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "B": 0.01,
+     "A": 0,
+     "D": 0.22,
+     "C": 0.77
+    },
+    "confidence": 0.7
+   },
+   "s": 0.324,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674317-5vuT5kpjB7OqgmNwyYuv",
+   "tok_in": 406,
+   "koszt_usd": 1.7052e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.96,
+     "A": 0,
+     "D": 0,
+     "C": 0.04
+    },
+    "confidence": 0.94
+   },
+   "s": 0.351,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674318-NkrkRKJo1E6LZvu0beL6",
+   "tok_in": 537,
+   "koszt_usd": 2.2554e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 1,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.408,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674318-pnXADGFKWZ6f6Sksw2fp",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.16,
+     "C": 0,
+     "B": 0.84,
+     "D": 0
+    },
+    "confidence": 0.79
+   },
+   "s": 0.264,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674318-mSejNiMCKa9gUMfNCSoo",
+   "tok_in": 405,
+   "koszt_usd": 1.701e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "s": 0.273,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674319-Vzx2Mg1JEZ0eQR0expuQ",
+   "tok_in": 363,
+   "koszt_usd": 1.5246e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.52
+   },
+   "s": 0.252,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674319-Qi38zZzdyb5WvLNDbPQe",
+   "tok_in": 375,
+   "koszt_usd": 1.575e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 1,
+     "B": 0,
+     "C": 0,
+     "D": 0
+    },
+    "confidence": 0.99
+   },
+   "s": 0.322,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674319-QcXMNAt48ZOEsgyPEacy",
+   "tok_in": 438,
+   "koszt_usd": 1.8396e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.17,
+     "B": 0.24,
+     "C": 0.4,
+     "D": 0.19
+    },
+    "confidence": 0.2
+   },
+   "s": 0.299,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674320-ZgbNgldGx6EJTp4aX3x8",
+   "tok_in": 475,
+   "koszt_usd": 1.995e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.11,
+     "C": 0.54,
+     "D": 0.09,
+     "B": 0.26
+    },
+    "confidence": 0.4
+   },
+   "s": 0.278,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674320-272vpeZIW4ItNp8B0kjh",
+   "tok_in": 420,
+   "koszt_usd": 1.764e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.02,
+     "C": 0,
+     "B": 0.93,
+     "D": 0.04
+    },
+    "confidence": 0.91
+   },
+   "s": 0.243,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674320-EobxCk9nnua34jXw7MpT",
+   "tok_in": 464,
+   "koszt_usd": 1.9488e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.01,
+     "B": 0,
+     "A": 0.24,
+     "C": 0.75
+    },
+    "confidence": 0.67
+   },
+   "s": 0.265,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674320-Fa9GSuhR9xX5Yiw6gbp8",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.01,
+     "A": 0.15,
+     "B": 0.08,
+     "C": 0.76
+    },
+    "confidence": 0.68
+   },
+   "s": 0.447,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674321-ydZI6YfzrOBmC98MxIID",
+   "tok_in": 485,
+   "koszt_usd": 2.037e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0.03,
+     "A": 0.08,
+     "D": 0.89,
+     "C": 0
+    },
+    "confidence": 0.85
+   },
+   "s": 0.341,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674321-d1t3Nij0hnMQ0jrkAjMD",
+   "tok_in": 534,
+   "koszt_usd": 2.2428e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.01,
+     "B": 0.02,
+     "C": 0.01,
+     "D": 0.96
+    },
+    "confidence": 0.95
+   },
+   "s": 0.291,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674321-XD7kBYe1h6IVgbCMzgs2",
+   "tok_in": 450,
+   "koszt_usd": 1.89e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "C": 0.09,
+     "B": 0.82,
+     "A": 0.03,
+     "D": 0.06
+    },
+    "confidence": 0.76
+   },
+   "s": 0.29,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674322-fxneFeDF549UTxVWpchl",
+   "tok_in": 468,
+   "koszt_usd": 1.9656e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "D": 0.83,
+     "C": 0.01,
+     "B": 0.07,
+     "A": 0.09
+    },
+    "confidence": 0.77
+   },
+   "s": 0.345,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674322-5tanT6kK9FuMYTZ6Sdtj",
+   "tok_in": 508,
+   "koszt_usd": 2.1336e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.81
+   },
+   "s": 0.438,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674322-n1YSeU2YPP5PxXaflgad",
+   "tok_in": 419,
+   "koszt_usd": 1.7598e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.03
+   },
+   "s": 0.382,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674323-XeEBb1hf7tk9pe7LY1zi",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.03,
+     "A": 0.12,
+     "B": 0.04,
+     "D": 0.81
+    },
+    "confidence": 0.73
+   },
+   "s": 0.275,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674323-fKzj7CdwnsgbKcpGv5u0",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0.12,
+     "D": 0.88
+    },
+    "confidence": 0.83
+   },
+   "s": 0.335,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674324-UiR8hQdD4B4YxYkNrzTY",
+   "tok_in": 472,
+   "koszt_usd": 1.9824e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "B": 0.17,
+     "A": 0.63,
+     "D": 0.01,
+     "C": 0.19
+    },
+    "confidence": 0.51
+   },
+   "s": 0.341,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674324-YsykwBpaQwHkpuYa511m",
+   "tok_in": 480,
+   "koszt_usd": 2.016e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "B": 0.05,
+     "A": 0.02,
+     "D": 0.43,
+     "C": 0.5
+    },
+    "confidence": 0.34
+   },
+   "s": 0.255,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674324-5Xsa6afGKdY2lyBjl6TI",
+   "tok_in": 488,
+   "koszt_usd": 2.0496e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0,
+     "A": 0,
+     "C": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.344,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674325-yL77WCREcDj7g7VBQV2x",
+   "tok_in": 583,
+   "koszt_usd": 2.4486e-05
+  },
+  {
+   "przebieg": 2,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 1,
+     "B": 0,
+     "C": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.399,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674325-IpRZ9hGaVHGciNTixTxq",
+   "tok_in": 588,
+   "koszt_usd": 2.4696e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.82,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.01,
+     "D": 0.87,
+     "C": 0.12
+    }
+   },
+   "s": 0.294,
+   "serwer_ms": "86",
+   "id_generacji": null,
+   "tok_in": 414,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "B": 1.0,
+     "A": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.249,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 1.0,
+     "A": 0.0,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.286,
+   "serwer_ms": "89",
+   "id_generacji": null,
+   "tok_in": 436,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "D": 0.0,
+     "A": 0.0,
+     "B": 0.0,
+     "C": 1.0
+    }
+   },
+   "s": 0.261,
+   "serwer_ms": "63",
+   "id_generacji": null,
+   "tok_in": 412,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.99,
+    "probabilities": {
+     "A": 0.0,
+     "C": 0.0,
+     "D": 0.01,
+     "B": 0.99
+    }
+   },
+   "s": 0.276,
+   "serwer_ms": "68",
+   "id_generacji": null,
+   "tok_in": 423,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.92,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.94,
+     "C": 0.02,
+     "D": 0.04
+    }
+   },
+   "s": 0.312,
+   "serwer_ms": "116",
+   "id_generacji": null,
+   "tok_in": 425,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.43,
+    "probabilities": {
+     "D": 0.57,
+     "C": 0.01,
+     "A": 0.19,
+     "B": 0.23
+    }
+   },
+   "s": 0.237,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 451,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.87,
+    "probabilities": {
+     "C": 0.9,
+     "D": 0.0,
+     "B": 0.01,
+     "A": 0.09
+    }
+   },
+   "s": 0.293,
+   "serwer_ms": "81",
+   "id_generacji": null,
+   "tok_in": 398,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.93,
+    "probabilities": {
+     "B": 0.0,
+     "A": 0.95,
+     "D": 0.0,
+     "C": 0.05
+    }
+   },
+   "s": 0.274,
+   "serwer_ms": "76",
+   "id_generacji": null,
+   "tok_in": 393,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "D": 1.0,
+     "B": 0.0,
+     "C": 0.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.282,
+   "serwer_ms": "83",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.88,
+    "probabilities": {
+     "B": 0.01,
+     "A": 0.0,
+     "C": 0.91,
+     "D": 0.08
+    }
+   },
+   "s": 0.316,
+   "serwer_ms": "106",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.76,
+    "probabilities": {
+     "B": 0.13,
+     "D": 0.0,
+     "A": 0.82,
+     "C": 0.05
+    }
+   },
+   "s": 0.243,
+   "serwer_ms": "47",
+   "id_generacji": null,
+   "tok_in": 416,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 0.0,
+     "A": 1.0,
+     "C": 0.0,
+     "D": 0.0
+    }
+   },
+   "s": 0.343,
+   "serwer_ms": "145",
+   "id_generacji": null,
+   "tok_in": 418,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.95,
+    "probabilities": {
+     "A": 0.01,
+     "B": 0.96,
+     "C": 0.02,
+     "D": 0.01
+    }
+   },
+   "s": 0.305,
+   "serwer_ms": "101",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.3,
+    "probabilities": {
+     "B": 0.21,
+     "A": 0.31,
+     "D": 0.48,
+     "C": 0.0
+    }
+   },
+   "s": 0.253,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 430,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.96,
+    "probabilities": {
+     "D": 0.0,
+     "C": 0.03,
+     "A": 0.97,
+     "B": 0.0
+    }
+   },
+   "s": 0.244,
+   "serwer_ms": "47",
+   "id_generacji": null,
+   "tok_in": 408,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.98,
+    "probabilities": {
+     "A": 0.02,
+     "C": 0.0,
+     "D": 0.0,
+     "B": 0.98
+    }
+   },
+   "s": 0.26,
+   "serwer_ms": "60",
+   "id_generacji": null,
+   "tok_in": 403,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.76,
+    "probabilities": {
+     "B": 0.0,
+     "A": 0.03,
+     "C": 0.15,
+     "D": 0.82
+    }
+   },
+   "s": 0.25,
+   "serwer_ms": "38",
+   "id_generacji": null,
+   "tok_in": 708,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "s": 0.249,
+   "serwer_ms": "53",
+   "id_generacji": null,
+   "tok_in": 571,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.95
+   },
+   "s": 0.239,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 842,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "s": 0.259,
+   "serwer_ms": "50",
+   "id_generacji": null,
+   "tok_in": 850,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.42
+   },
+   "s": 0.257,
+   "serwer_ms": "56",
+   "id_generacji": null,
+   "tok_in": 674,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.99,
+    "probabilities": {
+     "A": 0.0,
+     "B": 0.0,
+     "C": 0.0,
+     "D": 1.0
+    }
+   },
+   "s": 0.256,
+   "serwer_ms": "48",
+   "id_generacji": null,
+   "tok_in": 579,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "s": 0.275,
+   "serwer_ms": "71",
+   "id_generacji": null,
+   "tok_in": 1034,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.81
+   },
+   "s": 0.285,
+   "serwer_ms": "88",
+   "id_generacji": null,
+   "tok_in": 1033,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.3
+   },
+   "s": 0.281,
+   "serwer_ms": "84",
+   "id_generacji": null,
+   "tok_in": 360,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.51
+   },
+   "s": 0.251,
+   "serwer_ms": "50",
+   "id_generacji": null,
+   "tok_in": 365,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.78
+   },
+   "s": 0.295,
+   "serwer_ms": "82",
+   "id_generacji": null,
+   "tok_in": 976,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.9
+   },
+   "s": 0.266,
+   "serwer_ms": "53",
+   "id_generacji": null,
+   "tok_in": 1001,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.262,
+   "serwer_ms": "60",
+   "id_generacji": null,
+   "tok_in": 1071,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "s": 0.255,
+   "serwer_ms": "43",
+   "id_generacji": null,
+   "tok_in": 865,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.33
+   },
+   "s": 0.264,
+   "serwer_ms": "70",
+   "id_generacji": null,
+   "tok_in": 773,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.68,
+    "probabilities": {
+     "C": 0.76,
+     "D": 0.23,
+     "B": 0.01,
+     "A": 0.0
+    }
+   },
+   "s": 0.262,
+   "serwer_ms": "62",
+   "id_generacji": null,
+   "tok_in": 406,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.95,
+    "probabilities": {
+     "D": 0.0,
+     "B": 0.96,
+     "A": 0.0,
+     "C": 0.04
+    }
+   },
+   "s": 0.272,
+   "serwer_ms": "56",
+   "id_generacji": null,
+   "tok_in": 537,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 1.0,
+     "D": 0.0,
+     "A": 0.0,
+     "B": 0.0
+    }
+   },
+   "s": 0.263,
+   "serwer_ms": "69",
+   "id_generacji": null,
+   "tok_in": 413,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.77,
+    "probabilities": {
+     "D": 0.0,
+     "A": 0.17,
+     "B": 0.83,
+     "C": 0.0
+    }
+   },
+   "s": 0.261,
+   "serwer_ms": "61",
+   "id_generacji": null,
+   "tok_in": 405,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "s": 0.316,
+   "serwer_ms": "122",
+   "id_generacji": null,
+   "tok_in": 363,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.52
+   },
+   "s": 0.279,
+   "serwer_ms": "52",
+   "id_generacji": null,
+   "tok_in": 375,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.99,
+    "probabilities": {
+     "B": 0.0,
+     "D": 0.0,
+     "A": 1.0,
+     "C": 0.0
+    }
+   },
+   "s": 0.261,
+   "serwer_ms": "50",
+   "id_generacji": null,
+   "tok_in": 438,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.13,
+    "probabilities": {
+     "C": 0.34,
+     "D": 0.17,
+     "A": 0.2,
+     "B": 0.28
+    }
+   },
+   "s": 0.257,
+   "serwer_ms": "42",
+   "id_generacji": null,
+   "tok_in": 475,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.33,
+    "probabilities": {
+     "A": 0.12,
+     "B": 0.28,
+     "C": 0.5,
+     "D": 0.1
+    }
+   },
+   "s": 0.241,
+   "serwer_ms": "46",
+   "id_generacji": null,
+   "tok_in": 420,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.92,
+    "probabilities": {
+     "C": 0.0,
+     "D": 0.03,
+     "B": 0.95,
+     "A": 0.02
+    }
+   },
+   "s": 0.276,
+   "serwer_ms": "81",
+   "id_generacji": null,
+   "tok_in": 464,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.59,
+    "probabilities": {
+     "B": 0.0,
+     "A": 0.29,
+     "D": 0.01,
+     "C": 0.7
+    }
+   },
+   "s": 0.274,
+   "serwer_ms": "57",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.62,
+    "probabilities": {
+     "A": 0.17,
+     "B": 0.11,
+     "C": 0.71,
+     "D": 0.01
+    }
+   },
+   "s": 0.238,
+   "serwer_ms": "37",
+   "id_generacji": null,
+   "tok_in": 485,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.84,
+    "probabilities": {
+     "D": 0.88,
+     "A": 0.07,
+     "B": 0.05,
+     "C": 0.0
+    }
+   },
+   "s": 0.288,
+   "serwer_ms": "89",
+   "id_generacji": null,
+   "tok_in": 534,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.96,
+    "probabilities": {
+     "D": 0.97,
+     "B": 0.02,
+     "C": 0.01,
+     "A": 0.0
+    }
+   },
+   "s": 0.313,
+   "serwer_ms": "114",
+   "id_generacji": null,
+   "tok_in": 450,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.69,
+    "probabilities": {
+     "D": 0.07,
+     "B": 0.77,
+     "C": 0.13,
+     "A": 0.03
+    }
+   },
+   "s": 0.253,
+   "serwer_ms": "49",
+   "id_generacji": null,
+   "tok_in": 468,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.76,
+    "probabilities": {
+     "A": 0.08,
+     "C": 0.01,
+     "B": 0.09,
+     "D": 0.82
+    }
+   },
+   "s": 0.237,
+   "serwer_ms": "41",
+   "id_generacji": null,
+   "tok_in": 508,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.82
+   },
+   "s": 0.253,
+   "serwer_ms": "43",
+   "id_generacji": null,
+   "tok_in": 419,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.03
+   },
+   "s": 0.271,
+   "serwer_ms": "78",
+   "id_generacji": null,
+   "tok_in": 432,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.75,
+    "probabilities": {
+     "D": 0.81,
+     "B": 0.05,
+     "C": 0.03,
+     "A": 0.11
+    }
+   },
+   "s": 0.252,
+   "serwer_ms": "29",
+   "id_generacji": null,
+   "tok_in": 496,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.8,
+    "probabilities": {
+     "A": 0.0,
+     "D": 0.85,
+     "C": 0.15,
+     "B": 0.0
+    }
+   },
+   "s": 0.244,
+   "serwer_ms": "49",
+   "id_generacji": null,
+   "tok_in": 472,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.42,
+    "probabilities": {
+     "A": 0.56,
+     "B": 0.04,
+     "C": 0.39,
+     "D": 0.01
+    }
+   },
+   "s": 0.243,
+   "serwer_ms": "36",
+   "id_generacji": null,
+   "tok_in": 480,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.39,
+    "probabilities": {
+     "A": 0.02,
+     "B": 0.03,
+     "C": 0.54,
+     "D": 0.41
+    }
+   },
+   "s": 0.259,
+   "serwer_ms": "49",
+   "id_generacji": null,
+   "tok_in": 488,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "A": 0.0,
+     "B": 0.0,
+     "D": 1.0
+    }
+   },
+   "s": 0.332,
+   "serwer_ms": "89",
+   "id_generacji": null,
+   "tok_in": 583,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "bezposrednio",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "jev-1.13.0",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "D": 0.0,
+     "B": 0.0,
+     "A": 1.0
+    }
+   },
+   "s": 0.3,
+   "serwer_ms": "93",
+   "id_generacji": null,
+   "tok_in": 588,
+   "koszt_usd": null
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-F1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0.01,
+     "C": 0.13,
+     "D": 0.86
+    },
+    "confidence": 0.82
+   },
+   "s": 0.364,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674341-3jxlb1zO7dpVzmTCwDBe",
+   "tok_in": 414,
+   "koszt_usd": 1.7388e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-F2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 1,
+     "A": 0,
+     "C": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.386,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674342-uaijJreY2G7ygul6S4rV",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-F3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 1,
+     "C": 0,
+     "A": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.309,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674342-B9Mj1V5jxyVa4wjqLD03",
+   "tok_in": 436,
+   "koszt_usd": 1.8312e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-T1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "D": 0,
+     "C": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.326,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674342-JBH4FYL3za2ayOSr6B0X",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-T2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.99,
+     "A": 0,
+     "C": 0,
+     "D": 0.01
+    },
+    "confidence": 0.99
+   },
+   "s": 0.263,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674343-csEgU2gytuGnBt8R1GUm",
+   "tok_in": 423,
+   "koszt_usd": 1.7766e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-T3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0,
+     "B": 0.94,
+     "C": 0.02,
+     "D": 0.04
+    },
+    "confidence": 0.92
+   },
+   "s": 0.293,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674343-JecslYozFUOnsJpVxOCA",
+   "tok_in": 425,
+   "koszt_usd": 1.785e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT-T4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.01,
+     "A": 0.24,
+     "B": 0.24,
+     "D": 0.51
+    },
+    "confidence": 0.35
+   },
+   "s": 0.304,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674343-PbOkJ5qiMK1wiYcC7Fl6",
+   "tok_in": 451,
+   "koszt_usd": 1.8942e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT2-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.02,
+     "C": 0.98,
+     "D": 0,
+     "B": 0
+    },
+    "confidence": 0.96
+   },
+   "s": 0.307,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674344-f1nd8c7r8xpU5hcnycN4",
+   "tok_in": 398,
+   "koszt_usd": 1.6716e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT2-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "C": 0.04,
+     "B": 0,
+     "A": 0.96,
+     "D": 0
+    },
+    "confidence": 0.94
+   },
+   "s": 0.271,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674344-2x4E6B22nKDdwo7B2EVq",
+   "tok_in": 393,
+   "koszt_usd": 1.6506e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT2-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "C": 0,
+     "B": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.322,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674344-IIn2j3XW8WcISOAyvpru",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "CRT2-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0.93,
+     "D": 0.07
+    },
+    "confidence": 0.89
+   },
+   "s": 0.286,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674345-1IpJy062p33fmBMkQYRv",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "C": 0.03,
+     "B": 0.03,
+     "A": 0.9400000000000001,
+     "D": 0
+    },
+    "confidence": 0.91
+   },
+   "s": 0.35,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674345-QmcXTQUmqLyWFPKSPx56",
+   "tok_in": 416,
+   "koszt_usd": 1.7472e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "B": 0,
+     "C": 0,
+     "A": 1,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.291,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674345-FmtS23d4EqGlG27J79Zj",
+   "tok_in": 418,
+   "koszt_usd": 1.7556e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.96,
+     "D": 0.01,
+     "A": 0.01,
+     "C": 0.02
+    },
+    "confidence": 0.96
+   },
+   "s": 0.283,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674345-XNJjv717sJxxJQu262KU",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.28,
+     "B": 0.16,
+     "C": 0,
+     "D": 0.55
+    },
+    "confidence": 0.4
+   },
+   "s": 0.407,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674346-XumB4AMCe0WqJNnBDtOD",
+   "tok_in": 430,
+   "koszt_usd": 1.806e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-5",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "B": 0,
+     "C": 0.02,
+     "D": 0,
+     "A": 0.98
+    },
+    "confidence": 0.97
+   },
+   "s": 0.287,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674346-DHLl4JZvELwCEvqA7Lsd",
+   "tok_in": 408,
+   "koszt_usd": 1.7136e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WAR-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.02,
+     "C": 0,
+     "D": 0,
+     "B": 0.98
+    },
+    "confidence": 0.97
+   },
+   "s": 0.251,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674347-A4VvEzpoal2b05xlxXam",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-1.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.12,
+     "B": 0,
+     "A": 0.04,
+     "D": 0.84
+    },
+    "confidence": 0.78
+   },
+   "s": 0.301,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674347-fEQxTDx7DD2Tw7qBrnNb",
+   "tok_in": 708,
+   "koszt_usd": 2.9736e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "s": 0.388,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674347-VYeZ079Sf9EUa8veatkm",
+   "tok_in": 571,
+   "koszt_usd": 2.3982e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.95
+   },
+   "s": 0.27,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674348-AGFM63z2oN02E4tnYyAn",
+   "tok_in": 842,
+   "koszt_usd": 3.5364e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-4.2-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "s": 0.271,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674348-qg21BAFC7MST6oD2MQrH",
+   "tok_in": 850,
+   "koszt_usd": 3.57e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-7.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.44
+   },
+   "s": 0.302,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674348-jvQqNTEhKJkDqJh1G6xa",
+   "tok_in": 674,
+   "koszt_usd": 2.8308e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-8.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0,
+     "D": 1
+    },
+    "confidence": 0.99
+   },
+   "s": 0.267,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674348-rE8ybV4EZIu94CaUol2c",
+   "tok_in": 579,
+   "koszt_usd": 2.4318e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "s": 0.366,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674349-UgyzyPTHVaDqO3dDNxDO",
+   "tok_in": 1034,
+   "koszt_usd": 4.3428e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-9.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "s": 0.29,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674349-yqJGCC4v6b3mMZ33fvRB",
+   "tok_in": 1033,
+   "koszt_usd": 4.3386e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.28
+   },
+   "s": 0.341,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674349-W6mCCqAXDEr8U1T2qoD5",
+   "tok_in": 360,
+   "koszt_usd": 1.512e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-10.3-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "s": 0.341,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674350-E0kex0G1EXlsfHXq49qP",
+   "tok_in": 365,
+   "koszt_usd": 1.533e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": false,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.69
+   },
+   "s": 0.311,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674350-xEZxLTKJV5cEVnSvmO1d",
+   "tok_in": 976,
+   "koszt_usd": 4.0992e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.1-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.91
+   },
+   "s": 0.321,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674350-ZNfOAxUCpxIX9Vv0wzA7",
+   "tok_in": 1001,
+   "koszt_usd": 4.2042e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-12.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "s": 0.263,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674351-sqKoUfT6eCXblDgrTZsC",
+   "tok_in": 1071,
+   "koszt_usd": 4.4982e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-13.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": true,
+   "trafna": false,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "s": 0.262,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674351-K7RzmlpGBQ3SwG8cpfLq",
+   "tok_in": 865,
+   "koszt_usd": 3.633e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "WOS-2026-17.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.28
+   },
+   "s": 0.293,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674351-e7FAa7QfQHJ3wSnYm6sB",
+   "tok_in": 773,
+   "koszt_usd": 3.2466e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.24,
+     "A": 0,
+     "B": 0.01,
+     "C": 0.75
+    },
+    "confidence": 0.67
+   },
+   "s": 0.311,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674352-Wo4R5iirz5P5gmPPB4vB",
+   "tok_in": 406,
+   "koszt_usd": 1.7052e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "C": 0.04,
+     "B": 0.96,
+     "A": 0,
+     "D": 0
+    },
+    "confidence": 0.95
+   },
+   "s": 0.259,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674352-ZjsldgKbrTYvz4fW1lhu",
+   "tok_in": 537,
+   "koszt_usd": 2.2554e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-3",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 1,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.307,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674352-vLALjJDNjMvAfZA2yN8m",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-4",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "D": 0,
+     "A": 0.19,
+     "B": 0.81,
+     "C": 0
+    },
+    "confidence": 0.74
+   },
+   "s": 0.259,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674353-w9iVOoZuqj97r25lDaVw",
+   "tok_in": 405,
+   "koszt_usd": 1.701e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "s": 0.279,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674353-PJz9DQZWI4qRDLrMAERY",
+   "tok_in": 363,
+   "koszt_usd": 1.5246e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-5-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.52
+   },
+   "s": 0.251,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674353-P65eCdZXXvgTQ0VFtUAe",
+   "tok_in": 375,
+   "koszt_usd": 1.575e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-6",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 1,
+     "B": 0,
+     "C": 0,
+     "D": 0
+    },
+    "confidence": 0.99
+   },
+   "s": 0.241,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674353-Z025AdSZQKdN9Mpptlud",
+   "tok_in": 438,
+   "koszt_usd": 1.8396e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-8",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.17,
+     "C": 0.39,
+     "A": 0.18,
+     "B": 0.26
+    },
+    "confidence": 0.19
+   },
+   "s": 0.276,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674354-kNMtXe2j0ZQgZISFjIXN",
+   "tok_in": 475,
+   "koszt_usd": 1.995e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-9",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "D",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.14,
+     "A": 0.14,
+     "C": 0.4,
+     "B": 0.32
+    },
+    "confidence": 0.21
+   },
+   "s": 0.311,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674354-JHrAzB4F2sRrkapkIwKV",
+   "tok_in": 420,
+   "koszt_usd": 1.764e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-16",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "B": 0.91,
+     "A": 0.03,
+     "D": 0.06,
+     "C": 0
+    },
+    "confidence": 0.88
+   },
+   "s": 0.293,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674354-b8afoFNowuSXeD9TNI1r",
+   "tok_in": 464,
+   "koszt_usd": 1.9488e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-18",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "A": 0.31,
+     "C": 0.68,
+     "B": 0,
+     "D": 0.01
+    },
+    "confidence": 0.57
+   },
+   "s": 0.292,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674355-neDR8fhWhkWx0WILgBvl",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-19",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "D": 0.01,
+     "B": 0.08,
+     "A": 0.17,
+     "C": 0.74
+    },
+    "confidence": 0.66
+   },
+   "s": 0.287,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674355-dtyiFA5dIQoQC5ZQczVa",
+   "tok_in": 485,
+   "koszt_usd": 2.037e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-20",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "B",
+   "trafna": false,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0.05,
+     "B": 0.02,
+     "C": 0,
+     "D": 0.93
+    },
+    "confidence": 0.91
+   },
+   "s": 0.29,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674355-FKTRaArHxsQTaZvHzFmZ",
+   "tok_in": 534,
+   "koszt_usd": 2.2428e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-23",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0.02,
+     "C": 0.01,
+     "D": 0.97
+    },
+    "confidence": 0.97
+   },
+   "s": 0.259,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674355-7btL0TDGPlXQh0Q13iIc",
+   "tok_in": 450,
+   "koszt_usd": 1.89e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "B",
+   "poprawna": "B",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "probabilities": {
+     "A": 0.05,
+     "C": 0.12,
+     "D": 0.07,
+     "B": 0.76
+    },
+    "confidence": 0.68
+   },
+   "s": 0.31,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674356-1cUogNxO1F1NerMX0GXp",
+   "tok_in": 468,
+   "koszt_usd": 1.9656e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-24.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "B": 0.06,
+     "D": 0.87,
+     "A": 0.06,
+     "C": 0.01
+    },
+    "confidence": 0.82
+   },
+   "s": 0.295,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674356-Q9LluAqRkdEBIMQBSrjo",
+   "tok_in": 508,
+   "koszt_usd": 2.1336e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-a",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": true,
+   "poprawna": true,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.82
+   },
+   "s": 0.294,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674356-iFNDuSh3vs3fk2cpysUD",
+   "tok_in": 419,
+   "koszt_usd": 1.7598e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-25-b",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": false,
+   "poprawna": false,
+   "trafna": true,
+   "surowa": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "s": 0.319,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674357-XZF7Ffen5HDWUNBtWA2r",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-26",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "C": 0.04,
+     "B": 0.06,
+     "A": 0.17,
+     "D": 0.73
+    },
+    "confidence": 0.65
+   },
+   "s": 0.245,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674357-cDUnQpU0rt3e9jaNylEo",
+   "tok_in": 496,
+   "koszt_usd": 2.0832e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-28",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "D": 0.87,
+     "C": 0.13,
+     "B": 0
+    },
+    "confidence": 0.82
+   },
+   "s": 0.329,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674357-tZqQUqEZQLHC2JSLFXF1",
+   "tok_in": 472,
+   "koszt_usd": 1.9824e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-29",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "A": 0.51,
+     "C": 0.42,
+     "D": 0.01,
+     "B": 0.06
+    },
+    "confidence": 0.36
+   },
+   "s": 0.3,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674358-nE3nj8yjT3pwXudEn8Gj",
+   "tok_in": 480,
+   "koszt_usd": 2.016e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-32",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "C",
+   "poprawna": "C",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "probabilities": {
+     "C": 0.52,
+     "D": 0.43,
+     "A": 0.02,
+     "B": 0.03
+    },
+    "confidence": 0.37
+   },
+   "s": 0.268,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674358-EBTcbCzSwfKoAAr4ynYd",
+   "tok_in": 488,
+   "koszt_usd": 2.0496e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.1",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "D",
+   "poprawna": "D",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "probabilities": {
+     "A": 0,
+     "B": 0,
+     "C": 0,
+     "D": 1
+    },
+    "confidence": 1
+   },
+   "s": 0.294,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674358-atEqKFjNhEoabnFxG6qG",
+   "tok_in": 583,
+   "koszt_usd": 2.4486e-05
+  },
+  {
+   "przebieg": 3,
+   "droga": "openrouter",
+   "id": "MAT-2026-33.2",
+   "http": 200,
+   "model": "typesafe/jev-1.13-20260917",
+   "odp": "A",
+   "poprawna": "A",
+   "trafna": true,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "probabilities": {
+     "C": 0,
+     "A": 1,
+     "B": 0,
+     "D": 0
+    },
+    "confidence": 1
+   },
+   "s": 0.295,
+   "serwer_ms": null,
+   "id_generacji": "gen-dec-1790674358-kituT2xWHXbOvStgW0nK",
+   "tok_in": 588,
+   "koszt_usd": 2.4696e-05
+  }
+ ]
+}

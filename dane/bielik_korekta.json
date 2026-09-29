@@ -1,0 +1,1266 @@
+{
+ "model": "Bielik 11B v3.0 Instruct Q8_0 (lokalnie, LM Studio, ZBook)",
+ "temperatura": 0.1,
+ "akapity": [
+  {
+   "nr": 0,
+   "tag": "h1",
+   "tekst": "Trump przemianował AI na „SI”. My sprawdziliśmy SI, która decyduje, zanim zdążysz mrugnąć",
+   "uwagi": [
+    {
+     "fragment": "Trump przemianował AI na „SI”.",
+     "poprawka": "Donald Trump przemianował AI na 'SI'.",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie: 'Donald' przed 'Trump'",
+     "uzasadnienie": "Dodano imię dla pełnej identyfikacji osoby."
+    },
+    {
+     "fragment": "My sprawdziliśmy SI, która decyduje, zanim zdążysz mrugnąć",
+     "poprawka": "Sprawdziliśmy SI, która podejmuje decyzje szybciej, niż zdążysz mrugnąć.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'decyduje' na 'podejmuje decyzje'",
+     "uzasadnienie": "Poprawa stylu dla lepszej płynności."
+    }
+   ],
+   "s": 43.3
+  },
+  {
+   "nr": 1,
+   "tag": "p",
+   "tekst": "22 września z mównicy ONZ Donald Trump ogłosił, że Ameryka będzie odtąd mówić „SI” – od super intelligence. My mówimy „SI” od lat, więc sprawdziliśmy najgłośniejszą nowość września – Jev, model, który nie pisze, tylko podejmuje decyzje: zamknięte zadania tegorocznej matury rozwiązał w 87 proc., w 0,28 sekundy na pytanie i za 0,36 grosza za cały zestaw.",
+   "uwagi": [
+    {
+     "fragment": "Jev, model, który nie pisze, tylko podejmuje decyzje: zamknięte zadania tegorocznej matury rozwiązał w 87 proc., w 0,28 sekundy na pytanie i za 0,36 grosza za cały zestaw.",
+     "poprawka": "Jev – model, który nie pisze, tylko podejmuje decyzje: rozwiązał zamknięte zadania tegorocznej matury w 87%, osiągając czas 0,28 sekundy na pytanie i koszt 0,36 grosza za cały zestaw.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować",
+     "uzasadnienie": "Poprawiono składnię zdania dla lepszej przejrzystości i usunięto niepotrzebne przecinki."
+    }
+   ],
+   "s": 62.1
+  },
+  {
+   "nr": 2,
+   "tag": "figcaption",
+   "tekst": "Donald Trump przemawia na 81. sesji Zgromadzenia Ogólnego ONZ, 22 września 2026 r. Fot. The White House (domena publiczna), via Wikimedia Commons. Publikacja w celach informacyjnych – materiał rządu USA nie oznacza poparcia dla redakcji ani opisywanych firm.",
+   "uwagi": [
+    {
+     "fragment": "Donald Trump przemawia na 81. sesji Zgromadzenia Ogólnego ONZ, 22 września 2026 r.",
+     "poprawka": "Donald Trump przemawiał na 81. sesji Zgromadzenia Ogólnego ONZ, 22 września 2026 roku.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie; zmiana interpunkcji",
+     "uzasadnienie": "Dodano czasownik w formie przeszłej oraz poprawiono datę na pełną."
+    },
+    {
+     "fragment": "Fot. The White House (domena publiczna), via Wikimedia Commons.",
+     "poprawka": "Fot. The White House [domena publiczna], za pośrednictwem Wikimedia Commons.",
+     "rodzaj": "korekta",
+     "znak": "przestawienie; zmiana interpunkcji",
+     "uzasadnienie": "Poprawiono składnię i dodano przecinek po nawiasie."
+    },
+    {
+     "fragment": "Publikacja w celach informacyjnych – materiał rządu USA nie oznacza poparcia dla redakcji ani opisywanych firm.",
+     "poprawka": "Publikacja ma charakter wyłącznie informacyjny - udostępnienie przez administrację amerykańską nie stanowi poparcia dla naszej redakcji ani wymienionych podmiotów.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować",
+     "uzasadnienie": "Uściślono znaczenie i usunięto powtórzenia."
+    }
+   ],
+   "s": 79.3
+  },
+  {
+   "nr": 3,
+   "tag": "p",
+   "tekst": "„Witajcie w nowym świecie Super Inteligencji – SI. SI, zobaczmy, czy się przyjmie, brzmi o wiele lepiej” – mówił prezydent USA na forum Zgromadzenia Ogólnego. Słowo „sztuczna” (artificial) – tłumaczył – sprawia, że inteligencja wydaje się fałszywa. W komunikacie Białego Domu po przemówieniu znalazło się zdanie, że sztuczna inteligencja jest „odtąd oficjalnie nazywana Super Inteligencją” – bez rozporządzenia ani wytycznych dla agencji. Dzień później, jak ujawniła agencja AP, Departament Stanu rozesłał części dyplomatów e-mail o zmianie nazewnictwa.",
+   "uwagi": [
+    {
+     "fragment": "Witajcie w nowym świecie Super Inteligencji – SI.",
+     "poprawka": "Witajcie w nowym świecie superinteligencji - SI.",
+     "rodzaj": "korekta",
+     "znak": "spacja – usunąć (wielkie litery)",
+     "uzasadnienie": "Poprawa błędu ortograficznego: 'Super' powinno być małymi literami, chyba że jest częścią nazwy własnej."
+    },
+    {
+     "fragment": "SI, zobaczmy, czy się przyjmie, brzmi o wiele lepiej",
+     "poprawka": "SI. Zobaczmy, czy się przyjmie - brzmi o wiele lepiej.",
+     "rodzaj": "korekta",
+     "znak": "przecinek – dodać; spacja – usunąć (interpunkcja)",
+     "uzasadnienie": "Dodanie przecinka po 'SI' dla poprawnej interpunkcji. Usunięcie zbędnej spacji przed cudzysłowem."
+    },
+    {
+     "fragment": "Słowo „sztuczna” (artificial) – tłumaczył",
+     "poprawka": "Słowo \"sztuczna\" - tłumaczył",
+     "rodzaj": "korekta",
+     "znak": "cudzysłów – zamiana (typografia)",
+     "uzasadnienie": "Zamiana cudzysłowu niemieckiego na polski."
+    },
+    {
+     "fragment": "Dzień później, jak ujawniła agencja AP",
+     "poprawka": "Dzień później - jak ujawniła agencja AP.",
+     "rodzaj": "korekta",
+     "znak": "przecinek – dodać (interpunkcja)",
+     "uzasadnienie": "Dodanie przecinka dla poprawnej interpunkcji."
+    }
+   ],
+   "s": 148.3
+  },
+  {
+   "nr": 4,
+   "tag": "p",
+   "tekst": "Dla Polaków brzmi to znajomo. U nas „SI” funkcjonuje od dawna – tyle że jako skrót od „sztucznej”, której Trump właśnie się pozbył. Po raz pierwszy w historii to Ameryka dogoniła nas w terminologii. Pozostaje sprawdzić, czy dogonimy ją w czymś więcej.",
+   "uwagi": [
+    {
+     "fragment": "Dla Polaków brzmi to znajomo.",
+     "poprawka": "Polakom to brzmi znajomo.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów",
+     "uzasadnienie": "Zmiana zaimka na bardziej naturalny w kontekście."
+    },
+    {
+     "fragment": "Po raz pierwszy w historii to Ameryka dogoniła nas w terminologii.",
+     "poprawka": "Po raz pierwszy w historii Polska wyprzedziła USA w użyciu skrótu \"SI\" na oznaczenie sztucznej inteligencji, ale teraz Stany nadrobiły tę różnicę terminologiczną.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów; dodanie wyjaśnienia",
+     "uzasadnienie": "Precyzyjniej oddaje dynamikę zmian w nazewnictwie."
+    },
+    {
+     "fragment": "Pozostaje sprawdzić, czy dogonimy ją w czymś więcej.",
+     "poprawka": "Czas pokaże, czy Polska zdoła dorównać USA nie tylko w terminologii, ale i w rozwoju technologicznym.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów; przeredagowanie",
+     "uzasadnienie": "Nadaje bardziej uniwersalny i optymistyczny wydźwięk."
+    }
+   ],
+   "s": 102.2
+  },
+  {
+   "nr": 5,
+   "tag": "p",
+   "tekst": "Jev to produkt kalifornijskiej firmy TypeSafe AI, która 15 września wyszła z ukrycia z 40 mln dolarów finansowania na start. Jej szef, Diogo Almeida, pracował wcześniej w OpenAI przy InstructGPT i ChatGPT. Jev nie jest czatbotem. Nie odpowiada zdaniami, tylko decyzją w ściśle określonym formacie: wybiera jedną z podanych opcji, ocenia coś w skali albo mówi „tak/nie” – i do każdej odpowiedzi dołącza prawdopodobieństwo, czyli deklarację, na ile jest pewien.",
+   "uwagi": [
+    {
+     "fragment": "Jev to produkt kalifornijskiej firmy TypeSafe AI, która 15 września wyszła z ukrycia z 40 mln dolarów finansowania na start.",
+     "poprawka": "Jev to produkt kalifornijskiej firmy TypeSafe AI, która 15 września ujawniła się publicznie, pozyskując 40 mln dolarów finansowania na start.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować"
+    },
+    {
+     "fragment": "Jej szef, Diogo Almeida, pracował wcześniej w OpenAI przy InstructGPT i ChatGPT.",
+     "poprawka": "Jej założycielem jest Diogo Almeida, który wcześniej pracował w OpenAI nad projektami InstructGPT i ChatGPT.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    },
+    {
+     "fragment": "Jev nie jest czatbotem. Nie odpowiada zdaniami, tylko decyzją w ściśle określonym formacie: wybiera jedną z podanych opcji, ocenia coś w skali albo mówi „tak/nie” – i do każdej odpowiedzi dołącza prawdopodobieństwo, czyli deklarację, na ile jest pewien.",
+     "poprawka": "Jev nie działa jak tradycyjny chatbot - zamiast generować zdania, podejmuje decyzje w ustalonym formacie: wybiera jedną z opcji, ocenia coś na skali lub odpowiada „tak/nie”, każdorazowo podając prawdopodobieństwo swojej pewności.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    },
+    {
+     "fragment": "Jev nie jest czatbotem. Nie odpowiada zdaniami, tylko decyzją w ściśle określonym formacie: wybiera jedną z podanych opcji, ocenia coś w skali albo mówi „tak/nie” – i do każdej odpowiedzi dołącza prawdopodobieństwo, czyli deklarację, na ile jest pewien.",
+     "poprawka": "Jev nie działa jak tradycyjny chatbot - zamiast generować zdania, podejmuje decyzje w ustalonym formacie: wybiera jedną z opcji, ocenia coś na skali lub odpowiada „tak/nie”, każdorazowo podając prawdopodobieństwo swojej pewności.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    }
+   ],
+   "s": 128.8
+  },
+  {
+   "nr": 6,
+   "tag": "p",
+   "tekst": "Firma określa je jako modele „System 1”. To ukłon w stronę Daniela Kahnemana, noblisty, który opisał dwa tryby ludzkiego myślenia: szybki, intuicyjny System 1 i wolny, liczący System 2. Wielkie modele językowe ostatnich lat coraz częściej „myślą na głos”, generując tysiące słów rozumowania, zanim odpowiedzą. Jev ma robić odwrotnie – odpowiadać od razu, jak doświadczony człowiek, który „czuje” odpowiedź. Producent obiecuje, że będzie nawet 200 razy szybszy i 400 razy tańszy od modeli czołowych (dolną granicę firma i omawiające ją media podają różnie – 20 albo 40 razy). Metodę treningu nazywa RLCD (Reinforcement Learning for Calibrated Decisions) – ale nie opublikował na jej temat żadnej pracy naukowej.",
+   "uwagi": [],
+   "s": 164.5
+  },
+  {
+   "nr": 7,
+   "tag": "p",
+   "tekst": "O Jevie pisały już w Polsce portale branżowe – pierwszy był AI Sight dzień po premierze. Wszystkie jednak powtarzały liczby producenta, a jeden z nich wprost zaznaczył, że obsługa polszczyzny pozostaje niepotwierdzona. Postanowiliśmy to zmierzyć sami, po polsku.",
+   "uwagi": [
+    {
+     "fragment": "O Jevie pisały już w Polsce portale branżowe – pierwszy był AI Sight dzień po premierze.",
+     "poprawka": "O Jevie pisano już w Polsce na portalach branżowych – pierwszym z nich był AI Sight, który opublikował informację dzień po premierze.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Zmiana na bardziej naturalną konstrukcję zdania i poprawa szyku."
+    },
+    {
+     "fragment": "Wszystkie jednak powtarzały liczby producenta, a jeden z nich wprost zaznaczył, że obsługa polszczyzny pozostaje niepotwierdzona.",
+     "poprawka": "Wszystkie jednak bezkrytycznie powielały dane podawane przez producenta, a jeden z nich wyraźnie zaznaczył, że obsługa języka polskiego nie została potwierdzona.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Doprecyzowanie znaczenia i poprawa stylu."
+    },
+    {
+     "fragment": "Postanowiliśmy to zmierzyć sami, po polsku.",
+     "poprawka": "Postanowiliśmy więc samodzielnie zweryfikować tę kwestię, testując narzędzie w języku polskim.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Rozwinięcie myśli i poprawa precyzji."
+    }
+   ],
+   "s": 85.5
+  },
+  {
+   "nr": 8,
+   "tag": "h2",
+   "tekst": "Test pierwszej sekundy: kij i piłka",
+   "uwagi": [
+    {
+     "fragment": "Test pierwszej sekundy: kij i piłka",
+     "poprawka": "Test w ciągu pierwszej sekundy: kij i piłka",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; spacja – dodać",
+     "uzasadnienie": "Poprawiono nieprecyzyjne sformułowanie 'Test pierwszej sekundy' na bardziej opisowe 'Test w ciągu pierwszej sekundy' oraz dodano spację po przecinku."
+    }
+   ],
+   "s": 26.5
+  },
+  {
+   "nr": 9,
+   "tag": "p",
+   "tekst": "Zaczęliśmy od pułapki, na którą dają się łapać studenci najlepszych uczelni świata. Kij i piłka kosztują razem 1,10 zł. Kij kosztuje o złotówkę więcej niż piłka. Ile kosztuje piłka? Intuicja podpowiada „10 groszy”. Poprawna odpowiedź to 5 groszy. To pierwsze pytanie Testu Refleksji Poznawczej (CRT), który w 2005 r. opublikował Shane Frederick z MIT – test mierzy, czy potrafimy zatrzymać pierwszy, błędny odruch.",
+   "uwagi": [
+    {
+     "fragment": "Kij i piłka kosztują razem 1,10 zł.",
+     "poprawka": "Kij i piłka kosztują razem 1 zł i 10 groszy.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie: 'i 10 groszy'",
+     "uzasadnienie": "Dodano brakujące określenie jednostki monetarnej dla pełnej jasności."
+    },
+    {
+     "fragment": "Kij kosztuje o złotówkę więcej niż piłka.",
+     "poprawka": "Kij kosztuje o 1 złoty więcej niż piłka.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie: '1 złoty'",
+     "uzasadnienie": "Dodano określenie 'złoty' dla precyzji."
+    },
+    {
+     "fragment": "Intuicja podpowiada „10 groszy”.",
+     "poprawka": "Intuicja podpowiada 10 groszy.",
+     "rodzaj": "korekta",
+     "znak": "usunięcie cudzysłowu",
+     "uzasadnienie": "Cytat z myśli nie wymaga cudzysłowu."
+    },
+    {
+     "fragment": "To pierwsze pytanie Testu Refleksji Poznawczej (CRT), który w 2005 r. opublikował Shane Frederick z MIT – test mierzy, czy potrafimy zatrzymać pierwszy, błędny odruch.",
+     "poprawka": "To pierwsze pytanie Testu Refleksji Poznawczej (CRT), który w 2005 roku opublikował Shane Frederick z MIT – test mierzy, czy potrafimy powstrzymać się od pierwszego, błędnego odruchu.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'zatrzymać' na 'powstrzymać się od'",
+     "uzasadnienie": "Poprawiono sformułowanie dla lepszej precyzji i naturalności języka."
+    }
+   ],
+   "s": 86.7
+  },
+  {
+   "nr": 10,
+   "tag": "p",
+   "tekst": "Daliśmy Jevowi 11 klasycznych pytań z literatury naukowej (Frederick 2005, Toplak i in. 2014, Thomson i Oppenheimer 2016) oraz 6 własnych wariantów ze zmienionymi liczbami i realiami – żeby sprawdzić, czy model zna odpowiedzi na pamięć, czy naprawdę „nie daje się nabrać”. Do porównania: pięć modeli innych firm, tym samym zestawem pytań, każdy z czterema możliwymi odpowiedziami, w tym tą „intuicyjną”.",
+   "uwagi": [
+    {
+     "fragment": "Daliśmy Jevowi 11 klasycznych pytań z literatury naukowej (Frederick 2005, Toplak i in. 2014, Thomson i Oppenheimer 2016) oraz 6 własnych wariantów ze zmienionymi liczbami i realiami – żeby sprawdzić, czy model zna odpowiedzi na pamięć, czy naprawdę „nie daje się nabrać”.",
+     "poprawka": "Przeprowadziliśmy test dla Jevo, wykorzystując 11 klasycznych pytań z literatury naukowej (Frederick 2005, Toplak i in. 2014, Thomson & Oppenheimer 2016) oraz 6 zmodyfikowanych wariantów tych samych pytań ze zmienionymi liczbami i kontekstem – aby sprawdzić, czy model udziela odpowiedzi mechanicznie (z pamięci), czy rzeczywiście rozumie zadanie.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Zmiana konstrukcji zdania na bardziej precyzyjną i aktywną, poprawa interpunkcji (usunięcie przecinków po nawiasach), dodanie spójnika 'oraz' dla lepszej czytelności."
+    },
+    {
+     "fragment": "Do porównania: pięć modeli innych firm, tym samym zestawem pytań, każdy z czterema możliwymi odpowiedziami, w tym tą „intuicyjną”.",
+     "poprawka": "W celach porównawczych przetestowaliśmy również pięć innych modeli (konkurencyjnych firm), stosując identyczny zestaw 17 pytań – każde zawierało cztery możliwe odpowiedzi, w tym jedną określoną jako „intuicyjna”.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Dodanie kontekstu (cel porównania), precyzyjne określenie liczby pytań, poprawa spójności zdania."
+    }
+   ],
+   "s": 92.8
+  },
+  {
+   "nr": 11,
+   "tag": "p",
+   "tekst": "Jev dał się złapać raz – na pytanie o to, ile metrów sześciennych ziemi jest w dole o wymiarach 3 × 3 × 3 m. Odpowiedział „27”, z pewnością 0,95. Dół jest pusty. Przy dwóch innych pytaniach – o inwestycji, która spadła o połowę i urosła o 75 proc., oraz o wyprzedzaniu ostatniego zawodnika – odpowiedział dobrze, ale sam zasygnalizował, że się waha (pewność 0,50 i 0,54). To ważne: model nie tylko odpowiada, ale mówi, kiedy nie warto mu ufać.",
+   "uwagi": [
+    {
+     "fragment": "Jev dał się złapać raz – na pytanie o to, ile metrów sześciennych ziemi jest w dole o wymiarach 3 × 3 × 3 m.",
+     "poprawka": "Jev popełnił błąd tylko raz – odpowiadając na pytanie o to, ile metrów sześciennych ziemi jest w dole o wymiarach 3 × 3 × 3 m.",
+     "rodzaj": "redakcja",
+     "znak": "zamiana liter/wyrazów; przestawienie (transpozycja)",
+     "uzasadnienie": "Zmiana na bardziej naturalne sformułowanie, poprawa składni."
+    },
+    {
+     "fragment": "Odpowiedział „27”, z pewnością 0,95.",
+     "poprawka": "Odpowiedział: 27 (z pewnością 0,95).",
+     "rodzaj": "korekta",
+     "znak": "spacja – usunąć; interpunkcja",
+     "uzasadnienie": "Poprawa interpunkcji i formatowania."
+    },
+    {
+     "fragment": "Dół jest pusty.",
+     "poprawka": "Dół jest pusty (co nie wpływa na obliczenia).",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie; przestawienie (transpozycja)",
+     "uzasadnienie": "Dodanie kontekstu, że pustka dołu nie zmienia wyniku obliczeń."
+    },
+    {
+     "fragment": "Przy dwóch innych pytaniach – o inwestycji, która spadła o połowę i urosła o 75 proc., oraz o wyprzedzaniu ostatniego zawodnika – odpowiedział dobrze, ale sam zasygnalizował, że się waha (pewność 0,50 i 0,54).",
+     "poprawka": "Przy dwóch innych pytaniach - o inwestycji spadającej o połowę i rosnącej o 75%, oraz o wyprzedzaniu ostatniego zawodnika - odpowiedział poprawnie, ale sam zasygnalizował wahanie (pewność: 0,50 i 0,54).",
+     "rodzaj": "redakcja",
+     "znak": "spacja – dodać; przestawienie (transpozycja); interpunkcja",
+     "uzasadnienie": "Poprawa składni, dodanie spacji i zmiana formatowania pewności."
+    }
+   ],
+   "s": 106.2
+  },
+  {
+   "nr": 12,
+   "tag": "p",
+   "tekst": "Dla porównania: Claude Opus 5.5, GPT-6 Astra i Gemini 3.8 Flash zdały ten test bezbłędnie, ale na każde pytanie potrzebowały (mediana) od 2,4 do 3,6 sekundy. Najsłabiej wypadł GPT-5.4 mini – 10 na 17, z czego pięć razy wybrał dokładnie tę odpowiedź, którą podsuwa ludzka intuicja.",
+   "uwagi": [
+    {
+     "fragment": "Dla porównania: Claude Opus 5.5, GPT-6 Astra i Gemini 3.8 Flash zdały ten test bezbłędnie",
+     "poprawka": "Dla porównania: Claude Opus 5.5, GPT-6 Astra oraz Gemini 3.8 Flash zdały ten test bezbłędnie",
+     "rodzaj": "redakcja",
+     "znak": "dodać przecinek i spójnik 'oraz'",
+     "uzasadnienie": "Poprawa czytelności poprzez dodanie przecinka i spójnika łączącego wyliczenie."
+    },
+    {
+     "fragment": "ale na każde pytanie potrzebowały (mediana) od 2,4 do 3,6 sekundy",
+     "poprawka": "ale średnio na każde pytanie potrzebowały od 2,4 do 3,6 sekundy",
+     "rodzaj": "redakcja",
+     "znak": "zmiana 'na' na 'średnio na'",
+     "uzasadnienie": "Poprawa precyzji sformułowania poprzez dodanie 'średnio'."
+    },
+    {
+     "fragment": "Najsłabiej wypadł GPT-5.4 mini – 10 na 17, z czego pięć razy wybrał dokładnie tę odpowiedź, którą podsuwa ludzka intuicja",
+     "poprawka": "Najsłabiej wypadł GPT-5.4 mini – zdobył 10 na 17 punktów, z czego pięć razy wybrał odpowiedź sugerowaną przez ludzką intuicję",
+     "rodzaj": "redakcja",
+     "znak": "zmiana 'podsuwa' na 'sugerowaną przez', dodanie 'punktów'",
+     "uzasadnienie": "Poprawa jasności i precyzji opisu wyniku."
+    }
+   ],
+   "s": 79.8
+  },
+  {
+   "nr": 13,
+   "tag": "h2",
+   "tekst": "Matura 2026 w 11 sekund",
+   "uwagi": [],
+   "s": 13.4
+  },
+  {
+   "nr": 14,
+   "tag": "p",
+   "tekst": "Drugi test to egzamin, który każdy może sprawdzić sam: tegoroczna matura. Wzięliśmy wszystkie zadania zamknięte, które da się uczciwie podać w samym tekście, z dwóch arkuszy Centralnej Komisji Egzaminacyjnej: matematyki na poziomie podstawowym (24 pozycje) i wiedzy o społeczeństwie na poziomie rozszerzonym (15 pozycji – teksty ustaw, fragmenty konstytucji, artykuły prasowe i pytania „prawda czy fałsz”). Zadania z wykresami, mapami i zdjęciami odrzuciliśmy. Poprawne odpowiedzi pochodzą wyłącznie z oficjalnych zasad oceniania CKE – żadnej nie ustalaliśmy sami.",
+   "uwagi": [],
+   "s": 140.4
+  },
+  {
+   "nr": 15,
+   "tag": "p",
+   "tekst": "Czas mierzony z Warszawy, zapytania wysyłane jedno po drugim; koszt według faktur API przy kursie 3,70 zł/USD. Zadania „rozstrzygnij, czy…” oceniane bez uzasadnienia, więc są łatwiejsze niż na egzaminie. Powtórny przebieg Jeva dał 33/39 – jedna odpowiedź zmieniła się z poprawnej na błędną.",
+   "uwagi": [
+    {
+     "fragment": "Czas mierzony z Warszawy, zapytania wysyłane jedno po drugim; koszt według faktur API przy kursie 3,70 zł/USD.",
+     "poprawka": "Czas pomiaru: Warszawa. Zapytania wysyłane sekwencyjnie (jedno po drugim). Koszt rozliczeniowy według faktur API przy kursie 3,70 zł/USD.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    },
+    {
+     "fragment": "Zadania „rozstrzygnij, czy…” oceniane bez uzasadnienia, więc są łatwiejsze niż na egzaminie.",
+     "poprawka": "Zadania typu 'rozstrzygnij, czy...' nie wymagają uzasadnień - przez to ich ocena jest prostsza niż podczas tradycyjnego egzaminu.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    },
+    {
+     "fragment": "Powtórny przebieg Jeva dał 33/39 – jedna odpowiedź zmieniła się z poprawnej na błędną.",
+     "poprawka": "W powtórzonym teście Jev uzyskał wynik 33/39. Jedna z wcześniej poprawnych odpowiedzi została zakwalifikowana jako błędna.",
+     "rodzaj": "korekta",
+     "znak": "zmiana liter/wyrazów"
+    },
+    {
+     "fragment": "Powtórny przebieg Jeva dał 33/39 – jedna odpowiedź zmieniła się z poprawnej na błędną.",
+     "poprawka": "W powtórzonym teście wynik to 33/39. Jedna wcześniej prawidłowa odpowiedź została oznaczona jako nieprawidłowa.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować"
+    }
+   ],
+   "s": 84.5
+  },
+  {
+   "nr": 16,
+   "tag": "p",
+   "tekst": "Jev nie jest najmądrzejszy w tym zestawieniu – trzy modele czołowe zrobiły komplet. Ale na cały arkusz potrzebował 11 sekund i jednej trzeciej grosza. Claude Opus 5.5 – ponad trzech minut i pół złotego. Co ciekawsze, „intuicyjny” Jev rozwiązał 22 z 24 zadań z matematyki, podczas gdy GPT-5.4 mini – model pomyślany jako tani i szybki – tylko 12.",
+   "uwagi": [
+    {
+     "fragment": "Jev nie jest najmądrzejszy w tym zestawieniu",
+     "poprawka": "Jev nie należy do najinteligentniejszych modeli w tym porównaniu",
+     "rodzaj": "redakcja",
+     "znak": "zamiana liter/wyrazów; kursywa (opcjonalnie)",
+     "uzasadnienie": "Zmiana na bardziej naturalne sformułowanie w języku polskim, uniknięcie kolokwializmu."
+    },
+    {
+     "fragment": "trzy modele czołowe zrobiły komplet",
+     "poprawka": "trzy najlepsze modele rozwiązały wszystkie zadania",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przestawienie (transpozycja)",
+     "uzasadnienie": "Poprawa składni i precyzji sformułowania."
+    },
+    {
+     "fragment": "na cały arkusz potrzebował 11 sekund i jednej trzeciej grosza",
+     "poprawka": "potrzebował na rozwiązanie całego arkusza 11,33 sekundy (lub: 11 sekund i jedną trzecią grosza)",
+     "rodzaj": "korekta",
+     "znak": "dodać; spacja – usunąć",
+     "uzasadnienie": "Dodanie przecinka dla czytelności, poprawne zapisanie ułamka."
+    },
+    {
+     "fragment": "Claude Opus 5.5 – ponad trzech minut i pół złotego",
+     "poprawka": "Claude Opus 5.5 potrzebował ponad 3 minuty i 30 sekund (lub: półtora złotego)",
+     "rodzaj": "redakcja",
+     "znak": "przestawienie (transpozycja); zmiana interpunkcji",
+     "uzasadnienie": "Poprawa spójności i precyzji opisu czasu oraz kosztów."
+    }
+   ],
+   "s": 84.6
+  },
+  {
+   "nr": 17,
+   "tag": "p",
+   "tekst": "Najciekawsza liczba kryje się jednak w pewności. Z pięciu pomyłek Jeva cztery padły przy odpowiedziach, które sam oznaczył jako niepewne (od 0,40 do 0,74). Gdyby przyjąć zasadę „ufamy Jevowi tylko powyżej 0,8, resztę sprawdza człowiek”, model odpowiedziałby samodzielnie na 24 z 39 pytań – i pomyliłby się raz.",
+   "uwagi": [
+    {
+     "fragment": "Najciekawsza liczba kryje się jednak w pewności.",
+     "poprawka": "Najbardziej interesująca statystyka dotyczy jednak poziomu pewności.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować"
+    },
+    {
+     "fragment": "Z pięciu pomyłek Jeva cztery padły przy odpowiedziach, które sam oznaczył jako niepewne (od 0,40 do 0,74).",
+     "poprawka": "Cztery z pięciu błędów Jeva wystąpiły w pytaniach, które sam ocenił jako niepewne (z przedziału od 0,40 do 0,74).",
+     "rodzaj": "korekta; redakcja",
+     "znak": "zmiana szyku; dodanie przecinka"
+    },
+    {
+     "fragment": "Gdyby przyjąć zasadę „ufamy Jevowi tylko powyżej 0,8, resztę sprawdza człowiek”, model odpowiedziałby samodzielnie na 24 z 39 pytań – i pomyliłby się raz.",
+     "poprawka": "Gdyby przyjąć regułę: „ufamy Jevowi tylko powyżej progu pewności 0,8; w pozostałych przypadkach interweniuje człowiek”, model samodzielnie odpowiedziałby na 24 z 39 pytań i popełniłby tylko jeden błąd.",
+     "rodzaj": "redakcja; korekta",
+     "znak": "przeredagować; zmiana interpunkcji; dodanie wyrazów"
+    }
+   ],
+   "s": 77.1
+  },
+  {
+   "nr": 18,
+   "tag": "p",
+   "tekst": "Matura to pokaz. Nas interesowało, czy Jev nada się do pracy w radiu. Z archiwum anteny Radia Wnet – wyłącznie z materiału, który poszedł w eter – zbudowaliśmy 346 fragmentów: rozmowy, serwisy informacyjne, reklamy, zapowiedzi, dżingle i muzykę. Etykiety pochodzą od ludzi i z automatów redakcji, nie od żadnego modelu w chmurze. Przed wysłaniem zamaskowaliśmy w transkrypcjach numery telefonów, adresy e-mail i numery PESEL, a nazwiska mówców rozpoznane po głosie nie opuściły naszych serwerów. Jev dostawał transkrypcję i kilka lokalnie zmierzonych cech dźwięku.",
+   "uwagi": [
+    {
+     "fragment": "Matura to pokaz.",
+     "poprawka": "Matura jest jak pokaz.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Zmiana na bardziej naturalne sformułowanie, zachowujące sens oryginału."
+    },
+    {
+     "fragment": "Nas interesowało, czy Jev nada się do pracy w radiu.",
+     "poprawka": "Interesowało nas, czy Jev nadaje się do pracy w radiu.",
+     "rodzaj": "korekta",
+     "znak": "zmiana czasownika",
+     "uzasadnienie": "Poprawna forma czasu przeszłego i liczby mnogiej."
+    },
+    {
+     "fragment": "Z archiwum anteny Radia Wnet – wyłącznie z materiału, który poszedł w eter – zbudowaliśmy 346 fragmentów: rozmowy, serwisy informacyjne, reklamy, zapowiedzi, dżingle i muzykę.",
+     "poprawka": "Z archiwum anteny Radia Wnet wykorzystaliśmy tylko materiał nadany na żywo – zbudowaliśmy 346 fragmentów: rozmowy, serwisy informacyjne, reklamy, zapowiedzi, dżingle i muzykę.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować; zmiana szyku",
+     "uzasadnienie": "Poprawa płynności zdania i precyzji."
+    },
+    {
+     "fragment": "Etykiety pochodzą od ludzi i z automatów redakcji, nie od żadnego modelu w chmurze.",
+     "poprawka": "Etykiety zostały nadane przez ludzi oraz systemy redakcyjne – nie korzystaliśmy z zewnętrznych narzędzi AI.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować; zmiana sformułowania",
+     "uzasadnienie": "Unikanie technicznego żargonu na rzecz prostszego języka."
+    }
+   ],
+   "s": 87.5
+  },
+  {
+   "nr": 19,
+   "tag": "p",
+   "tekst": "Wynik: 82 proc. trafności przy 0,28 s na decyzję – mniej więcej tyle, co GPT-5.4 mini (81 proc., 1 s) i Claude Haiku 4.5 (79 proc., 1,3 s), a przy tym wyraźnie lepiej skalibrowane. Najwięcej dały proste opisy kategorii: bez nich Jev trafiał w 53 proc., z nimi – w 78. Przy decyzji co 3 sekundy przez całą dobę Jev kosztowałby Radio Wnet około 2,80 zł na dobę (28 800 decyzji × ok. 626 tokenów × 0,042 USD za milion × 3,70 zł). Na 50 fragmentach przetłumaczonych na angielski wypadł praktycznie tak samo jak po polsku (80 wobec 78 proc.) – w tym teście tłumaczenie okazało się zbędne.",
+   "uwagi": [],
+   "s": 142.4
+  },
+  {
+   "nr": 20,
+   "tag": "p",
+   "tekst": "Jedno zastrzeżenie, które sprawdziliśmy stoperem: serwery Jeva stoją na zachodnim wybrzeżu USA. Sam model myśli przez ok. 50–60 milisekund; resztę z naszych 280 ms zjada droga przez Atlantyk.",
+   "uwagi": [
+    {
+     "fragment": "Sam model myśli przez ok. 50–60 milisekund",
+     "poprawka": "Model potrzebuje na przetworzenie danych około 50-60 milisekund",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; zamiana liter/wyrazów",
+     "uzasadnienie": "Zmiana na bardziej precyzyjne sformułowanie i poprawa składni."
+    },
+    {
+     "fragment": "resztę z naszych 280 ms zjada droga przez Atlantyk",
+     "poprawka": "pozostałe ~230 ms to opóźnienie transmisji przez ocean",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów; zamiana liczb",
+     "uzasadnienie": "Dokładniejsze obliczenie (280-50=230) i bardziej techniczne sformułowanie."
+    },
+    {
+     "fragment": "Jedno zastrzeżenie, które sprawdziliśmy stoperem",
+     "poprawka": "Sprawdziliśmy to dokładnie - pomiary wykonaliśmy ze stoperem w ręku",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów; dodanie przecinka",
+     "uzasadnienie": "Podkreślenie precyzji pomiaru i poprawa stylu."
+    },
+    {
+     "fragment": "serwery Jeva stoją na zachodnim wybrzeżu USA",
+     "poprawka": "Serwery systemu Jev znajdują się na Zachodnim Wybrzeżu USA",
+     "rodzaj": "korekta",
+     "znak": "zmiana liter/wyrazów; wielka litera",
+     "uzasadnienie": "Poprawna nazwa geograficzna i styl formalny."
+    }
+   ],
+   "s": 78.6
+  },
+  {
+   "nr": 21,
+   "tag": "h2",
+   "tekst": "Co o tym mówiono na antenie Radia Wnet",
+   "uwagi": [
+    {
+     "fragment": "na antenie",
+     "poprawka": "w eterze lub w programie (neutralne)",
+     "rodzaj": "redakcja",
+     "znak": "zamiana liter/wyrazów",
+     "uzasadnienie": "Zmiana na bardziej uniwersalne sformułowanie, które nie sugeruje konkretnego medium (antena to też np. antena satelitarna)."
+    }
+   ],
+   "s": 18.7
+  },
+  {
+   "nr": 22,
+   "tag": "p",
+   "tekst": "Zanim zadaliśmy pytania maszynom, przepytaliśmy własne archiwum. Szpieg+, system redakcji, który przepisuje i indeksuje antenę, przeszukał 199 godzin nagrań z ostatniego roku – nie po słowach, tylko po znaczeniu – i w kilka sekund wskazał rozmowy o energii, centrach danych i wyścigu SI. Cztery fragmenty wnoszą do naszych testów coś konkretnego:",
+   "uwagi": [],
+   "s": 26.3
+  },
+  {
+   "nr": 23,
+   "tag": "blockquote",
+   "tekst": "„Nie wygramy wyścigu z Chinami czy ze Stanami na energię, która jest potrzebna do trenowania tych modeli, czy na kapitał. Ale jest jakaś unikatowa polska wiedza, polski sposób myślenia. (…) Próbować znaleźć jakąś niszę.”",
+   "uwagi": [
+    {
+     "fragment": "Nie wygramy wyścigu z Chinami czy ze Stanami na energię",
+     "poprawka": "Nie wygramy wyścigu z Chinami i Stanami o dostęp do energii",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; łącznik/półpauza/pauza",
+     "uzasadnienie": "Poprawa spójności zdania i precyzji wypowiedzi."
+    },
+    {
+     "fragment": "która jest potrzebna do trenowania tych modeli, czy na kapitał.",
+     "poprawka": "potrzebnej do trenowania tych modeli oraz o dostęp do kapitału",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przestawienie (transpozycja)",
+     "uzasadnienie": "Poprawa logicznego podziału zdania i precyzji wypowiedzi."
+    },
+    {
+     "fragment": "Ale jest jakaś unikatowa polska wiedza, polski sposób myślenia.",
+     "poprawka": "Ale istnieje pewna unikatowa polska wiedza i specyficzny polski sposób myślenia.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana słów; dodanie przymiotnika",
+     "uzasadnienie": "Poprawa stylu i precyzji wypowiedzi."
+    },
+    {
+     "fragment": "Próbować znaleźć jakąś niszę.",
+     "poprawka": "Warto poszukać pewnej niszy.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana czasownika; dodanie przymiotnika",
+     "uzasadnienie": "Poprawa stylu i precyzji wypowiedzi."
+    }
+   ],
+   "s": 74.2
+  },
+  {
+   "nr": 24,
+   "tag": "figcaption",
+   "tekst": "dr Jacek Bartosiak, Strategy&Future · „Poranek Wnet”, 13.08.2026, godz. 7:56 · rozmawiał Krzysztof Skowroński",
+   "uwagi": [
+    {
+     "fragment": "dr Jacek Bartosiak, Strategy&Future",
+     "poprawka": "dr Jacek Bartosiak (Strategy&Future)",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie: nawias okrągły po nazwie organizacji",
+     "uzasadnienie": "Dodano nawias dla jasności, że Strategy&Future to afiliacja, nie część tytułu naukowego."
+    }
+   ],
+   "s": 20.7
+  },
+  {
+   "nr": 25,
+   "tag": "p",
+   "tekst": "To dokładnie wniosek, do którego doszliśmy rachunkiem: w megawatach nie wygramy, w niszy – tak. A małe modele decyzyjne są taką niszą właśnie dlatego, że ta sama decyzja kosztuje w nich ułamek energii. Jeśli Jev rozstrzyga w 60 milisekund pracy serwera to, co model czołowy liczy przez kilka sekund, to w centrum danych, gdzie prąd i układy są dziś najrzadszym dobrem, z tej samej mocy da się wycisnąć dziesiątki razy więcej decyzji.",
+   "uwagi": [
+    {
+     "fragment": "w megawatach nie wygramy",
+     "poprawka": "w mega watach nie wygramy",
+     "rodzaj": "korekta",
+     "znak": "dodać spację"
+    },
+    {
+     "fragment": "to, co model czołowy liczy przez kilka sekund",
+     "poprawka": "to, co model czołowy oblicza w ciągu kilku sekund",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "precyzja: 'oblicza' zamiast potocznego 'liczy'"
+    },
+    {
+     "fragment": "w centrum danych, gdzie prąd i układy są dziś najrzadszym dobrem",
+     "poprawka": "w centrach danych, gdzie energia elektryczna i podzespoły stanowią obecnie deficytowe zasoby",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "stylistyka: 'dobrem' brzmi nieprecyzyjnie, zmiana na bardziej formalne sformułowanie"
+    },
+    {
+     "fragment": "z tej samej mocy da się wycisnąć dziesiątki razy więcej decyzji",
+     "poprawka": "ta sama moc pozwala uzyskać dziesiątki razy więcej rozstrzygnięć",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "precyzja: 'decyzji' może być niejednoznaczne, 'rozstrzygnięć' lepiej oddaje kontekst obliczeń"
+    }
+   ],
+   "s": 65.9
+  },
+  {
+   "nr": 26,
+   "tag": "blockquote",
+   "tekst": "„Amerykanie destylują wiedzę z całego świata, no chyba nie do końca jest to zgodne z interesem tych, od których tę wiedzę destylują. (…) Te ich modele pobierają dane z Radia Wnet nawet prawdopodobnie.”",
+   "uwagi": [
+    {
+     "fragment": "Amerykanie destylują wiedzę z całego świata, no chyba nie do końca jest to zgodne z interesem tych, od których tę wiedzę destylują.",
+     "poprawka": "Amerykanie przetwarzają (lub: gromadzą) globalną wiedzę, ale czy na pewno służy to interesom tych, którzy ją tworzą?",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Zmiana na bardziej naturalną konstrukcję pytającą i usunięcie kolokwialnego 'no'."
+    },
+    {
+     "fragment": "Te ich modele pobierają dane z Radia Wnet nawet prawdopodobnie.",
+     "poprawka": "Ich modele wykorzystują nawet takie źródła jak Radio Wnet, co budzi wątpliwości.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować",
+     "uzasadnienie": "Dodanie kontekstu i usunięcie nieprecyzyjnego 'prawdopodobnie'."
+    }
+   ],
+   "s": 53.0
+  },
+  {
+   "nr": 27,
+   "tag": "figcaption",
+   "tekst": "dr Jacek Bartosiak · „Poranek Wnet”, 13.08.2026, godz. 7:33",
+   "uwagi": [],
+   "s": 24.9
+  },
+  {
+   "nr": 28,
+   "tag": "p",
+   "tekst": "Ironia tej wypowiedzi wyszła w naszym teście na jaw sama: umowa, którą podpisuje każdy użytkownik Jeva, zabrania destylacji – nie wolno trenować własnego modelu na jego odpowiedziach. Twórcy SI chronią swoje wyniki przed tym, co sami robią z cudzą wiedzą.",
+   "uwagi": [
+    {
+     "fragment": "Ironia tej wypowiedzi wyszła w naszym teście na jaw sama: umowa, którą podpisuje każdy użytkownik Jeva, zabrania destylacji – nie wolno trenować własnego modelu na jego odpowiedziach.",
+     "poprawka": "Ironia tej wypowiedzi sama się ujawniła: umowa, którą podpisuje każdy użytkownik Jeva, zabrania destylacji – nie wolno trenować własnego modelu na jego odpowiedziach.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji (usunięcie przecinka przed 'sama')"
+    }
+   ],
+   "s": 32.8
+  },
+  {
+   "nr": 29,
+   "tag": "blockquote",
+   "tekst": "„W ogromnym stopniu stawia się właśnie na budowę nowych centrów danych, między innymi w Ohio, w okolicach miasta Columbus. (…) Ta reindustrializacja będzie właśnie przyjmowała formę rozwoju AI, czyli centra danych, fabryki mikroprocesorów.”",
+   "uwagi": [
+    {
+     "fragment": "W ogromnym stopniu stawia się właśnie na budowę nowych centrów danych",
+     "poprawka": "W dużym stopniu stawia się właśnie na budowę nowych centrów danych",
+     "rodzaj": "redakcja",
+     "znak": "skreślenie (dele)",
+     "uzasadnienie": "Zmiana zbyt mocnego określenia na bardziej neutralne, unikanie kalki z angielskiego."
+    },
+    {
+     "fragment": "między innymi w Ohio",
+     "poprawka": "w tym między innymi w Ohio",
+     "rodzaj": "redakcja",
+     "znak": "dodać (ins)",
+     "uzasadnienie": "Poprawa składni dla lepszej płynności."
+    },
+    {
+     "fragment": "Ta reindustrializacja będzie właśnie przyjmowała formę rozwoju AI",
+     "poprawka": "Ta reindustrializacja będzie polegać na rozwoju AI",
+     "rodzaj": "redakcja",
+     "znak": "zamiana liter/wyrazów",
+     "uzasadnienie": "Zmiana konstrukcji dla większej precyzji i naturalności."
+    },
+    {
+     "fragment": "czyli centra danych, fabryki mikroprocesorów.",
+     "poprawka": "takich jak centra danych czy fabryki mikroprocesorów.",
+     "rodzaj": "redakcja",
+     "znak": "przestawienie (transpozycja)",
+     "uzasadnienie": "Poprawa spójności i płynności wypowiedzi."
+    }
+   ],
+   "s": 71.3
+  },
+  {
+   "nr": 30,
+   "tag": "figcaption",
+   "tekst": "Tomasz Grzywaczewski, relacja z Nowego Jorku · „Poranek Wnet”, 4.09.2026, godz. 7:19",
+   "uwagi": [],
+   "s": 33.2
+  },
+  {
+   "nr": 31,
+   "tag": "blockquote",
+   "tekst": "„Jack Clark, współzałożyciel firmy Anthropic, powiedział BBC, że branża powinna być zobowiązana do wprowadzenia wyłącznika awaryjnego dla niebezpiecznych systemów AI. (…) »Kto wygra w wyścigu AI, ten wygra« – napisał Trump.”",
+   "uwagi": [
+    {
+     "fragment": "Jack Clark, współzałożyciel firmy Anthropic, powiedział BBC, że branża powinna być zobowiązana do wprowadzenia wyłącznika awaryjnego dla niebezpiecznych systemów AI.",
+     "poprawka": "Jack Clark, współzałożyciel firmy Anthropic, w rozmowie z BBC stwierdził, że branża powinna być zobowiązana do wprowadzenia wyłącznika awaryjnego dla niebezpiecznych systemów AI.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; zamiana liter/wyrazów (powiedział na stwierdził, w rozmowie z)",
+     "uzasadnienie": "Poprawa składni i precyzji wypowiedzi."
+    },
+    {
+     "fragment": "»Kto wygra w wyścigu AI, ten wygra« – napisał Trump.",
+     "poprawka": "„Kto wygra w wyścigu AI, ten wygra” - stwierdził Donald Trump.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; zamiana liter/wyrazów (napisał na stwierdził, dodanie imienia)",
+     "uzasadnienie": "Poprawa czytelności i precyzji cytatu."
+    }
+   ],
+   "s": 58.1
+  },
+  {
+   "nr": 32,
+   "tag": "figcaption",
+   "tekst": "Serwis informacyjny Radia Wnet, 15.09.2026, godz. 8:03",
+   "uwagi": [
+    {
+     "fragment": "godz. 8:03",
+     "poprawka": "godz. 8:03 (czas emisji)",
+     "rodzaj": "redakcja",
+     "znak": "dodać",
+     "uzasadnienie": "Dodano oznaczenie, że to czas emisji serwisu."
+    }
+   ],
+   "s": 14.8
+  },
+  {
+   "nr": 33,
+   "tag": "p",
+   "tekst": "Ten ostatni fragment łączy wątki naszego tekstu. Modele „System 1” powstają dla agentów – programów, które same wysyłają tysiące zapytań i same uczą się, jak robić to taniej. To agenci najszybciej odkryją, że do większości decyzji nie potrzebują drogiego rozumowania. We wrześniu – jak relacjonowaliśmy – serię ostrzeżeń sformułowali przedstawiciele największych firm z branży, a jednym z ryzyk, o których badacze mówią od lat, jest etap, w którym SI zaczyna samodzielnie ulepszać SI. Stąd pomysły na „wyłącznik awaryjny” pod niezależną kontrolą. Tanie, szybkie i dobrze skalibrowane decyzje mogą być w tym świecie zarówno paliwem, jak i bezpiecznikiem: model, który mówi „nie jestem pewien”, jest pierwszym miejscem, w którym człowiek może jeszcze wejść do pętli.",
+   "uwagi": [
+    {
+     "fragment": "Modele „System 1” powstają dla agentów – programów, które same wysyłają tysiące zapytań i same uczą się, jak robić to taniej.",
+     "poprawka": "Modele 'System 1' są tworzone dla agentów - programów, które samodzielnie wysyłają tysiące zapytań i uczą się optymalizować te działania pod kątem kosztów.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagowanie",
+     "uzasadnienie": "Poprawiono składnię i dodano precyzję w opisie działania agentów."
+    },
+    {
+     "fragment": "To agenci najszybciej odkryją, że do większości decyzji nie potrzebują drogiego rozumowania.",
+     "poprawka": "Agenci jako pierwsi zidentyfikują, że wiele decyzji można podjąć bez kosztownych procesów obliczeniowych.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagowanie",
+     "uzasadnienie": "Uproszczono sformułowanie, zachowując sens wypowiedzi."
+    },
+    {
+     "fragment": "We wrześniu – jak relacjonowaliśmy – serię ostrzeżeń sformułowali przedstawiciele największych firm z branży",
+     "poprawka": "Jak wcześniej informowaliśmy, we wrześniu przedstawiciele czołowych firm branżowych wystosowali serię ostrzeżeń.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagowanie; zmiana interpunkcji",
+     "uzasadnienie": "Dodano kontekst czasowy i poprawiono płynność zdania."
+    },
+    {
+     "fragment": "a jednym z ryzyk, o których badacze mówią od lat, jest etap, w którym SI zaczyna samodzielnie ulepszać SI.",
+     "poprawka": "Jednym z długo sygnalizowanych przez naukowców zagrożeń jest moment, gdy sztuczna inteligencja zyskuje zdolność do samodoskonalenia się.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagowanie; zmiana interpunkcji",
+     "uzasadnienie": "Uściślono znaczenie i poprawiono styl."
+    }
+   ],
+   "s": 116.7
+  },
+  {
+   "nr": 34,
+   "tag": "p",
+   "tekst": "Fragmenty wybrane przez redakcję z wyszukiwania semantycznego Szpiega+; znaczniki czasu według nagrań anteny, cytaty sprawdzone z nagraniem. Pełne nagrania w archiwum Radia Wnet.",
+   "uwagi": [
+    {
+     "fragment": "Szpiega+",
+     "poprawka": "szpieg+",
+     "rodzaj": "korekta",
+     "znak": "usunąć znak +",
+     "uzasadnienie": "Niepotrzebny znak + w zapytaniu wyszukiwania semantycznego."
+    },
+    {
+     "fragment": "cytaty sprawdzone z nagraniem.",
+     "poprawka": "cytaty zweryfikowane na podstawie nagrania.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana sformułowania",
+     "uzasadnienie": "Poprawa stylu i precyzji."
+    },
+    {
+     "fragment": "Pełne nagrania w archiwum Radia Wnet.",
+     "poprawka": "Pełne zapisy audycji dostępne są w archiwum Radia Wnet.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana sformułowania",
+     "uzasadnienie": "Poprawa stylu i precyzji."
+    }
+   ],
+   "s": 44.8
+  },
+  {
+   "nr": 35,
+   "tag": "h2",
+   "tekst": "Modele dla maszyn, nie dla ludzi",
+   "uwagi": [
+    {
+     "fragment": "Modele dla maszyn, nie dla ludzi",
+     "poprawka": "Modele tworzone z myślą o maszynach, a nie o ludziach",
+     "rodzaj": "redakcja",
+     "znak": "przeredagować",
+     "uzasadnienie": "Zmiana na bardziej naturalne sformułowanie w języku polskim, unikające kalki z angielskiego."
+    }
+   ],
+   "s": 19.5
+  },
+  {
+   "nr": 36,
+   "tag": "p",
+   "tekst": "Dlaczego to ważne? Bo coraz więcej zapytań do sztucznej inteligencji nie wysyła już człowiek, tylko inny program – agent SI, który sam przegląda pocztę, porządkuje dokumenty, pilnuje kolejki zgłoszeń. Taki agent co chwilę musi podjąć drobną decyzję: pilne czy nie? spam czy nie? który z pięciu działów? Do każdej z nich dziś zwykle angażuje się wielki model językowy, który pisze akapit rozumowania i zjada tokeny. Jev i jego konkurenci – w ciągu dziesięciu dni od premiery pojawiły się otwarte odpowiedniki, m.in. Laya, Kev czy GLiNER2.5-Decide – celują dokładnie w tę masę małych decyzji.",
+   "uwagi": [
+    {
+     "fragment": "Bo coraz więcej zapytań do sztucznej inteligencji nie wysyła już człowiek, tylko inny program – agent SI",
+     "poprawka": "Bo coraz więcej zapytań do sztucznej inteligencji nie pochodzi już od człowieka, lecz od innego programu - agenta SI",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przestawienie (transpozycja)",
+     "uzasadnienie": "Zmiana konstrukcji zdania dla lepszej płynności i precyzji."
+    },
+    {
+     "fragment": "agent SI, który sam przegląda pocztę, porządkuje dokumenty, pilnuje kolejki zgłoszeń.",
+     "poprawka": "agent SI, który automatycznie przegląda pocztę, porządkuje dokumenty i nadzoruje kolejkę zgłoszeń",
+     "rodzaj": "redakcja",
+     "znak": "zmiana szyku; dodanie przymiotnika",
+     "uzasadnienie": "Uściślenie funkcji agenta SI i poprawa stylu."
+    },
+    {
+     "fragment": "Taki agent co chwilę musi podjąć drobną decyzję: pilne czy nie? spam czy nie? który z pięciu działów?",
+     "poprawka": "Taki agent w każdej chwili podejmuje szereg prostych decyzji, np.: \"pilne czy nie?\", \"spam czy nie?\" lub \"do którego z pięciu działów przekierować sprawę?\".",
+     "rodzaj": "redakcja",
+     "znak": "zmiana szyku; dodanie przykładów w nawiasach",
+     "uzasadnienie": "Rozwinięcie myśli i ułatwienie zrozumienia kontekstu."
+    },
+    {
+     "fragment": "Do każdej z nich dziś zwykle angażuje się wielki model językowy, który pisze akapit rozumowania i zjada tokeny.",
+     "poprawka": "Obecnie do każdej takiej decyzji wykorzystuje się duże modele językowe, które generują uzasadnienie w formie krótkiego akapitu - ale zużywają przy tym znaczną liczbę tokenów.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana szyku; dodanie wyrażenia \"zużywają\" zamiast \"zjada\"",
+     "uzasadnienie": "Poprawa stylu i precyzji opisu działania modeli językowych."
+    }
+   ],
+   "s": 119.0
+  },
+  {
+   "nr": 37,
+   "tag": "p",
+   "tekst": "Sceptycy są. Anastasios Angelopoulos z platformy Arena mówi w rozmowie z „Financial Times”, że nie widzi, czym Jev różni się od dawno znanych klasyfikatorów. VentureBeat opisał, że wstrzyknięty w dane tekst potrafi wpłynąć na werdykt modelu. A hasło, że model „nie może halucynować”, oznacza w praktyce tyle, że nie wyjdzie poza listę opcji – nie, że wybierze dobrą.",
+   "uwagi": [
+    {
+     "fragment": "Sceptycy są.",
+     "poprawka": "Sceptyków jest.",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie; zmiana liter/wyrazów (jest -> jest)",
+     "uzasadnienie": "Poprawna forma: 'sceptyków jest'."
+    },
+    {
+     "fragment": "Anastasios Angelopoulos z platformy Arena mówi w rozmowie z „Financial Times”, że nie widzi, czym Jev różni się od dawno znanych klasyfikatorów.",
+     "poprawka": "Anastasios Angelopoulos z platformy Arena mówi w rozmowie z \"Financial Times\", że nie widzi, czym Jev różni się od dawno znanych klasyfikatorów.",
+     "rodzaj": "korekta",
+     "znak": "cudzysłów (dodanie)",
+     "uzasadnienie": "Dodano cudzysłów wokół tytułu gazety."
+    },
+    {
+     "fragment": "VentureBeat opisał, że wstrzyknięty w dane tekst potrafi wpłynąć na werdykt modelu.",
+     "poprawka": "VentureBeat opisał, że wstrzyknięcie w dane tekstu może wpłynąć na werdykt modelu.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana liter/wyrazów (wstrzyknięty -> wstrzyknięcie; potrafi -> może)",
+     "uzasadnienie": "Poprawa składni i precyzji."
+    },
+    {
+     "fragment": "A hasło, że model „nie może halucynować”, oznacza w praktyce tyle, że nie wyjdzie poza listę opcji – nie, że wybierze dobrą.",
+     "poprawka": "A hasło, że model \"nie może halucynować\", oznacza w praktyce tyle, że nie wyjdzie poza listę opcji; ale też nie gwarantuje to wyboru dobrej odpowiedzi.",
+     "rodzaj": "redakcja",
+     "znak": "przestawienie (transpozycja); spacja – usunąć; zmiana liter/wyrazów; dodanie przecinka",
+     "uzasadnienie": "Poprawa logicznej struktury zdania i precyzji."
+    }
+   ],
+   "s": 111.4
+  },
+  {
+   "nr": 38,
+   "tag": "h2",
+   "tekst": "Co to znaczy dla giełdowych debiutów gigantów",
+   "uwagi": [
+    {
+     "fragment": "giełdowych debiutów gigantów",
+     "poprawka": "giełdowych debiutów dużych firm/korporacji",
+     "rodzaj": "redakcja",
+     "znak": "zamiana wyrazów",
+     "uzasadnienie": "Zastąpiono 'gigantów' bardziej precyzyjnym określeniem 'dużych firm/korporacji', aby uniknąć niejasności i lepiej oddać kontekst giełdowy."
+    }
+   ],
+   "s": 24.8
+  },
+  {
+   "nr": 39,
+   "tag": "p",
+   "tekst": "Premiera Jeva wypadła w najgorętszym momencie dla branży. Anthropic, twórca modeli Claude, w czerwcu złożył w amerykańskiej komisji papierów wartościowych poufny projekt prospektu; według Reutersa marketing oferty ma ruszyć nie wcześniej niż w połowie października. W maju firmę wyceniono na 965 mld dolarów, a jej roczne przychody w tempie z lipca przekroczyły 65 mld. OpenAI, wyceniane w marcu na 852 mld dolarów, według dyrektor finansowej Sarah Friar ma być spółką publiczną w 2027 r.; Sam Altman nazwał debiut w tym roku „nierozsądnym” i nie chciał wskazać terminu.",
+   "uwagi": [],
+   "s": 155.2
+  },
+  {
+   "nr": 40,
+   "tag": "p",
+   "tekst": "Obie historie inwestycyjne stoją na założeniu, że popyt na tokeny będzie rósł szybciej, niż spadają ich ceny. A ceny spadają: według indeksu Silicon Data średni koszt miliona tokenów zszedł na początku września do rekordowych 0,97 dolara. Jev kosztuje 0,042 dolara za milion tokenów wejścia – ok. 23 razy mniej – a za tokeny wyjścia producent nie pobiera opłaty. „Financial Times” pisze, że firma wyceniana na 200 mln dolarów dostaje już oferty przy wycenie 10 mld.",
+   "uwagi": [
+    {
+     "fragment": "Obie historie inwestycyjne stoją na założeniu, że popyt na tokeny będzie rósł szybciej, niż spadają ich ceny.",
+     "poprawka": "Obie strategie inwestycyjne opierają się na założeniu, że wzrost popytu na tokeny przewyższy tempo spadku ich cen.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; łącznik/półpauza/pauza; redakcyjna – przeredagować"
+    },
+    {
+     "fragment": "A ceny spadają: według indeksu Silicon Data średni koszt miliona tokenów zszedł na początku września do rekordowych 0,97 dolara.",
+     "poprawka": "Ceny jednak spadają: według indeksu Silicon Data średni koszt miliona tokenów osiągnął we wrześniu historyczne minimum na poziomie 0,97 dolara.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie; zmiana interpunkcji"
+    },
+    {
+     "fragment": "Jev kosztuje 0,042 dolara za milion tokenów wejścia – ok. 23 razy mniej – a za tokeny wyjścia producent nie pobiera opłaty.",
+     "poprawka": "Jev kosztuje zaledwie 0,042 dolara za milion tokenów wejściowych - czyli około 23-krotnie mniej niż średnia rynkowa - a producent nie pobiera opłat za tokeny wyjściowe.",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie; przestawienie (transpozycja); kursywa"
+    },
+    {
+     "fragment": "„Financial Times” pisze, że firma wyceniana na 200 mln dolarów dostaje już oferty przy wycenie 10 mld.",
+     "poprawka": "Jak podaje \"Financial Times\", spółka wyceniana dotąd na 200 milionów dolarów otrzymuje obecnie propozycje zakupu opiewające na kwotę 10 miliardów.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie; zmiana interpunkcji; wielka litera"
+    }
+   ],
+   "s": 103.8
+  },
+  {
+   "nr": 41,
+   "tag": "p",
+   "tekst": "Scenariusze są dwa. W pierwszym tanie modele decyzyjne zabierają wielkim laboratoriom masowy, nisko marżowy ruch – klasyfikacje, routing, moderację – i obniżają przychody, które inwestorzy chcą widzieć w prospektach. W drugim, bardziej prawdopodobnym naszym zdaniem, wielcy gracze pozbywają się właśnie tego ruchu, który najbardziej obciąża ich serwery, i zostają przy zadaniach wymagających „Systemu 2”: długiego rozumowania, programowania, pracy agentów. Wtedy marże mogą nawet wzrosnąć. Jednego nie da się już ukryć: rynek przestaje płacić za inteligencję hurtem. Zaczyna płacić za odpowiedni jej rodzaj – i za szybkość.",
+   "uwagi": [],
+   "s": 148.6
+  },
+  {
+   "nr": 42,
+   "tag": "h2",
+   "tekst": "Czy Polska może być najlepsza w treningu SI nowej ery?",
+   "uwagi": [
+    {
+     "fragment": "nowej ery",
+     "poprawka": "następnej generacji",
+     "rodzaj": "redakcja",
+     "znak": "zamiana wyrazów",
+     "uzasadnienie": "Zwrot 'nowej ery' jest niejasny w kontekście SI. Lepiej użyć precyzyjnego określenia 'następnej generacji'."
+    }
+   ],
+   "s": 19.3
+  },
+  {
+   "nr": 43,
+   "tag": "p",
+   "tekst": "Skoro mówimy „SI” od zawsze, pora zapytać, czy możemy być w niej najlepsi. Policzmy to na chłodno – trzema czynnikami: pieniędzmi, mocą obliczeniową pod własną kontrolą i ludźmi, którzy potrafią trenować duże modele.",
+   "uwagi": [
+    {
+     "fragment": "Skoro mówimy „SI” od zawsze",
+     "poprawka": "Skoro o SI (sztucznej inteligencji) mówimy od zawsze",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie; zmiana interpunkcji",
+     "uzasadnienie": "Dodano skrót 'SI' w nawiasie i przecinek dla lepszej czytelności."
+    },
+    {
+     "fragment": "pora zapytać, czy możemy być w niej najlepsi.",
+     "poprawka": "warto sprawdzić, czy mamy szansę stać się liderami w tej dziedzinie",
+     "rodzaj": "redakcja",
+     "znak": "zamiana wyrazów; przestawienie (transpozycja)",
+     "uzasadnienie": "Zmieniono na bardziej precyzyjne sformułowanie, unikając kolokwializmu 'być w niej najlepsi'."
+    },
+    {
+     "fragment": "Policzmy to na chłodno – trzema czynnikami: pieniędzmi",
+     "poprawka": "Przeanalizujmy to racjonalnie, biorąc pod uwagę trzy kluczowe elementy: finansowanie",
+     "rodzaj": "redakcja",
+     "znak": "zmiana słów; przestawienie (transpozycja)",
+     "uzasadnienie": "Zmieniono na bardziej formalny styl i zastąpiono 'pieniędzmi' przez 'finansowaniem'."
+    },
+    {
+     "fragment": "ludźmi, którzy potrafią trenować duże modele.",
+     "poprawka": "wykwalifikowanymi specjalistami zdolnymi do szkolenia zaawansowanych modeli",
+     "rodzaj": "redakcja",
+     "znak": "zamiana wyrazów; przestawienie (transpozycja)",
+     "uzasadnienie": "Uszczegółowiono opis, zastępując 'ludźmi' przez 'wykwalifikowanymi specjalistami' i dodając 'zdolnymi do szkolenia zaawansowanych modeli'."
+    }
+   ],
+   "s": 90.3
+  },
+  {
+   "nr": 44,
+   "tag": "p",
+   "tekst": "Według Ministerstwa Cyfryzacji na fabryki SI i inne działania związane ze sztuczną inteligencją pójdzie w 2026 r. łącznie ok. 262 mln zł. To nie osobna linia w ustawie budżetowej, tylko suma kilku pozycji – około 0,03 proc. wydatków budżetu (918,9 mld zł). Korea Południowa przeznacza na ten cel ok. 0,22 proc. wydatków publicznych. Przy koreańskiej proporcji Polska wydawałaby ok. 1,1 mld dolarów rocznie. Największa realna szansa to unijna „gigafabryka SI” nad Bałtykiem – projekt za ok. 3 mld euro, w większości prywatny, rozstrzygany najwcześniej na przełomie roku.",
+   "uwagi": [
+    {
+     "fragment": "Według Ministerstwa Cyfryzacji na fabryki SI i inne działania związane ze sztuczną inteligencją pójdzie w 2026 r.",
+     "poprawka": "Według Ministerstwa Cyfryzacji, w 2026 roku na fabryki SI oraz inne działania związane ze sztuczną inteligencją przeznaczone zostanie",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Poprawa stylistyczna i dodanie brakującego czasownika."
+    },
+    {
+     "fragment": "łącznie ok. 262 mln zł.",
+     "poprawka": "łącznie około 262 milionów złotych",
+     "rodzaj": "korekta",
+     "uzasadnienie": "Dodanie słowa 'milionów' dla precyzji."
+    },
+    {
+     "fragment": "To nie osobna linia w ustawie budżetowej, tylko suma kilku pozycji – około 0,03 proc. wydatków budżetu (918,9 mld zł).",
+     "poprawka": "To nie odrębna linia w ustawie budżetowej, lecz suma kilku pozycji - około 0,03% wydatków budżetu (918,9 miliardów złotych).",
+     "rodzaj": "korekta",
+     "uzasadnienie": "Poprawa interpunkcji i dodanie przecinka po 'odrębna linia' oraz zmiana na 'miliardów'."
+    },
+    {
+     "fragment": "Korea Południowa przeznacza na ten cel ok. 0,22 proc. wydatków publicznych.",
+     "poprawka": "Korea Południowa przeznacza na ten cel około 0,22% wydatków publicznych.",
+     "rodzaj": "korekta",
+     "uzasadnienie": "Dodanie słowa 'około' dla precyzji."
+    },
+    {
+     "fragment": "Przy koreańskiej proporcji Polska wydawałaby ok. 1,1 mld dolarów rocznie.",
+     "poprawka": "Gdyby Polska przeznaczała na ten cel taki sam odsetek jak Korea Południowa, byłoby to około 1,1 miliarda dolarów rocznie.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Poprawa stylistyczna i dodanie wyjaśnienia."
+    },
+    {
+     "fragment": "Największa realna szansa to unijna „gigafabryka SI” nad Bałtykiem – projekt za ok. 3 mld euro, w większości prywatny, rozstrzygany najwcześniej na przełomie roku.",
+     "poprawka": "Największą realną szansą jest unijna 'gigafabryka SI' nad Bałtykiem - projekt o wartości około 3 miliardów euro, w przeważającej części prywatny, którego decyzja zapadnie najwcześniej na przełomie roku.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Poprawa stylistyczna i dodanie precyzyjnych określeń."
+    }
+   ],
+   "s": 141.8
+  },
+  {
+   "nr": 45,
+   "tag": "h3",
+   "tekst": "2. Moc obliczeniowa – i czyja jest",
+   "uwagi": [
+    {
+     "fragment": "Moc obliczeniowa – i czyja jest",
+     "poprawka": "Moc obliczeniowa - i kto ją posiada?",
+     "rodzaj": "redakcja",
+     "znak": "zamiana liter/wyrazów; zmiana interpunkcji",
+     "uzasadnienie": "Zmieniono na bardziej naturalne sformułowanie i poprawiono pytanie."
+    }
+   ],
+   "s": 22.7
+  },
+  {
+   "nr": 46,
+   "tag": "p",
+   "tekst": "Wszystkie centra danych w Polsce mają razem ok. 210 MW – mniej więcej tyle, ile pierwsza faza jednego kampusu Stargate w Zjednoczonych Emiratach Arabskich. Większość tych megawatów należy do kapitału amerykańskiego i zachodnioeuropejskiego (nasz szacunek: w polskich rękach 20–30 proc.). W pełni polska jest za to moc publiczna – superkomputery Cyfronetu, PCSS i NASK. Po uruchomieniu dwóch fabryk SI (Gaia w Krakowie i PIAST-AI w Poznaniu) będzie to równoważnik ok. 3 tys. układów Nvidia H100 – około 0,02 proc. światowej mocy SI, szacowanej przez Epoch AI na 15 mln H100.",
+   "uwagi": [
+    {
+     "fragment": "Wszystkie centra danych w Polsce mają razem ok. 210 MW – mniej więcej tyle, ile pierwsza faza jednego kampusu Stargate w Zjednoczonych Emiratach Arabskich.",
+     "poprawka": "Wszystkie centra danych w Polsce mają razem ok. 210 MW – mniej więcej tyle, co pierwsza faza jednego kampusu Stargate w Zjednoczonych Emiratach Arabskich.",
+     "rodzaj": "korekta",
+     "znak": "przecinek (dodać)",
+     "uzasadnienie": "Dodano przecinek dla lepszej czytelności."
+    },
+    {
+     "fragment": "Większość tych megawatów należy do kapitału amerykańskiego i zachodnioeuropejskiego (nasz szacunek: w polskich rękach 20–30 proc.).",
+     "poprawka": "Większość tej mocy należy do kapitału amerykańskiego i zachodnioeuropejskiego (szacujemy, że w polskich rękach jest 20–30%).",
+     "rodzaj": "redakcja",
+     "znak": "zmiana słów/wyrazów",
+     "uzasadnienie": "Zmieniono 'tych megawatów' na 'tej mocy' dla precyzji i poprawiono konstrukcję zdania."
+    },
+    {
+     "fragment": "Po uruchomieniu dwóch fabryk SI (Gaia w Krakowie i PIAST-AI w Poznaniu) będzie to równoważnik ok. 3 tys. układów Nvidia H100 – około 0,02 proc. światowej mocy SI, szacowanej przez Epoch AI na 15 mln H100.",
+     "poprawka": "Po uruchomieniu dwóch fabryk SI (Gaia w Krakowie i PIAST-AI w Poznaniu) będzie to równoważnik ok. 3 tys. układów Nvidia H100 – około 0,02% światowej mocy SI, szacowanej przez Epoch AI na 15 milionów H100.",
+     "rodzaj": "korekta",
+     "znak": "zmiana liter/wyrazów (usunięcie 'm' z 'mln') i interpunkcja (dodać %)",
+     "uzasadnienie": "Poprawiono zapis procenta na symbol %, dodano przecinek w liczbie 15 milionów."
+    }
+   ],
+   "s": 110.3
+  },
+  {
+   "nr": 47,
+   "tag": "p",
+   "tekst": "Tu jesteśmy potęgą. Polska ma 47 złotych medali Międzynarodowej Olimpiady Informatycznej – piąty wynik w historii – a w przeliczeniu na mieszkańca najwięcej w światowej czołówce. Na olimpiadzie matematycznej 2025 byliśmy czwarci na świecie i pierwsi w Europie. Pięciu z siedmiu osób wymienionych w kierownictwie badawczym modelu o1 w OpenAI ma polskie korzenie, w tym główny naukowiec firmy Jakub Pachocki. Kłopot w tym, że ci ludzie trenują modele w Kalifornii, nie w Krakowie.",
+   "uwagi": [
+    {
+     "fragment": "Tu jesteśmy potęgą.",
+     "poprawka": "Jesteśmy tu potęgą.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie: 'j' na początku",
+     "uzasadnienie": "Poprawna forma zdania wymaga użycia zaimka osobowego dla podmiotu."
+    },
+    {
+     "fragment": "Polska ma 47 złotych medali Międzynarodowej Olimpiady Informatycznej – piąty wynik w historii",
+     "poprawka": "Polska zdobyła 47 złotych medali na Międzynarodowej Olimpiadzie Informatycznej, co daje jej piąty wynik w historii",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'ma' na 'zdobyła', dodanie przecinka po 'historii'",
+     "uzasadnienie": "Poprawia składnię i precyzję zdania."
+    },
+    {
+     "fragment": "w przeliczeniu na mieszkańca najwięcej w światowej czołówce.",
+     "poprawka": "a pod względem liczby medali per capita zajmuje pierwsze miejsce wśród liderów",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'w' na 'pod względem', dodanie 'per capita'",
+     "uzasadnienie": "Poprawia jasność i precyzję sformułowania."
+    },
+    {
+     "fragment": "Na olimpiadzie matematycznej 2025 byliśmy czwarci na świecie",
+     "poprawka": "W Olimpiadzie Matematycznej w 2025 roku Polska zajęła czwarte miejsce na świecie",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'byliśmy' na 'zajęła', dodanie 'w Olimpiadzie'",
+     "uzasadnienie": "Poprawia składnię i precyzję zdania."
+    }
+   ],
+   "s": 85.2
+  },
+  {
+   "nr": 48,
+   "tag": "p",
+   "tekst": "Wzór poniżej mówi po prostu: siła kraju w SI to moc komputerów razy talent ludzi razy to, ilu z tych ludzi pracuje na miejscu. Przyjmijmy więc prosty model: potencjał kraju w treningu SI to iloczyn kontrolowanej mocy obliczeniowej C i „gęstości talentu” τ, poprawiony o odsetek talentów, które pracują w kraju (r):",
+   "uwagi": [
+    {
+     "fragment": "Wzór poniżej mówi po prostu: siła kraju w SI to moc komputerów razy talent ludzi razy to, ilu z tych ludzi pracuje na miejscu.",
+     "poprawka": "Wzór poniżej mówi po prostu: siła kraju w zakresie SI to iloczyn mocy obliczeniowej komputerów, talentu ludzi oraz odsetka tych osób pracujących na miejscu.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować"
+    },
+    {
+     "fragment": "Przyjmijmy więc prosty model: potencjał kraju w treningu SI to iloczyn kontrolowanej mocy obliczeniowej C i „gęstości talentu” τ, poprawiony o odsetek talentów, które pracują w kraju (r):",
+     "poprawka": "Przyjmijmy więc prosty model: potencjał kraju w zakresie treningu SI to iloczyn kontrolowanej mocy obliczeniowej C, gęstości talentu τ oraz odsetka talentów pracujących w kraju (r):",
+     "rodzaj": "redakcja",
+     "znak": "zmiana interpunkcji; przeredagować"
+    }
+   ],
+   "s": 58.4
+  },
+  {
+   "nr": 49,
+   "tag": "p",
+   "tekst": "Co to oznacza w praktyce? Na całej polskiej publicznej mocy obliczeniowej trening modelu klasy Llama 3.1 405B (30,8 mln godzin pracy H100 według karty modelu Meta) trwałby ok. 428 dni – przy nieprzerwanej pracy wszystkich 3 tys. układów. Modele czołowe roku 2026 są jeszcze większe. W tej lidze nie gramy.",
+   "uwagi": [
+    {
+     "fragment": "Na całej polskiej publicznej mocy obliczeniowej trening modelu klasy Llama 3.1 405B (30,8 mln godzin pracy H100 według karty modelu Meta) trwałby ok. 428 dni – przy nieprzerwanej pracy wszystkich 3 tys. układów.",
+     "poprawka": "Na całej polskiej publicznej mocy obliczeniowej trening modelu klasy Llama-3.1 (405B parametrów, co odpowiada 30,8 milionom godzin pracy na jednym układzie H100 według karty charakterystyki Meta) trwałby około 428 dni przy nieprzerwanej pracy wszystkich 3 tysięcy dostępnych układów.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Dodano wyjaśnienie dotyczące parametrów modelu i precyzyjniej opisano kontekst obliczeń."
+    },
+    {
+     "fragment": "Modele czołowe roku 2026 są jeszcze większe. W tej lidze nie gramy.",
+     "poprawka": "Modele z czołówki na rok 2026 będą jeszcze potężniejsze - nasza infrastruktura pozostaje daleko w tyle za światowymi liderami.",
+     "rodzaj": "redakcja",
+     "uzasadnienie": "Zmieniono sformułowanie na bardziej precyzyjne i podkreślono dysproporcję technologiczną."
+    }
+   ],
+   "s": 71.4
+  },
+  {
+   "nr": 50,
+   "tag": "p",
+   "tekst": "Ale ten sam rachunek pokazuje drugą stronę. Trening polskiego modelu Bielik 4.5B v3 zajął ok. 10,6 tys. godzin pracy układów GPU (GH200) – na tej samej mocy to ok. 3,5 godziny. Modele nowej ery, takie jak Jev i jego otwarte klony, są małe, wyspecjalizowane i trenowane na precyzyjnych danych. Tu nie wygrywa ten, kto ma najwięcej prądu, tylko ten, kto ma najlepsze dane, najlepszą ewaluację i najlepszych ludzi. A to akurat ta kategoria, w której wypadamy najlepiej.",
+   "uwagi": [
+    {
+     "fragment": "Trening polskiego modelu Bielik 4.5B v3 zajął ok. 10,6 tys. godzin pracy układów GPU (GH200) – na tej samej mocy to ok. 3,5 godziny.",
+     "poprawka": "Trening polskiego modelu Bielik-4.5B v3 zajął około 10,6 tysiąca godzin pracy układów GPU (GH200) – na tej samej mocy to około 3,5 godziny.",
+     "rodzaj": "korekta",
+     "znak": "wstawienie: 'tysiąca'",
+     "uzasadnienie": "Poprawa liczebnika zgodnie z normą językową."
+    },
+    {
+     "fragment": "Modele nowej ery, takie jak Jev i jego otwarte klony, są małe, wyspecjalizowane i trenowane na precyzyjnych danych.",
+     "poprawka": "Modele nowej ery, takie jak JEV (lub podobne) i ich otwarte klony, są małe, wyspecjalizowane i trenowane na precyzyjnie dobranych danych.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'Jev' → 'JEV (lub podobne)', 'precyzyjnych' → 'precyzyjnie dobranych'",
+     "uzasadnienie": "Uściślenie nazwy modelu i poprawa stylistyczna."
+    },
+    {
+     "fragment": "Tu nie wygrywa ten, kto ma najwięcej prądu, tylko ten, kto ma najlepsze dane, najlepszą ewaluację i najlepszych ludzi.",
+     "poprawka": "Tutaj nie wygrywa ten, kto dysponuje największymi zasobami energii, lecz ten, kto ma najlepsze dane, precyzyjną ewaluację i kompetentnych specjalistów.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'prądu' → 'zasobami energii', 'najlepszą' → 'precyzyjną', dodanie przecinka po 'ludzi'",
+     "uzasadnienie": "Poprawa precyzji i stylu wypowiedzi."
+    },
+    {
+     "fragment": "A to akurat ta kategoria, w której wypadamy najlepiej.",
+     "poprawka": "To właśnie dziedzina, w której osiągamy znaczące sukcesy.",
+     "rodzaj": "redakcja",
+     "znak": "zmiana: 'wypadamy' → 'osiągamy', dodanie przecinka po 'A to akurat'",
+     "uzasadnienie": "Poprawa płynności i podkreślenie osiągnięć."
+    }
+   ],
+   "s": 120.2
+  },
+  {
+   "nr": 51,
+   "tag": "p",
+   "tekst": "Szacunki redakcji na podstawie danych MFW, Cushman & Wakefield, Epoch AI, TOP500, statystyk IOI i kart modeli. Współczynnik talentu to tylko przybliżenie: medale olimpijskie mierzą szczyt piramidy, nie liczbę specjalistów. Liczba osób w Polsce zdolnych dziś realnie trenować duże modele to naszym zdaniem setki, może tysiąc.",
+   "uwagi": [],
+   "s": 138.1
+  },
+  {
+   "nr": 52,
+   "tag": "p",
+   "tekst": "Czy więc Polacy mogą być najlepsi? W wyścigu na największy model – nie, i nie ma co udawać. W wyścigu na najmądrzejszy mały model, najlepszy w polskim i w językach naszego regionu, najtańszy w działaniu i najuczciwiej sprawdzony – tak, to realne. Warunki są trzy: moc obliczeniowa pod polską kontrolą (a nie tylko na polskiej ziemi), budżet o rząd wielkości większy niż dziś i sposób, żeby choć część ludzi z Kalifornii chciała trenować modele nad Wisłą. Trump ogłosił epokę „SI”. My możemy w niej być tym, kim zawsze byliśmy na olimpiadach: najlepsi na głowę mieszkańca.",
+   "uwagi": [
+    {
+     "fragment": "Czy więc Polacy mogą być najlepsi?",
+     "poprawka": "Czy jednak Polacy mogą być najlepsi?",
+     "rodzaj": "redakcja",
+     "znak": "wstawienie: 'jednak'",
+     "uzasadnienie": "Dodanie spójnika 'jednak' dla lepszego zrozumienia kontekstu pytania."
+    },
+    {
+     "fragment": "W wyścigu na największy model – nie, i nie ma co udawać.",
+     "poprawka": "W wyścigu na największy model - nie; i nie warto się łudzić.",
+     "rodzaj": "korekta",
+     "znak": "zamiana: 'nie ma co udawać' na 'i nie warto się łudzić'",
+     "uzasadnienie": "Zmiana frazy na bardziej naturalną i zwięzłą."
+    },
+    {
+     "fragment": "W wyścigu na najmądrzejszy mały model, najlepszy w polskim i w językach naszego regionu, najtańszy w działaniu i najuczciwiej sprawdzony – tak, to realne.",
+     "poprawka": "W wyścigu na najmądrzejszy mały model - najlepszy dla polskiego języka oraz innych z naszego regionu, najtańszy w eksploatacji i rzetelnie zweryfikowany: tak, to możliwe.",
+     "rodzaj": "redakcja",
+     "znak": "przeredagowanie dla jasności i płynności",
+     "uzasadnienie": "Uproszczenie złożonego zdania i dodanie precyzyjnych określeń."
+    },
+    {
+     "fragment": "Warunki są trzy: moc obliczeniowa pod polską kontrolą (a nie tylko na polskiej ziemi), budżet o rząd wielkości większy niż dziś i sposób, żeby choć część ludzi z Kalifornii chciała trenować modele nad Wisłą.",
+     "poprawka": "Trzy warunki: 1) moc obliczeniowa pod pełną polską kontrolą (nie tylko fizycznie w Polsce), 2) budżet wyższy o rząd wielkości, 3) zachęcenie specjalistów z Doliny Krzemowej do pracy nad Wisłą.",
+     "rodzaj": "redakcja",
+     "znak": "podział na punkty i doprecyzowanie",
+     "uzasadnienie": "Lepsza struktura tekstu i wyraźniejsze przedstawienie warunków."
+    }
+   ],
+   "s": 113.7
+  }
+ ],
+ "odrzucone_niedosłowne": 14,
+ "czas_s": 4223.6,
+ "tokeny_wyjscia": 25214
+}

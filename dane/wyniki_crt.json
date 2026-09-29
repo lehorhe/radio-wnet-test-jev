@@ -1,0 +1,3461 @@
+{
+ "zbior": "crt",
+ "data": "2026-09-28 20:10:29 +0200",
+ "zadania": [
+  {
+   "id": "CRT-F1",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Kij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?",
+   "opcje": {
+    "A": "1 grosz",
+    "B": "15 groszy",
+    "C": "10 groszy",
+    "D": "5 groszy"
+   },
+   "poprawna": "D",
+   "intuicyjna": "C",
+   "zrodlo": "Frederick 2005 (J. Econ. Perspectives 19(4)), pyt. 1 - tlumaczenie"
+  },
+  {
+   "id": "CRT-F2",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Jeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?",
+   "opcje": {
+    "A": "20 minut",
+    "B": "5 minut",
+    "C": "1 minuta",
+    "D": "100 minut"
+   },
+   "poprawna": "B",
+   "intuicyjna": "D",
+   "zrodlo": "Frederick 2005, pyt. 2"
+  },
+  {
+   "id": "CRT-F3",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Na jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?",
+   "opcje": {
+    "A": "24 dni",
+    "B": "47 dni",
+    "C": "46 dni",
+    "D": "12 dni"
+   },
+   "poprawna": "B",
+   "intuicyjna": "A",
+   "zrodlo": "Frederick 2005, pyt. 3"
+  },
+  {
+   "id": "CRT-T1",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Jeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?",
+   "opcje": {
+    "A": "9 dni",
+    "B": "3 dni",
+    "C": "4 dni",
+    "D": "18 dni"
+   },
+   "poprawna": "C",
+   "intuicyjna": "A",
+   "zrodlo": "Toplak, West, Stanovich 2014 (Thinking & Reasoning 20(2)), pyt. 1"
+  },
+  {
+   "id": "CRT-T2",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Jurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?",
+   "opcje": {
+    "A": "15",
+    "B": "29",
+    "C": "30",
+    "D": "31"
+   },
+   "poprawna": "B",
+   "intuicyjna": "C",
+   "zrodlo": "Toplak i in. 2014, pyt. 2"
+  },
+  {
+   "id": "CRT-T3",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Mężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?",
+   "opcje": {
+    "A": "0 zł",
+    "B": "20 zł",
+    "C": "10 zł",
+    "D": "30 zł"
+   },
+   "poprawna": "B",
+   "intuicyjna": "C",
+   "zrodlo": "Toplak i in. 2014, pyt. 3"
+  },
+  {
+   "id": "CRT-T4",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Szymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?",
+   "opcje": {
+    "A": "zarobił",
+    "B": "wyszedł na zero",
+    "C": "nie da się tego ustalić",
+    "D": "stracił"
+   },
+   "poprawna": "D",
+   "intuicyjna": "A",
+   "zrodlo": "Toplak i in. 2014, pyt. 4"
+  },
+  {
+   "id": "CRT2-1",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "W biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?",
+   "opcje": {
+    "A": "na pierwszym",
+    "B": "nie da się ustalić",
+    "C": "na drugim",
+    "D": "na trzecim"
+   },
+   "poprawna": "C",
+   "intuicyjna": "A",
+   "zrodlo": "Thomson i Oppenheimer 2016 (Judgment and Decision Making 11(1)), CRT-2 pyt. 1"
+  },
+  {
+   "id": "CRT2-2",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Rolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?",
+   "opcje": {
+    "A": "8",
+    "B": "0",
+    "C": "7",
+    "D": "15"
+   },
+   "poprawna": "A",
+   "intuicyjna": "C",
+   "zrodlo": "Thomson i Oppenheimer 2016, CRT-2 pyt. 2"
+  },
+  {
+   "id": "CRT2-3",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Ojciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?",
+   "opcje": {
+    "A": "Marzec",
+    "B": "nie da się ustalić",
+    "C": "Czerwiec",
+    "D": "Emilia"
+   },
+   "poprawna": "D",
+   "intuicyjna": "C",
+   "zrodlo": "Thomson i Oppenheimer 2016, CRT-2 pyt. 3"
+  },
+  {
+   "id": "CRT2-4",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Ile metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?",
+   "opcje": {
+    "A": "81",
+    "B": "9",
+    "C": "27",
+    "D": "0 (dół jest pusty)"
+   },
+   "poprawna": "D",
+   "intuicyjna": "C",
+   "zrodlo": "Thomson i Oppenheimer 2016, CRT-2 pyt. 4"
+  },
+  {
+   "id": "WAR-1",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Rower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?",
+   "opcje": {
+    "A": "200 zł",
+    "B": "100 zł",
+    "C": "400 zł",
+    "D": "300 zł"
+   },
+   "poprawna": "A",
+   "intuicyjna": "C",
+   "zrodlo": "wariant redakcyjny Radia Wnet (zmienione liczby, test pamieciowego zaliczenia)"
+  },
+  {
+   "id": "WAR-2",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Siedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?",
+   "opcje": {
+    "A": "7 minut",
+    "B": "1 minuta",
+    "C": "10 minut",
+    "D": "70 minut"
+   },
+   "poprawna": "A",
+   "intuicyjna": "D",
+   "zrodlo": "wariant redakcyjny Radia Wnet"
+  },
+  {
+   "id": "WAR-3",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Pleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?",
+   "opcje": {
+    "A": "7,5 godziny",
+    "B": "28 godzin",
+    "C": "15 godzin",
+    "D": "29 godzin"
+   },
+   "poprawna": "B",
+   "intuicyjna": "A",
+   "zrodlo": "wariant redakcyjny Radia Wnet"
+  },
+  {
+   "id": "WAR-4",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Podczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?",
+   "opcje": {
+    "A": "na przedostatnim",
+    "B": "na ostatnim",
+    "C": "na pierwszym",
+    "D": "to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim"
+   },
+   "poprawna": "D",
+   "intuicyjna": "A",
+   "zrodlo": "wariant redakcyjny Radia Wnet"
+  },
+  {
+   "id": "WAR-5",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Mama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?",
+   "opcje": {
+    "A": "Kuba",
+    "B": "nie da się ustalić",
+    "C": "Zima",
+    "D": "Przedwiośnie"
+   },
+   "poprawna": "A",
+   "intuicyjna": "C",
+   "zrodlo": "wariant redakcyjny Radia Wnet"
+  },
+  {
+   "id": "WAR-6",
+   "typ": "choice",
+   "material_zrodlowy": "",
+   "polecenie": "Wybierz poprawną odpowiedź.",
+   "tresc": "Hodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?",
+   "opcje": {
+    "A": "14",
+    "B": "9",
+    "C": "23",
+    "D": "0"
+   },
+   "poprawna": "B",
+   "intuicyjna": "A",
+   "zrodlo": "wariant redakcyjny Radia Wnet"
+  }
+ ],
+ "odpowiedzi": [
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "D",
+   "pewnosc": 0.83,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.77,
+    "probabilities": {
+     "B": 0.01,
+     "A": 0.0,
+     "C": 0.16,
+     "D": 0.83
+    }
+   },
+   "s": 0.603,
+   "serwer_ms": "78",
+   "request_id": "req_01a0e9360fc4783ab7864092e3f8b905",
+   "tok_in": 414,
+   "koszt_usd": 1.7388e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Kij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "1 grosz",
+       "B": "15 groszy",
+       "C": "10 groszy",
+       "D": "5 groszy"
+      }
+     }
+    }
+   },
+   "id": "CRT-F1"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.99,
+    "probabilities": {
+     "C": 0.0,
+     "D": 0.0,
+     "B": 1.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.278,
+   "serwer_ms": "49",
+   "request_id": "req_01a0e93611127be7a8040c3e6e6c4a40",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Jeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "20 minut",
+       "B": "5 minut",
+       "C": "1 minuta",
+       "D": "100 minut"
+      }
+     }
+    }
+   },
+   "id": "CRT-F2"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 1.0,
+     "C": 0.0,
+     "D": 0.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.29,
+   "serwer_ms": "56",
+   "request_id": "req_01a0e93612427f038abf868723d186ed",
+   "tok_in": 436,
+   "koszt_usd": 1.8312e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Na jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "24 dni",
+       "B": "47 dni",
+       "C": "46 dni",
+       "D": "12 dni"
+      }
+     }
+    }
+   },
+   "id": "CRT-F3"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "C",
+   "pewnosc": 1.0,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 1.0,
+    "probabilities": {
+     "B": 0.0,
+     "D": 0.0,
+     "A": 0.0,
+     "C": 1.0
+    }
+   },
+   "s": 0.298,
+   "serwer_ms": "66",
+   "request_id": "req_01a0e936137975468601242fd74a1a45",
+   "tok_in": 412,
+   "koszt_usd": 1.7304e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Jeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "9 dni",
+       "B": "3 dni",
+       "C": "4 dni",
+       "D": "18 dni"
+      }
+     }
+    }
+   },
+   "id": "CRT-T1"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.98,
+    "probabilities": {
+     "C": 0.0,
+     "A": 0.0,
+     "D": 0.01,
+     "B": 0.99
+    }
+   },
+   "s": 0.264,
+   "serwer_ms": "40",
+   "request_id": "req_01a0e93614af74afbac42995d15342e6",
+   "tok_in": 423,
+   "koszt_usd": 1.7766e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Jurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "15",
+       "B": "29",
+       "C": "30",
+       "D": "31"
+      }
+     }
+    }
+   },
+   "id": "CRT-T2"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 0.94,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.93,
+    "probabilities": {
+     "B": 0.94,
+     "A": 0.0,
+     "D": 0.04,
+     "C": 0.02
+    }
+   },
+   "s": 0.317,
+   "serwer_ms": "90",
+   "request_id": "req_01a0e93615d071e1830b7c68f92d08e2",
+   "tok_in": 425,
+   "koszt_usd": 1.785e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Mężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "0 zł",
+       "B": "20 zł",
+       "C": "10 zł",
+       "D": "30 zł"
+      }
+     }
+    }
+   },
+   "id": "CRT-T3"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "D",
+   "pewnosc": 0.5,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.35,
+    "probabilities": {
+     "D": 0.5,
+     "C": 0.01,
+     "A": 0.25,
+     "B": 0.24
+    }
+   },
+   "s": 0.279,
+   "serwer_ms": "50",
+   "request_id": "req_01a0e936171772dfa0302402a58e91d3",
+   "tok_in": 451,
+   "koszt_usd": 1.8942e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Szymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "zarobił",
+       "B": "wyszedł na zero",
+       "C": "nie da się tego ustalić",
+       "D": "stracił"
+      }
+     }
+    }
+   },
+   "id": "CRT-T4"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "C",
+   "pewnosc": 0.98,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.96,
+    "probabilities": {
+     "A": 0.02,
+     "B": 0.0,
+     "D": 0.0,
+     "C": 0.98
+    }
+   },
+   "s": 0.29,
+   "serwer_ms": "63",
+   "request_id": "req_01a0e93618397fa3857a19c1de46005c",
+   "tok_in": 398,
+   "koszt_usd": 1.6716e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "W biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "na pierwszym",
+       "B": "nie da się ustalić",
+       "C": "na drugim",
+       "D": "na trzecim"
+      }
+     }
+    }
+   },
+   "id": "CRT2-1"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "A",
+   "pewnosc": 0.95,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.94,
+    "probabilities": {
+     "D": 0.0,
+     "A": 0.95,
+     "C": 0.05,
+     "B": 0.0
+    }
+   },
+   "s": 0.3,
+   "serwer_ms": "71",
+   "request_id": "req_01a0e936196a7b92a86a085d802f1d52",
+   "tok_in": 393,
+   "koszt_usd": 1.6506e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Rolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "8",
+       "B": "0",
+       "C": "7",
+       "D": "15"
+      }
+     }
+    }
+   },
+   "id": "CRT2-2"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "D",
+   "pewnosc": 1.0,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 1.0,
+    "probabilities": {
+     "D": 1.0,
+     "B": 0.0,
+     "C": 0.0,
+     "A": 0.0
+    }
+   },
+   "s": 0.343,
+   "serwer_ms": "112",
+   "request_id": "req_01a0e9361aaa73448b7a401b99dfba8e",
+   "tok_in": 413,
+   "koszt_usd": 1.7346e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Ojciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "Marzec",
+       "B": "nie da się ustalić",
+       "C": "Czerwiec",
+       "D": "Emilia"
+      }
+     }
+    }
+   },
+   "id": "CRT2-3"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "C",
+   "pewnosc": 0.95,
+   "surowa": {
+    "type": "choice",
+    "choice": "C",
+    "confidence": 0.92,
+    "probabilities": {
+     "B": 0.0,
+     "A": 0.0,
+     "C": 0.95,
+     "D": 0.05
+    }
+   },
+   "s": 0.278,
+   "serwer_ms": "49",
+   "request_id": "req_01a0e9361c15781194a4508a5109d1e1",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Ile metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "81",
+       "B": "9",
+       "C": "27",
+       "D": "0 (dół jest pusty)"
+      }
+     }
+    }
+   },
+   "id": "CRT2-4"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "A",
+   "pewnosc": 0.93,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.91,
+    "probabilities": {
+     "C": 0.03,
+     "D": 0.0,
+     "B": 0.04,
+     "A": 0.93
+    }
+   },
+   "s": 0.299,
+   "serwer_ms": "69",
+   "request_id": "req_01a0e9361d3f7ccb8ff5c6cfcfc16d00",
+   "tok_in": 416,
+   "koszt_usd": 1.7471999999999998e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Rower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "200 zł",
+       "B": "100 zł",
+       "C": "400 zł",
+       "D": "300 zł"
+      }
+     }
+    }
+   },
+   "id": "WAR-1"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "A",
+   "pewnosc": 1.0,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 1.0,
+    "probabilities": {
+     "C": 0.0,
+     "D": 0.0,
+     "B": 0.0,
+     "A": 1.0
+    }
+   },
+   "s": 0.292,
+   "serwer_ms": "56",
+   "request_id": "req_01a0e9361e81751d95e161e3eb55f007",
+   "tok_in": 418,
+   "koszt_usd": 1.7556e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Siedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "7 minut",
+       "B": "1 minuta",
+       "C": "10 minut",
+       "D": "70 minut"
+      }
+     }
+    }
+   },
+   "id": "WAR-2"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.97,
+    "probabilities": {
+     "A": 0.0,
+     "D": 0.0,
+     "C": 0.01,
+     "B": 0.99
+    }
+   },
+   "s": 0.318,
+   "serwer_ms": "88",
+   "request_id": "req_01a0e9361fba7d8ca7a8b86925b6216f",
+   "tok_in": 432,
+   "koszt_usd": 1.8144e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Pleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "7,5 godziny",
+       "B": "28 godzin",
+       "C": "15 godzin",
+       "D": "29 godzin"
+      }
+     }
+    }
+   },
+   "id": "WAR-3"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "D",
+   "pewnosc": 0.54,
+   "surowa": {
+    "type": "choice",
+    "choice": "D",
+    "confidence": 0.38,
+    "probabilities": {
+     "B": 0.16,
+     "D": 0.54,
+     "C": 0.0,
+     "A": 0.3
+    }
+   },
+   "s": 0.293,
+   "serwer_ms": "61",
+   "request_id": "req_01a0e936210578329848c6f568a55803",
+   "tok_in": 430,
+   "koszt_usd": 1.806e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Podczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "na przedostatnim",
+       "B": "na ostatnim",
+       "C": "na pierwszym",
+       "D": "to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim"
+      }
+     }
+    }
+   },
+   "id": "WAR-4"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "A",
+   "pewnosc": 0.97,
+   "surowa": {
+    "type": "choice",
+    "choice": "A",
+    "confidence": 0.96,
+    "probabilities": {
+     "D": 0.0,
+     "C": 0.03,
+     "A": 0.97,
+     "B": 0.0
+    }
+   },
+   "s": 0.268,
+   "serwer_ms": "37",
+   "request_id": "req_01a0e936223c7da4aa080f3f513d3588",
+   "tok_in": 408,
+   "koszt_usd": 1.7136e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Mama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "Kuba",
+       "B": "nie da się ustalić",
+       "C": "Zima",
+       "D": "Przedwiośnie"
+      }
+     }
+    }
+   },
+   "id": "WAR-5"
+  },
+  {
+   "model": "typesafe/jev-latest",
+   "model_faktyczny": "jev-1.13.0",
+   "odp": "B",
+   "pewnosc": 0.97,
+   "surowa": {
+    "type": "choice",
+    "choice": "B",
+    "confidence": 0.96,
+    "probabilities": {
+     "B": 0.97,
+     "C": 0.0,
+     "D": 0.0,
+     "A": 0.03
+    }
+   },
+   "s": 0.272,
+   "serwer_ms": "42",
+   "request_id": "req_01a0e936235c7eb9a3f3bf53865d684a",
+   "tok_in": 403,
+   "koszt_usd": 1.6926e-05,
+   "zapytanie": {
+    "model": "jev-latest",
+    "state": {
+     "polecenie": "Wybierz poprawną odpowiedź.",
+     "tresc": "Hodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?"
+    },
+    "questions": {
+     "odp": {
+      "type": "choice",
+      "instructions": "Która odpowiedź jest poprawna?",
+      "criteria": {
+       "A": "14",
+       "B": "9",
+       "C": "23",
+       "D": "0"
+      }
+     }
+    }
+   },
+   "id": "WAR-6"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "D",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 0.99}",
+   "s": 3.638,
+   "generation_id": "gen-1790619035-SpILclxKrDrF1RGufUTh",
+   "tok_in": 168,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001112,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nKij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?\nA. 1 grosz\nB. 15 groszy\nC. 10 groszy\nD. 5 groszy\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F1"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.99}",
+   "s": 3.796,
+   "generation_id": "gen-1790619035-8Lw4bPmdETu7X0HqLT35",
+   "tok_in": 165,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.0011,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?\nA. 20 minut\nB. 5 minut\nC. 1 minuta\nD. 100 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F2"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.99}",
+   "s": 3.644,
+   "generation_id": "gen-1790619036-OkEipTQAhge7jR4Sf5fL",
+   "tok_in": 199,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001236,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nNa jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?\nA. 24 dni\nB. 47 dni\nC. 46 dni\nD. 12 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F3"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"C\", \"pewnosc\": 0.99}",
+   "s": 6.149,
+   "generation_id": "gen-1790619035-A5upoesyG0SHXof1eIdp",
+   "tok_in": 171,
+   "tok_out": 48,
+   "tok_rozumowania": 26,
+   "koszt_usd": 0.001644,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?\nA. 9 dni\nB. 3 dni\nC. 4 dni\nD. 18 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T1"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.99}",
+   "s": 5.783,
+   "generation_id": "gen-1790619038-b9LO3cl6EBMfSE3Ulu9r",
+   "tok_in": 161,
+   "tok_out": 119,
+   "tok_rozumowania": 97,
+   "koszt_usd": 0.003024,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?\nA. 15\nB. 29\nC. 30\nD. 31\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T2"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.97}",
+   "s": 4.044,
+   "generation_id": "gen-1790619038-M0kg9ypYeMeML0mLFZYz",
+   "tok_in": 185,
+   "tok_out": 46,
+   "tok_rozumowania": 24,
+   "koszt_usd": 0.00166,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?\nA. 0 zł\nB. 20 zł\nC. 10 zł\nD. 30 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T3"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "D",
+   "pewnosc": 0.98,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 0.98}",
+   "s": 4.218,
+   "generation_id": "gen-1790619038-uioKALxcSO4GXNazN66R",
+   "tok_in": 204,
+   "tok_out": 52,
+   "tok_rozumowania": 30,
+   "koszt_usd": 0.001856,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSzymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?\nA. zarobił\nB. wyszedł na zero\nC. nie da się tego ustalić\nD. stracił\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T4"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "C",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"C\", \"pewnosc\": 0.97}",
+   "s": 2.298,
+   "generation_id": "gen-1790619040-vtlskxYmFWsNFi28sUGx",
+   "tok_in": 152,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001048,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nW biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?\nA. na pierwszym\nB. nie da się ustalić\nC. na drugim\nD. na trzecim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-1"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "A",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"A\", \"pewnosc\": 0.97}",
+   "s": 2.251,
+   "generation_id": "gen-1790619042-XocZUsRVpnF9R0P9Dmkf",
+   "tok_in": 138,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000992,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?\nA. 8\nB. 0\nC. 7\nD. 15\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-2"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "D",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 0.97}",
+   "s": 2.429,
+   "generation_id": "gen-1790619042-PaUP6iGlFzzbSanQOI3u",
+   "tok_in": 167,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001108,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nOjciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?\nA. Marzec\nB. nie da się ustalić\nC. Czerwiec\nD. Emilia\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-3"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "D",
+   "pewnosc": 0.9,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 0.9}",
+   "s": 4.495,
+   "generation_id": "gen-1790619043-52VCM1wDgPsTpAyt55Ai",
+   "tok_in": 147,
+   "tok_out": 45,
+   "tok_rozumowania": 23,
+   "koszt_usd": 0.001488,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nIle metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?\nA. 81\nB. 9\nC. 27\nD. 0 (dół jest pusty)\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-4"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\": \"A\", \"pewnosc\": 1}",
+   "s": 4.783,
+   "generation_id": "gen-1790619044-ePfu4I1MzgcWyhSqH7Lw",
+   "tok_in": 161,
+   "tok_out": 52,
+   "tok_rozumowania": 32,
+   "koszt_usd": 0.001684,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?\nA. 200 zł\nB. 100 zł\nC. 400 zł\nD. 300 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-1"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "A",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"A\", \"pewnosc\": 0.97}",
+   "s": 2.267,
+   "generation_id": "gen-1790619044-kqqjxgkG75jq2s4cRS3Q",
+   "tok_in": 179,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001156,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSiedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?\nA. 7 minut\nB. 1 minuta\nC. 10 minut\nD. 70 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-2"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.99}",
+   "s": 2.254,
+   "generation_id": "gen-1790619045-fGhnMfucNFVHasCveXTP",
+   "tok_in": 195,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00122,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?\nA. 7,5 godziny\nB. 28 godzin\nC. 15 godzin\nD. 29 godzin\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-3"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "D",
+   "pewnosc": 0.9,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 0.9}",
+   "s": 5.305,
+   "generation_id": "gen-1790619047-wUT23e13WDrUbYbFHtNM",
+   "tok_in": 198,
+   "tok_out": 63,
+   "tok_rozumowania": 41,
+   "koszt_usd": 0.002052,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPodczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?\nA. na przedostatnim\nB. na ostatnim\nC. na pierwszym\nD. to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-4"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "A",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"A\", \"pewnosc\": 0.97}",
+   "s": 2.261,
+   "generation_id": "gen-1790619047-oBk7ZIx4EQsSCJymwO5g",
+   "tok_in": 157,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001068,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?\nA. Kuba\nB. nie da się ustalić\nC. Zima\nD. Przedwiośnie\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-5"
+  },
+  {
+   "model": "anthropic/claude-opus-5.5",
+   "model_faktyczny": "anthropic/claude-opus-5.5",
+   "provider": "Claude Platform on AWS",
+   "odp": "B",
+   "pewnosc": 0.97,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.97}",
+   "s": 2.263,
+   "generation_id": "gen-1790619047-dGSf9lp9nekpn9kr0uON",
+   "tok_in": 146,
+   "tok_out": 22,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001024,
+   "zapytanie": {
+    "model": "anthropic/claude-opus-5.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nHodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?\nA. 14\nB. 9\nC. 23\nD. 0\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-6"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "{\"odp\": \"D\", \"pewnosc\": 1}",
+   "s": 3.245,
+   "generation_id": "gen-1790619035-58UwraKg8Z5tCGodW6fj",
+   "tok_in": 105,
+   "tok_out": 152,
+   "tok_rozumowania": 137,
+   "koszt_usd": 0.00064875,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nKij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?\nA. 1 grosz\nB. 15 groszy\nC. 10 groszy\nD. 5 groszy\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F1"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 2.814,
+   "generation_id": "gen-1790619035-qn20hHvMRppC3pC9Jkwj",
+   "tok_in": 106,
+   "tok_out": 162,
+   "tok_rozumowania": 140,
+   "koszt_usd": 0.000687,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?\nA. 20 minut\nB. 5 minut\nC. 1 minuta\nD. 100 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F2"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 2.657,
+   "generation_id": "gen-1790619035-ZwbavBvKvemK48QmgIqA",
+   "tok_in": 122,
+   "tok_out": 108,
+   "tok_rozumowania": 86,
+   "koszt_usd": 0.0004965,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nNa jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?\nA. 24 dni\nB. 47 dni\nC. 46 dni\nD. 12 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F3"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "C",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"C\", \"pewnosc\": 1.0}\n```",
+   "s": 2.934,
+   "generation_id": "gen-1790619035-GGhvbGCLQS8mVcBR181W",
+   "tok_in": 104,
+   "tok_out": 136,
+   "tok_rozumowania": 114,
+   "koszt_usd": 0.000588,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?\nA. 9 dni\nB. 3 dni\nC. 4 dni\nD. 18 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T1"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 2.497,
+   "generation_id": "gen-1790619037-mcBIz7czB9iVAWb0RjcW",
+   "tok_in": 108,
+   "tok_out": 205,
+   "tok_rozumowania": 183,
+   "koszt_usd": 0.00084975,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?\nA. 15\nB. 29\nC. 30\nD. 31\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T2"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 2.166,
+   "generation_id": "gen-1790619037-aaEned0Ja3KCk4LBVwPT",
+   "tok_in": 117,
+   "tok_out": 200,
+   "tok_rozumowania": 178,
+   "koszt_usd": 0.00083775,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?\nA. 0 zł\nB. 20 zł\nC. 10 zł\nD. 30 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T3"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "D",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 1.0}\n```",
+   "s": 2.023,
+   "generation_id": "gen-1790619037-farmYf3R2w2vTAv4HdTM",
+   "tok_in": 129,
+   "tok_out": 149,
+   "tok_rozumowania": 127,
+   "koszt_usd": 0.0006555,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSzymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?\nA. zarobił\nB. wyszedł na zero\nC. nie da się tego ustalić\nD. stracił\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T4"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "C",
+   "pewnosc": 1.0,
+   "surowa": "{\"odp\": \"C\", \"pewnosc\": 1.0}",
+   "s": 2.194,
+   "generation_id": "gen-1790619037-iXPzWPtJR9dPJipKqKVz",
+   "tok_in": 89,
+   "tok_out": 155,
+   "tok_rozumowania": 138,
+   "koszt_usd": 0.000648,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nW biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?\nA. na pierwszym\nB. nie da się ustalić\nC. na drugim\nD. na trzecim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-1"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "A",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 1.0}\n```",
+   "s": 2.257,
+   "generation_id": "gen-1790619039-X7qI2R3L8HYAYWDxy4b4",
+   "tok_in": 86,
+   "tok_out": 104,
+   "tok_rozumowania": 82,
+   "koszt_usd": 0.0004545,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?\nA. 8\nB. 0\nC. 7\nD. 15\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-2"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "D",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 1.0}\n```",
+   "s": 2.288,
+   "generation_id": "gen-1790619039-XZoqbkIcFYjI2qGcjaVt",
+   "tok_in": 101,
+   "tok_out": 140,
+   "tok_rozumowania": 118,
+   "koszt_usd": 0.00060075,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nOjciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?\nA. Marzec\nB. nie da się ustalić\nC. Czerwiec\nD. Emilia\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-3"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "D",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 1.0}\n```",
+   "s": 2.217,
+   "generation_id": "gen-1790619039-OANYq9zrcTVTcJJLrVvA",
+   "tok_in": 98,
+   "tok_out": 140,
+   "tok_rozumowania": 118,
+   "koszt_usd": 0.0005985,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nIle metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?\nA. 81\nB. 9\nC. 27\nD. 0 (dół jest pusty)\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-4"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\": \"A\", \"pewnosc\": 1}",
+   "s": 1.886,
+   "generation_id": "gen-1790619040-oIbzCrDwb8PIJ5bS1kdk",
+   "tok_in": 110,
+   "tok_out": 127,
+   "tok_rozumowania": 112,
+   "koszt_usd": 0.00055875,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?\nA. 200 zł\nB. 100 zł\nC. 400 zł\nD. 300 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-1"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "A",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 1.0}\n```",
+   "s": 2.494,
+   "generation_id": "gen-1790619041-kXZU7x8FuH4B2ZsBFoTC",
+   "tok_in": 111,
+   "tok_out": 170,
+   "tok_rozumowania": 148,
+   "koszt_usd": 0.00072075,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSiedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?\nA. 7 minut\nB. 1 minuta\nC. 10 minut\nD. 70 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-2"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 2.571,
+   "generation_id": "gen-1790619041-UKJ8KXKiHOjacZEqTsTN",
+   "tok_in": 120,
+   "tok_out": 126,
+   "tok_rozumowania": 104,
+   "koszt_usd": 0.0005625,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?\nA. 7,5 godziny\nB. 28 godzin\nC. 15 godzin\nD. 29 godzin\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-3"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 1}\n```",
+   "s": 3.398,
+   "generation_id": "gen-1790619042-DWjNVsSNKj2rxf5pQTgl",
+   "tok_in": 116,
+   "tok_out": 239,
+   "tok_rozumowania": 219,
+   "koszt_usd": 0.00098325,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPodczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?\nA. na przedostatnim\nB. na ostatnim\nC. na pierwszym\nD. to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-4"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "A",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 1.0}\n```",
+   "s": 1.492,
+   "generation_id": "gen-1790619042-rFO0f5vQysbYUrBKYedq",
+   "tok_in": 94,
+   "tok_out": 86,
+   "tok_rozumowania": 64,
+   "koszt_usd": 0.000393,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?\nA. Kuba\nB. nie da się ustalić\nC. Zima\nD. Przedwiośnie\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-5"
+  },
+  {
+   "model": "google/gemini-3.8-flash",
+   "model_faktyczny": "google/gemini-3.8-flash",
+   "provider": "Google",
+   "odp": "B",
+   "pewnosc": 1.0,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 1.0}\n```",
+   "s": 3.984,
+   "generation_id": "gen-1790619043-otNpq8xOq5mtVFvZcT3r",
+   "tok_in": 96,
+   "tok_out": 113,
+   "tok_rozumowania": 91,
+   "koszt_usd": 0.00049575,
+   "zapytanie": {
+    "model": "google/gemini-3.8-flash",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nHodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?\nA. 14\nB. 9\nC. 23\nD. 0\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-6"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "Rozwiążmy to zadanie:\n\nNiech x = cena piłki\n\nWtedy kij kosztuje: x + 1 zł\n\nRazem: x + (x + 1) = 1,10\n2x + 1 = 1,10\n2x = 0,10\nx = 0,05 zł = 5 groszy\n\nPiłka kosztuje 5 groszy.\n\n```json\n{\"odp\": \"D\", \"pewnosc\": 1}\n```",
+   "s": 3.541,
+   "generation_id": "gen-1790619035-9jPnIRkyG3AEZ8J10xta",
+   "tok_in": 137,
+   "tok_out": 129,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000782,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nKij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?\nA. 1 grosz\nB. 15 groszy\nC. 10 groszy\nD. 5 groszy\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F1"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.95,
+   "surowa": "Rozumowanie:\n\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, to znaczy, że każda maszyna wytwarza 1 detal w 5 minut.\n\nTempo produkcji jednej maszyny = 1 detal / 5 minut\n\nDla 100 maszyn pracujących przez x minut:\n- 100 maszyn × (1 detal / 5 minut) × x minut = 100 detali\n- 100 × x / 5 = 100\n- x / 5 = 1\n- x = 5 minut\n\n```json\n{\"odp\": \"B\", \"pewnosc\": 0.95}\n```",
+   "s": 3.408,
+   "generation_id": "gen-1790619035-48JSy59J8eD8FCBdBLt7",
+   "tok_in": 136,
+   "tok_out": 188,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001076,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?\nA. 20 minut\nB. 5 minut\nC. 1 minuta\nD. 100 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F2"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\": \"B\", \"pewnosc\": 0.99}",
+   "s": 3.14,
+   "generation_id": "gen-1790619035-wRtJiTfT2PW4g3FcB0ew",
+   "tok_in": 148,
+   "tok_out": 20,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000248,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nNa jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?\nA. 24 dni\nB. 47 dni\nC. 46 dni\nD. 12 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F3"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "```json\n{\"odp\": \"C\", \"pewnosc\": 0.99}\n```\n\nUzasadnienie:\n- Jan wypija 1/6 beczki dziennie\n- Maria wypija 1/12 beczki dziennie\n- Razem wypijają: 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 beczki dziennie\n- Jeśli wypijają 1/4 beczki dziennie, to całą beczkę wypijają w 4 dni",
+   "s": 3.239,
+   "generation_id": "gen-1790619035-yLjZTUbhY5Zit7Yp11SI",
+   "tok_in": 131,
+   "tok_out": 149,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000876,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?\nA. 9 dni\nB. 3 dni\nC. 4 dni\nD. 18 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T1"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "Analizuję zadanie:\n\nJurek dostał 15. najwyższą ocenę - to oznacza, że jest 14 uczniów z wyższymi ocenami od niego.\n\nJurek dostał 15. najniższą ocenę - to oznacza, że jest 14 uczniów z niższymi ocenami od niego.\n\nRazem: 14 uczniów lepszych + Jurek + 14 uczniów gorszych = 14 + 1 + 14 = 29 uczniów\n\n```json\n{\"odp\": \"B\", \"pewnosc\": 0.99}\n```",
+   "s": 2.528,
+   "generation_id": "gen-1790619037-jkDMlx6EujASxyzvhXNC",
+   "tok_in": 126,
+   "tok_out": 163,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000941,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?\nA. 15\nB. 29\nC. 30\nD. 31\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T2"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 0.95}\n```",
+   "s": 0.974,
+   "generation_id": "gen-1790619037-iaFsBLwEj7YAUOc7tqXF",
+   "tok_in": 152,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000277,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?\nA. 0 zł\nB. 20 zł\nC. 10 zł\nD. 30 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T3"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "Obliczę wartość akcji krok po kroku:\n\n**Po pierwszym półroczu (strata 50%):**\n8000 zł × (1 - 0,50) = 8000 × 0,50 = 4000 zł\n\n**Po drugim półroczu (zysk 75%):**\n4000 zł × (1 + 0,75) = 4000 × 1,75 = 7000 zł\n\n**Podsumowanie:**\n- Wartość początkowa: 8000 zł\n- Wartość końcowa: 7000 zł\n- Różnica: 7000 - 8000 = -1000 zł\n\nSzymon stracił 1000 zł.\n\n```json\n{\"odp\": \"D\", \"pewnosc\": 1}\n```",
+   "s": 2.091,
+   "generation_id": "gen-1790619038-YFoEPNYgZFopKN1McT0K",
+   "tok_in": 160,
+   "tok_out": 211,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001215,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSzymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?\nA. zarobił\nB. wyszedł na zero\nC. nie da się tego ustalić\nD. stracił\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T4"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "C",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"C\", \"pewnosc\": 0.95}\n```",
+   "s": 0.941,
+   "generation_id": "gen-1790619038-Akxvvp34pxWDI5yP93Su",
+   "tok_in": 109,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000234,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nW biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?\nA. na pierwszym\nB. nie da się ustalić\nC. na drugim\nD. na trzecim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-1"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "A",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 0.95}\n```",
+   "s": 0.984,
+   "generation_id": "gen-1790619038-dmembS5au6OeRMq87FvS",
+   "tok_in": 107,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000232,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?\nA. 8\nB. 0\nC. 7\nD. 15\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-2"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "D",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 0.95}\n```",
+   "s": 1.231,
+   "generation_id": "gen-1790619039-67tPEkwDK8j4XnuJZHwZ",
+   "tok_in": 127,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000252,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nOjciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?\nA. Marzec\nB. nie da się ustalić\nC. Czerwiec\nD. Emilia\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-3"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "D",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"D\", \"pewnosc\": 0.95}\n```",
+   "s": 1.0,
+   "generation_id": "gen-1790619039-HOS5KQhSvO8HuxbUUjnc",
+   "tok_in": 119,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000244,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nIle metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?\nA. 81\nB. 9\nC. 27\nD. 0 (dół jest pusty)\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-4"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "Rozwiążmy to zadanie:\n\nNiech x = cena kasku\n\nWtedy: x + 2000 = cena roweru\n\nRównanie:\nx + (x + 2000) = 2400\n2x + 2000 = 2400\n2x = 400\nx = 200\n\nKask kosztuje 200 zł.\n\nSprawdzenie: 200 + 2200 = 2400 ✓\n\n```json\n{\"odp\": \"A\", \"pewnosc\": 1}\n```",
+   "s": 1.831,
+   "generation_id": "gen-1790619040-afVovB4w6pK2DOr6RJ2m",
+   "tok_in": 134,
+   "tok_out": 136,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000814,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?\nA. 200 zł\nB. 100 zł\nC. 400 zł\nD. 300 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-1"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "A",
+   "pewnosc": 0.99,
+   "surowa": "Analizuję zadanie:\n\nJeśli 7 drukarek drukuje 7 plakatów w 7 minut, to:\n- Każda drukarka drukuje 1 plakat w 7 minut\n\nJeśli mamy 70 drukarek drukujących 70 plakatów:\n- 70 drukarek drukuje jednocześnie\n- Każda drukarka drukuje 1 plakat\n- Czas potrzebny = 7 minut (bo każda drukarka pracuje nad swoim plakatem równolegle)\n\nOdpowiedź to **A. 7 minut**\n\n```json\n{\"odp\": \"A\", \"pewnosc\": 0.99}\n```",
+   "s": 2.176,
+   "generation_id": "gen-1790619040-hm7qUEbUarSXAwNpZu9o",
+   "tok_in": 138,
+   "tok_out": 190,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001088,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSiedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?\nA. 7 minut\nB. 1 minuta\nC. 10 minut\nD. 70 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-2"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "Rozwiążmy to zadanie krok po kroku.\n\nPleśń podwaja powierzchnię co godzinę i pokrywa cały bochenek w 30 godzin.\n\nJeśli cały bochenek (czyli 1 całość) pokrywa się w 30 godzin, to:\n- Po 30 godzinach: powierzchnia = 1 (cały bochenek)\n- Po 29 godzinach: powierzchnia = 1/2 (połowa bochenka, bo podwaja się co godzinę)\n- Po 28 godzinach: powierzchnia = 1/4 (jedna czwarta bochenka)\n\nOdpowiedź to 28 godzin.\n\n```json\n{\"odp\": \"B\", \"pewnosc\": 0.99}\n```",
+   "s": 2.276,
+   "generation_id": "gen-1790619040-sPPfh23qotVxInwBjF4N",
+   "tok_in": 159,
+   "tok_out": 208,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.001199,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?\nA. 7,5 godziny\nB. 28 godzin\nC. 15 godzin\nD. 29 godzin\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-3"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "A",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 0.95}\n```",
+   "s": 1.182,
+   "generation_id": "gen-1790619040-Tozp4RgtJhLVF2vfouHX",
+   "tok_in": 140,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000265,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPodczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?\nA. na przedostatnim\nB. na ostatnim\nC. na pierwszym\nD. to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-4"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "A",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"A\", \"pewnosc\": 0.95}\n```\n\nRozumowanie: Zagadka mówi, że \"Mama Kuby ma czterech synów: Wiosnę, Lato i Jesień.\" Wymieneni są trzej synowie z nazwami pór roku, a czwarty syn to Kuba (który jest wspomniany na początku jako syn mamy). Zatem czwarty syn ma na imię Kuba.",
+   "s": 1.943,
+   "generation_id": "gen-1790619042-hj4zUDuw1VyWhrWFfBXs",
+   "tok_in": 122,
+   "tok_out": 122,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000732,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?\nA. Kuba\nB. nie da się ustalić\nC. Zima\nD. Przedwiośnie\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-5"
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "model_faktyczny": "anthropic/claude-haiku-4.5",
+   "provider": "Amazon Bedrock",
+   "odp": "B",
+   "pewnosc": 0.95,
+   "surowa": "```json\n{\"odp\": \"B\", \"pewnosc\": 0.95}\n```",
+   "s": 0.91,
+   "generation_id": "gen-1790619042-tnOjMryOcteh6RrY8LEd",
+   "tok_in": 115,
+   "tok_out": 25,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00024,
+   "zapytanie": {
+    "model": "anthropic/claude-haiku-4.5",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nHodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?\nA. 14\nB. 9\nC. 23\nD. 0\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-6"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":0.99}",
+   "s": 2.298,
+   "generation_id": "gen-1790619035-XbEPKkULMU57w5fS4PK2",
+   "tok_in": 110,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000159,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nKij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?\nA. 1 grosz\nB. 15 groszy\nC. 10 groszy\nD. 5 groszy\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F1"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":0.99}",
+   "s": 2.47,
+   "generation_id": "gen-1790619035-B9DowLSJ17ohPlaDjf2j",
+   "tok_in": 107,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00015675,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?\nA. 20 minut\nB. 5 minut\nC. 1 minuta\nD. 100 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F2"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 2.546,
+   "generation_id": "gen-1790619035-yjaiB6PHDLUQmemh3fVy",
+   "tok_in": 125,
+   "tok_out": 23,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00019725,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nNa jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?\nA. 24 dni\nB. 47 dni\nC. 46 dni\nD. 12 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-F3"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":0.99}",
+   "s": 2.329,
+   "generation_id": "gen-1790619035-7MtKQUXRiav03biB3rqX",
+   "tok_in": 111,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00015975,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?\nA. 9 dni\nB. 3 dni\nC. 4 dni\nD. 18 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T1"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 0.873,
+   "generation_id": "gen-1790619036-mBYdhlkKJTHBuVjUVYq7",
+   "tok_in": 112,
+   "tok_out": 23,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.0001875,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?\nA. 15\nB. 29\nC. 30\nD. 31\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T2"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":0.99}",
+   "s": 0.917,
+   "generation_id": "gen-1790619037-ugungqKTRf0PAOG9BG1j",
+   "tok_in": 118,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000165,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?\nA. 0 zł\nB. 20 zł\nC. 10 zł\nD. 30 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T3"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":0.99}",
+   "s": 0.856,
+   "generation_id": "gen-1790619037-ip1W22GVVYROLSyWMIkP",
+   "tok_in": 138,
+   "tok_out": 23,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000207,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSzymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?\nA. zarobił\nB. wyszedł na zero\nC. nie da się tego ustalić\nD. stracił\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT-T4"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 1.096,
+   "generation_id": "gen-1790619037-soZpkG4eSTyUKkCceaGC",
+   "tok_in": 96,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.0001485,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nW biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?\nA. na pierwszym\nB. nie da się ustalić\nC. na drugim\nD. na trzecim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-1"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":0.99}",
+   "s": 1.229,
+   "generation_id": "gen-1790619037-35XwwJmQ7UPTmOZauSRb",
+   "tok_in": 91,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00014475,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?\nA. 8\nB. 0\nC. 7\nD. 15\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-2"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":0.99}",
+   "s": 0.86,
+   "generation_id": "gen-1790619037-u0yJkR8pFwXzB0pTR8tH",
+   "tok_in": 109,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00015825,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nOjciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?\nA. Marzec\nB. nie da się ustalić\nC. Czerwiec\nD. Emilia\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-3"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 0.855,
+   "generation_id": "gen-1790619038-oDY5wzwa4tncbGlSktSI",
+   "tok_in": 102,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000153,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nIle metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?\nA. 81\nB. 9\nC. 27\nD. 0 (dół jest pusty)\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "CRT2-4"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 0.96,
+   "generation_id": "gen-1790619038-NLQHXlemjla7na3Bxawf",
+   "tok_in": 103,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00015375,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?\nA. 200 zł\nB. 100 zł\nC. 400 zł\nD. 300 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-1"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":0.99}",
+   "s": 0.954,
+   "generation_id": "gen-1790619038-UaXvR8Kz3DErTiNlCJT9",
+   "tok_in": 113,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00016125,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSiedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?\nA. 7 minut\nB. 1 minuta\nC. 10 minut\nD. 70 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-2"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":0.99}",
+   "s": 0.942,
+   "generation_id": "gen-1790619038-6JhLVxjF0Kv0htSxojl3",
+   "tok_in": 127,
+   "tok_out": 23,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00019875,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?\nA. 7,5 godziny\nB. 28 godzin\nC. 15 godzin\nD. 29 godzin\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-3"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 0.98,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":0.98}",
+   "s": 0.776,
+   "generation_id": "gen-1790619039-OGm1giOLBH7UpIKVH56r",
+   "tok_in": 122,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.000168,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPodczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?\nA. na przedostatnim\nB. na ostatnim\nC. na pierwszym\nD. to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-4"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":0.99}",
+   "s": 0.82,
+   "generation_id": "gen-1790619039-8w1iJBp6xJJy24SBp4gu",
+   "tok_in": 103,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00015375,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?\nA. Kuba\nB. nie da się ustalić\nC. Zima\nD. Przedwiośnie\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-5"
+  },
+  {
+   "model": "openai/gpt-5.4-mini",
+   "model_faktyczny": "openai/gpt-5.4-mini",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":0.99}",
+   "s": 0.964,
+   "generation_id": "gen-1790619039-yxUVfzgEJ2IAbjOFCNLd",
+   "tok_in": 100,
+   "tok_out": 17,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.0001515,
+   "zapytanie": {
+    "model": "openai/gpt-5.4-mini",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nHodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?\nA. 14\nB. 9\nC. 23\nD. 0\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 8000
+   },
+   "blad": null,
+   "id": "WAR-6"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":1}",
+   "s": 3.023,
+   "generation_id": "gen-1790619091-SWUg6TLvcqqDkQ8RFNnK",
+   "tok_in": 110,
+   "tok_out": 31,
+   "tok_rozumowania": 14,
+   "koszt_usd": 0.00265,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nKij i piłka kosztują razem 1,10 zł. Kij kosztuje o 1 zł więcej niż piłka. Ile kosztuje piłka?\nA. 1 grosz\nB. 15 groszy\nC. 10 groszy\nD. 5 groszy\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-F1"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.223,
+   "generation_id": "gen-1790619094-KWX0WP2KzygyAmWa86sr",
+   "tok_in": 107,
+   "tok_out": 29,
+   "tok_rozumowania": 12,
+   "koszt_usd": 0.00252,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli 5 maszyn w 5 minut wytwarza 5 detali, ile minut zajmie 100 maszynom wytworzenie 100 detali?\nA. 20 minut\nB. 5 minut\nC. 1 minuta\nD. 100 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-F2"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.235,
+   "generation_id": "gen-1790619096-B6tuIcy2eDpj8WY8zHBy",
+   "tok_in": 125,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.002,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nNa jeziorze rośnie płat lilii wodnych. Każdego dnia płat podwaja swoją powierzchnię. Pokrycie całego jeziora zajmuje mu 48 dni. Ile dni zajmie pokrycie połowy jeziora?\nA. 24 dni\nB. 47 dni\nC. 46 dni\nD. 12 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-F3"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":1}",
+   "s": 3.15,
+   "generation_id": "gen-1790619098-Rp8lQxurMeV36LwyhmZC",
+   "tok_in": 111,
+   "tok_out": 39,
+   "tok_rozumowania": 22,
+   "koszt_usd": 0.00306,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJeśli Jan wypija beczkę wody w 6 dni, a Maria wypija beczkę wody w 12 dni, w ile dni wypiją jedną beczkę razem?\nA. 9 dni\nB. 3 dni\nC. 4 dni\nD. 18 dni\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-T1"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.627,
+   "generation_id": "gen-1790619101-kzgR83KJ4dQliQ7zd0a1",
+   "tok_in": 112,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00187,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nJurek dostał jednocześnie 15. najwyższą i 15. najniższą ocenę w klasie (wszystkie oceny są różne). Ilu uczniów jest w klasie?\nA. 15\nB. 29\nC. 30\nD. 31\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-T2"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.238,
+   "generation_id": "gen-1790619104-XJozQUkKA6Bohq3DdTFO",
+   "tok_in": 118,
+   "tok_out": 28,
+   "tok_rozumowania": 11,
+   "koszt_usd": 0.00258,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMężczyzna kupuje świnię za 60 zł, sprzedaje ją za 70 zł, odkupuje za 80 zł i sprzedaje ponownie za 90 zł. Ile w sumie zarobił?\nA. 0 zł\nB. 20 zł\nC. 10 zł\nD. 30 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-T3"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":1}",
+   "s": 3.041,
+   "generation_id": "gen-1790619106-LT8sk4DibDHOmF5Yxlv4",
+   "tok_in": 138,
+   "tok_out": 27,
+   "tok_rozumowania": 10,
+   "koszt_usd": 0.00273,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSzymon zainwestował 8000 zł w akcje. Pół roku później akcje straciły 50% wartości. Na szczęście przez kolejne pół roku zyskały 75% swojej wartości. Jak Szymon wyszedł na inwestycji po roku?\nA. zarobił\nB. wyszedł na zero\nC. nie da się tego ustalić\nD. stracił\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT-T4"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "C",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"C\",\"pewnosc\":1}",
+   "s": 1.404,
+   "generation_id": "gen-1790619109-uewxN7UgUtImkCd3SEW5",
+   "tok_in": 96,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00171,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nW biegu wyprzedzasz osobę, która jest na drugim miejscu. Na którym miejscu jesteś?\nA. na pierwszym\nB. nie da się ustalić\nC. na drugim\nD. na trzecim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT2-1"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":1}",
+   "s": 2.69,
+   "generation_id": "gen-1790619111-vz4swSneBCVOwN6XNWSw",
+   "tok_in": 91,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00166,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRolnik miał 15 owiec. Wszystkie oprócz 8 padły. Ile owiec mu zostało?\nA. 8\nB. 0\nC. 7\nD. 15\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT2-2"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":1}",
+   "s": 1.453,
+   "generation_id": "gen-1790619113-ZZD0hcAzb83dkRgMFHdr",
+   "tok_in": 109,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00184,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nOjciec Emilii ma trzy córki. Pierwsze dwie mają na imię Kwiecień i Maj. Jak ma na imię trzecia córka?\nA. Marzec\nB. nie da się ustalić\nC. Czerwiec\nD. Emilia\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT2-3"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":1}",
+   "s": 1.993,
+   "generation_id": "gen-1790619115-S4ihvM2ynhdEP1aCnjAE",
+   "tok_in": 102,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00177,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nIle metrów sześciennych ziemi jest w dole o wymiarach 3 m na 3 m na 3 m?\nA. 81\nB. 9\nC. 27\nD. 0 (dół jest pusty)\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "CRT2-4"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":1}",
+   "s": 2.379,
+   "generation_id": "gen-1790619117-m9BJ1jwJ624gE2rAcDz1",
+   "tok_in": 103,
+   "tok_out": 31,
+   "tok_rozumowania": 14,
+   "koszt_usd": 0.00258,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nRower i kask kosztują razem 2400 zł. Rower kosztuje o 2000 zł więcej niż kask. Ile kosztuje kask?\nA. 200 zł\nB. 100 zł\nC. 400 zł\nD. 300 zł\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-1"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":1}",
+   "s": 1.703,
+   "generation_id": "gen-1790619119-YTFgfZj6V2i2rQIbHPTf",
+   "tok_in": 113,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00188,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nSiedem drukarek drukuje siedem plakatów w siedem minut. Ile minut zajmie siedemdziesięciu drukarkom wydrukowanie siedemdziesięciu plakatów?\nA. 7 minut\nB. 1 minuta\nC. 10 minut\nD. 70 minut\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-2"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.635,
+   "generation_id": "gen-1790619121-EQmk6PnYxnPsJ3PskUUj",
+   "tok_in": 127,
+   "tok_out": 30,
+   "tok_rozumowania": 13,
+   "koszt_usd": 0.00277,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPleśń na bochenku chleba co godzinę podwaja zajmowaną powierzchnię. Cały bochenek pokrywa w 30 godzin. Po ilu godzinach pokrywała jedną czwartą bochenka?\nA. 7,5 godziny\nB. 28 godzin\nC. 15 godzin\nD. 29 godzin\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-3"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "D",
+   "pewnosc": 0.99,
+   "surowa": "{\"odp\":\"D\",\"pewnosc\":0.99}",
+   "s": 2.863,
+   "generation_id": "gen-1790619124-sjn3Suge4HHsXH6kFrDA",
+   "tok_in": 122,
+   "tok_out": 40,
+   "tok_rozumowania": 21,
+   "koszt_usd": 0.00322,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nPodczas biegu na 10 km wyprzedzasz zawodnika, który biegnie na ostatnim miejscu. Na którym miejscu teraz jesteś?\nA. na przedostatnim\nB. na ostatnim\nC. na pierwszym\nD. to niemożliwe - nie można wyprzedzić ostatniego, samemu będąc za nim\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-4"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "A",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"A\",\"pewnosc\":1}",
+   "s": 3.803,
+   "generation_id": "gen-1790619126-n7e7rT9dmjG5HFEs2tzY",
+   "tok_in": 103,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00178,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nMama Kuby ma czterech synów: Wiosnę, Lato i Jesień. Jak ma na imię czwarty syn?\nA. Kuba\nB. nie da się ustalić\nC. Zima\nD. Przedwiośnie\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-5"
+  },
+  {
+   "model": "openai/gpt-6-astra",
+   "model_faktyczny": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "odp": "B",
+   "pewnosc": 1,
+   "surowa": "{\"odp\":\"B\",\"pewnosc\":1}",
+   "s": 2.134,
+   "generation_id": "gen-1790619130-NB4dtDkWYdTkzMKsfUEE",
+   "tok_in": 100,
+   "tok_out": 15,
+   "tok_rozumowania": 0,
+   "koszt_usd": 0.00175,
+   "zapytanie": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Wybierz poprawną odpowiedź.\nHodowca miał 23 kury. Wszystkie oprócz 9 uciekły z kurnika. Ile kur zostało w kurniku?\nA. 14\nB. 9\nC. 23\nD. 0\n\nOdpowiedz WYŁĄCZNIE obiektem JSON: {\"odp\": \"<litera>\", \"pewnosc\": <0-1>}"
+     }
+    ],
+    "usage": {
+     "include": true
+    },
+    "max_tokens": 3000
+   },
+   "blad": null,
+   "id": "WAR-6"
+  }
+ ],
+ "uwaga": "GPT-6 Astra powtorzony osobno (bieg 1: blad 402 OpenRouter in-flight budget); Jev z biegu 1",
+ "parser": "parsuj.py v2 (ostatni obiekt JSON z polem odp)"
+}
