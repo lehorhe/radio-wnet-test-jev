@@ -1,0 +1,27 @@
+# Repozytorium publiczne: do gita trafia wyłącznie to, co wymienia SHA256SUMS,
+# oraz pliki opisowe. Wszystko poniżej to śmieci robocze, które nie mają prawa
+# wyjść na zewnątrz przez przypadkowe `git add`.
+
+# sekrety i konfiguracja lokalna
+.env
+*.env
+*.key
+*.pem
+
+# Python i narzędzia
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# edytory i system
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# pliki robocze
+*.tmp
+*.log
+_robocze/
